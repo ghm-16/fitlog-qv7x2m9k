@@ -1,0 +1,11 @@
+{
+  "generated": "2026-07-14T22:40:00+08:00",
+  "today": "2026-07-14",
+  "food": [
+    {"Food": "Sample: 2 half-boiled eggs + kopi o kosong", "d": "2026-07-14", "Meal": "Breakfast", "Calories": 160, "Protein": 13, "Carbs": 2, "Fat": 11, "Source": "Web match"}
+  ],
+  "acts": [
+    {"Activity": "Sample: Daily steps", "d": "2026-07-14", "Type": "Steps", "mins": null, "burnt": null, "Steps": 6500, "Source": "Device"},
+    {"Activity": "Sample: Weightlifting 30min", "d": "2026-07-14", "Type": "Weightlifting", "mins": 30, "burnt": 153, "Steps": null, "Source": "MET calc"}
+  ]
+}

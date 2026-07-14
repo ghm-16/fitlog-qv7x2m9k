@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Training &amp; Calorie Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
+<style>
+  :root { color-scheme: light;
+    --bg:#faf9f7; --card:#ffffff; --ink:#1a1a1a; --muted:#6b6b6b; --line:#e8e5e0;
+    --green:#2e7d32; --red:#c62828; --amber:#ef6c00; --blue:#1565c0; --purple:#6a4fa3;
+  }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--ink); font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; padding:20px; max-width:1100px; margin:0 auto; }
+  h1 { font-size:20px; font-weight:700; }
+  .sub { color:var(--muted); font-size:13px; margin-top:2px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-top:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; }
+  .card h3 { font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.4px; }
+  .big { font-size:26px; font-weight:700; margin-top:4px; }
+  .big small { font-size:13px; font-weight:500; color:var(--muted); }
+  .bar { height:8px; background:#efece7; border-radius:4px; margin-top:8px; overflow:hidden; }
+  .bar > div { height:100%; border-radius:4px; }
+  .tag { display:inline-block; font-size:11px; font-weight:600; padding:2px 8px; border-radius:10px; margin-top:8px; }
+  .ok    { background:#e6f4e6; color:var(--green); }
+  .warn  { background:#fdeede; color:var(--amber); }
+  .bad   { background:#fbe5e5; color:var(--red); }
+  .section { margin-top:24px; }
+  .section h2, .card h2 { font-size:15px; font-weight:700; margin-bottom:10px; }
+  .two { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  @media (max-width:760px){ .two { grid-template-columns:1fr; } }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th { text-align:left; color:var(--muted); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.4px; padding:6px 8px; border-bottom:1px solid var(--line); }
+  td { padding:7px 8px; border-bottom:1px solid var(--line); }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  .chartbox { height:220px; position:relative; }
+  #status { margin-top:14px; color:var(--muted); font-size:13px; }
+  .err { color:var(--red); }
+  .empty { color:var(--muted); font-size:13px; padding:10px 8px; }
+</style>
+</head>
+<body>
+  <h1>Training &amp; Calorie Dashboard</h1>
+  <div class="sub" id="subtitle">Loading…</div>
+  <div id="status">Loading data…</div>
+
+  <div id="app" style="display:none">
+    <div class="grid" id="kpis"></div>
+
+    <div class="section two">
+      <div class="card"><h2>Intake vs target (14 days)</h2><div class="chartbox"><canvas id="chIntake"></canvas></div></div>
+      <div class="card"><h2>Protein &amp; fat (14 days)</h2><div class="chartbox"><canvas id="chMacros"></canvas></div></div>
+    </div>
+    <div class="section two">
+      <div class="card"><h2>Steps (14 days)</h2><div class="chartbox"><canvas id="chSteps"></canvas></div></div>
+      <div class="card"><h2>Active calories (14 days)</h2><div class="chartbox"><canvas id="chActive"></canvas></div></div>
+    </div>
+
+    <div class="section two">
+      <div class="card">
+        <h2 id="foodHdr">Food</h2>
+        <table><thead><tr><th>Food</th><th>Meal</th><th class="num">kcal</th><th class="num">P</th><th class="num">C</th><th class="num">F</th></tr></thead><tbody id="foodRows"></tbody></table>
+        <div class="empty" id="foodEmpty" style="display:none">Nothing logged.</div>
+      </div>
+      <div class="card">
+        <h2 id="actHdr">Activity</h2>
+        <table><thead><tr><th>Activity</th><th class="num">Mins</th><th class="num">kcal</th><th class="num">Steps</th></tr></thead><tbody id="actRows"></tbody></table>
+        <div class="empty" id="actEmpty" style="display:none">No activity logged.</div>
+      </div>
+    </div>
+  </div>
+
+<script>
+const CFG = { weekdayKcal:1300, weekendKcal:1400, protein:110, carbs:80, fatCap:50, steps:12000, activeKcal:500 };
+const isWeekend = ds => { const dow = new Date(ds+"T12:00:00").getDay(); return dow===0||dow===6; };
+const kcalTarget = ds => isWeekend(ds) ? CFG.weekendKcal : CFG.weekdayKcal;
+
+function kpi(title, valueHtml, pct, color, tagText, tagCls){
+  return `<div class="card"><h3>${title}</h3><div class="big">${valueHtml}</div>
+    ${pct!=null?`<div class="bar"><div style="width:${Math.min(100,pct)}%;background:${color}"></div></div>`:""}
+    ${tagText?`<span class="tag ${tagCls}">${tagText}</span>`:""}</div>`;
+}
+function mkChart(id, labels, datasets){
+  new Chart(document.getElementById(id), { type:"bar", data:{labels, datasets},
+    options:{ responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{ labels:{ boxWidth:12, font:{size:11} } } },
+      scales:{ x:{ grid:{display:false}, ticks:{font:{size:10}} }, y:{ beginAtZero:true, ticks:{font:{size:10}} } } } });
+}
+
+async function load(){
+  const resp = await fetch("data.json?t="+Date.now());
+  if(!resp.ok) throw new Error("data.json not found");
+  const data = await resp.json();
+  const { generated, today, food, acts } = data;
+
+  document.getElementById("subtitle").textContent =
+    `Snapshot for ${new Date(today+"T12:00:00").toLocaleDateString("en-SG",{weekday:"long", day:"numeric", month:"long", year:"numeric"})}` +
+    ` · target ${kcalTarget(today)} kcal (${isWeekend(today)?"weekend":"weekday"}) · updated ${new Date(generated).toLocaleString("en-SG")}`;
+
+  const days = [];
+  for (let i=13;i>=0;i--){ const d=new Date(new Date(today+"T12:00:00").getTime()-i*86400000);
+    days.push(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`); }
+  const agg = {}; days.forEach(d => agg[d]={kcal:0,p:0,c:0,f:0,steps:0,active:0});
+  food.forEach(r => { const a=agg[r.d]; if(!a) return; a.kcal+=r.Calories||0; a.p+=r.Protein||0; a.c+=r.Carbs||0; a.f+=r.Fat||0; });
+  acts.forEach(r => { const a=agg[r.d]; if(!a) return; a.active+=r.burnt||0; a.steps+=r.Steps||0; });
+
+  const t = agg[today], target = kcalTarget(today), net = t.kcal - t.active;
+  document.getElementById("kpis").innerHTML = [
+    kpi("Intake", `${Math.round(t.kcal)} <small>/ ${target} kcal</small>`, t.kcal/target*100,
+        t.kcal>target?"var(--red)":"var(--blue)",
+        t.kcal>target?`${Math.round(t.kcal-target)} over`:`${Math.round(target-t.kcal)} left`, t.kcal>target?"bad":"ok"),
+    kpi("Protein · must hit", `${Math.round(t.p)} <small>/ ${CFG.protein} g</small>`, t.p/CFG.protein*100,
+        "var(--green)", t.p>=CFG.protein?"Goal met ✓":`${Math.round(CFG.protein-t.p)}g to go`, t.p>=CFG.protein?"ok":"warn"),
+    kpi("Fat · hard cap", `${Math.round(t.f)} <small>/ ${CFG.fatCap} g</small>`, t.f/CFG.fatCap*100,
+        t.f>CFG.fatCap?"var(--red)":"var(--amber)",
+        t.f>CFG.fatCap?"CAP BREACHED":`${Math.round(CFG.fatCap-t.f)}g headroom`, t.f>CFG.fatCap?"bad":"ok"),
+    kpi("Carbs", `${Math.round(t.c)} <small>/ ~${CFG.carbs} g</small>`, t.c/CFG.carbs*100, "var(--purple)", null, null),
+    kpi("Steps", `${Math.round(t.steps).toLocaleString()} <small>/ ${CFG.steps.toLocaleString()}</small>`, t.steps/CFG.steps*100,
+        "var(--blue)", t.steps>=CFG.steps?"Goal met ✓":`${(CFG.steps-t.steps).toLocaleString()} to go`, t.steps>=CFG.steps?"ok":"warn"),
+    kpi("Active kcal", `${Math.round(t.active)} <small>/ ${CFG.activeKcal}</small>`, t.active/CFG.activeKcal*100,
+        "var(--green)", t.active>=CFG.activeKcal?"Goal met ✓":`${Math.round(CFG.activeKcal-t.active)} to go`, t.active>=CFG.activeKcal?"ok":"warn"),
+    kpi("Net (intake − active)", `${Math.round(net)} <small>kcal</small>`, null, null,
+        net<=target-CFG.activeKcal?"On track for deficit":"Deficit at risk", net<=target-CFG.activeKcal?"ok":"warn")
+  ].join("");
+
+  document.getElementById("foodHdr").textContent = `Food — ${today}`;
+  document.getElementById("actHdr").textContent = `Activity — ${today}`;
+  const todayFood = food.filter(r=>r.d===today);
+  document.getElementById("foodRows").innerHTML = todayFood.map(r =>
+    `<tr><td>${r.Food??""}</td><td>${r.Meal??""}</td><td class="num">${Math.round(r.Calories||0)}</td><td class="num">${Math.round(r.Protein||0)}</td><td class="num">${Math.round(r.Carbs||0)}</td><td class="num">${Math.round(r.Fat||0)}</td></tr>`).join("");
+  document.getElementById("foodEmpty").style.display = todayFood.length?"none":"block";
+  const todayActs = acts.filter(r=>r.d===today);
+  document.getElementById("actRows").innerHTML = todayActs.map(r =>
+    `<tr><td>${r.Activity??""}</td><td class="num">${r.mins?Math.round(r.mins):"–"}</td><td class="num">${r.burnt?Math.round(r.burnt):"–"}</td><td class="num">${r.Steps?Math.round(r.Steps).toLocaleString():"–"}</td></tr>`).join("");
+  document.getElementById("actEmpty").style.display = todayActs.length?"none":"block";
+
+  document.getElementById("status").style.display="none";
+  document.getElementById("app").style.display="block";
+  const labels = days.map(d => d.slice(5).replace("-","/"));
+  mkChart("chIntake", labels, [
+    { label:"Intake kcal", data:days.map(d=>Math.round(agg[d].kcal)), backgroundColor:"#7da7d9", borderRadius:3 },
+    { label:"Target", type:"line", data:days.map(kcalTarget), borderColor:"#c62828", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
+  mkChart("chMacros", labels, [
+    { label:"Protein g", data:days.map(d=>Math.round(agg[d].p)), backgroundColor:"#7cb47e", borderRadius:3 },
+    { label:"Fat g", data:days.map(d=>Math.round(agg[d].f)), backgroundColor:"#e3a35c", borderRadius:3 },
+    { label:"Protein goal 110", type:"line", data:days.map(()=>CFG.protein), borderColor:"#2e7d32", borderWidth:1.5, pointRadius:0, borderDash:[5,4] },
+    { label:"Fat cap 50", type:"line", data:days.map(()=>CFG.fatCap), borderColor:"#c62828", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
+  mkChart("chSteps", labels, [
+    { label:"Steps", data:days.map(d=>Math.round(agg[d].steps)), backgroundColor:"#9b8ec4", borderRadius:3 },
+    { label:"Goal 12K", type:"line", data:days.map(()=>CFG.steps), borderColor:"#6a4fa3", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
+  mkChart("chActive", labels, [
+    { label:"Active kcal", data:days.map(d=>Math.round(agg[d].active)), backgroundColor:"#88b8a0", borderRadius:3 },
+    { label:"Goal 500", type:"line", data:days.map(()=>CFG.activeKcal), borderColor:"#2e7d32", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
+}
+load().catch(e => { console.error(e);
+  document.getElementById("status").innerHTML = `<span class="err">Couldn't load data: ${e.message}</span>`; });
+</script>
+</body>
+</html>
