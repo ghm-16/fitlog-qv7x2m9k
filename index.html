@@ -56,6 +56,9 @@
       <div class="card"><h2>Steps (14 days)</h2><div class="chartbox"><canvas id="chSteps"></canvas></div></div>
       <div class="card"><h2>Active calories (14 days)</h2><div class="chartbox"><canvas id="chActive"></canvas></div></div>
     </div>
+    <div class="section">
+      <div class="card"><h2>Weight trend (weekly weigh-ins)</h2><div class="chartbox"><canvas id="chWeight"></canvas></div></div>
+    </div>
 
     <div class="section two">
       <div class="card">
@@ -93,6 +96,7 @@ async function load(){
   if(!resp.ok) throw new Error("data.json not found");
   const data = await resp.json();
   const { generated, today, food, acts } = data;
+  const weight = data.weight || [];
 
   document.getElementById("subtitle").textContent =
     `Snapshot for ${new Date(today+"T12:00:00").toLocaleDateString("en-SG",{weekday:"long", day:"numeric", month:"long", year:"numeric"})}` +
@@ -121,7 +125,13 @@ async function load(){
     kpi("Active kcal", `${Math.round(t.active)} <small>/ ${CFG.activeKcal}</small>`, t.active/CFG.activeKcal*100,
         "var(--green)", t.active>=CFG.activeKcal?"Goal met ✓":`${Math.round(CFG.activeKcal-t.active)} to go`, t.active>=CFG.activeKcal?"ok":"warn"),
     kpi("Net (intake − active)", `${Math.round(net)} <small>kcal</small>`, null, null,
-        net<=target-CFG.activeKcal?"On track for deficit":"Deficit at risk", net<=target-CFG.activeKcal?"ok":"warn")
+        net<=target-CFG.activeKcal?"On track for deficit":"Deficit at risk", net<=target-CFG.activeKcal?"ok":"warn"),
+    (() => { if(!weight.length) return kpi("Weight", "– <small>kg</small>", null, null, "No weigh-ins yet", "warn");
+      const latest = weight[weight.length-1], prev = weight.length>1 ? weight[weight.length-2] : null;
+      const delta = prev ? (latest.kg - prev.kg) : null;
+      const dtxt = delta==null ? `First weigh-in` : `${delta>0?"+":""}${delta.toFixed(1)} kg since last`;
+      return kpi("Weight", `${latest.kg} <small>kg · ${latest.d}</small>`, null, null,
+        dtxt, delta==null?"ok":(delta<=0?"ok":"warn")); })()
   ].join("");
 
   document.getElementById("foodHdr").textContent = `Food — ${today}`;
@@ -152,6 +162,18 @@ async function load(){
   mkChart("chActive", labels, [
     { label:"Active kcal", data:days.map(d=>Math.round(agg[d].active)), backgroundColor:"#88b8a0", borderRadius:3 },
     { label:"Goal 500", type:"line", data:days.map(()=>CFG.activeKcal), borderColor:"#2e7d32", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
+  if (weight.length){
+    const wVals = weight.map(w=>w.kg);
+    const pad = Math.max(1, (Math.max(...wVals)-Math.min(...wVals))*0.5);
+    new Chart(document.getElementById("chWeight"), { type:"line",
+      data:{ labels: weight.map(w=>w.d.slice(5).replace("-","/")),
+        datasets:[{ label:"Weight kg", data:wVals, borderColor:"#1565c0", backgroundColor:"#1565c0",
+          borderWidth:2, pointRadius:4, tension:0.25 }] },
+      options:{ responsive:true, maintainAspectRatio:false,
+        plugins:{ legend:{ labels:{ boxWidth:12, font:{size:11} } } },
+        scales:{ x:{ grid:{display:false}, ticks:{font:{size:10}} },
+          y:{ min:Math.floor(Math.min(...wVals)-pad), max:Math.ceil(Math.max(...wVals)+pad), ticks:{font:{size:10}} } } } });
+  }
 }
 load().catch(e => { console.error(e);
   document.getElementById("status").innerHTML = `<span class="err">Couldn't load data: ${e.message}</span>`; });
