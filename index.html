@@ -50,7 +50,7 @@
 
     <div class="section two">
       <div class="card"><h2>Intake vs target (14 days)</h2><div class="chartbox"><canvas id="chIntake"></canvas></div></div>
-      <div class="card"><h2>Protein &amp; fat (14 days)</h2><div class="chartbox"><canvas id="chMacros"></canvas></div></div>
+      <div class="card"><h2>Protein, carbs &amp; fat (14 days)</h2><div class="chartbox"><canvas id="chMacros"></canvas></div></div>
     </div>
     <div class="section two">
       <div class="card"><h2>Steps (14 days)</h2><div class="chartbox"><canvas id="chSteps"></canvas></div></div>
@@ -153,6 +153,7 @@ async function load(){
     { label:"Target", type:"line", data:days.map(kcalTarget), borderColor:"#c62828", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
   mkChart("chMacros", labels, [
     { label:"Protein g", data:days.map(d=>Math.round(agg[d].p)), backgroundColor:"#7cb47e", borderRadius:3 },
+    { label:"Carbs g", data:days.map(d=>Math.round(agg[d].c)), backgroundColor:"#9b8ec4", borderRadius:3 },
     { label:"Fat g", data:days.map(d=>Math.round(agg[d].f)), backgroundColor:"#e3a35c", borderRadius:3 },
     { label:"Protein goal 110", type:"line", data:days.map(()=>CFG.protein), borderColor:"#2e7d32", borderWidth:1.5, pointRadius:0, borderDash:[5,4] },
     { label:"Fat cap 50", type:"line", data:days.map(()=>CFG.fatCap), borderColor:"#c62828", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
