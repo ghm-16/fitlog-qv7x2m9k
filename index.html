@@ -119,7 +119,9 @@ async function load(){
     kpi("Fat · hard cap", `${Math.round(t.f)} <small>/ ${CFG.fatCap} g</small>`, t.f/CFG.fatCap*100,
         t.f>CFG.fatCap?"var(--red)":"var(--amber)",
         t.f>CFG.fatCap?"CAP BREACHED":`${Math.round(CFG.fatCap-t.f)}g headroom`, t.f>CFG.fatCap?"bad":"ok"),
-    kpi("Carbs", `${Math.round(t.c)} <small>/ ~${CFG.carbs} g</small>`, t.c/CFG.carbs*100, "var(--purple)", null, null),
+    kpi("Carbs · cap", `${Math.round(t.c)} <small>/ ${CFG.carbs} g</small>`, t.c/CFG.carbs*100,
+        t.c>CFG.carbs?"var(--red)":"var(--purple)",
+        t.c>CFG.carbs?"CAP BREACHED":`${Math.round(CFG.carbs-t.c)}g headroom`, t.c>CFG.carbs?"bad":"ok"),
     kpi("Steps", `${Math.round(t.steps).toLocaleString()} <small>/ ${CFG.steps.toLocaleString()}</small>`, t.steps/CFG.steps*100,
         "var(--blue)", t.steps>=CFG.steps?"Goal met ✓":`${(CFG.steps-t.steps).toLocaleString()} to go`, t.steps>=CFG.steps?"ok":"warn"),
     kpi("Active kcal", `${Math.round(t.active)} <small>/ ${CFG.activeKcal}</small>`, t.active/CFG.activeKcal*100,
@@ -156,7 +158,8 @@ async function load(){
     { label:"Carbs g", data:days.map(d=>Math.round(agg[d].c)), backgroundColor:"#9b8ec4", borderRadius:3 },
     { label:"Fat g", data:days.map(d=>Math.round(agg[d].f)), backgroundColor:"#e3a35c", borderRadius:3 },
     { label:"Protein goal 110", type:"line", data:days.map(()=>CFG.protein), borderColor:"#2e7d32", borderWidth:1.5, pointRadius:0, borderDash:[5,4] },
-    { label:"Fat cap 50", type:"line", data:days.map(()=>CFG.fatCap), borderColor:"#c62828", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
+    { label:"Fat cap 50", type:"line", data:days.map(()=>CFG.fatCap), borderColor:"#c62828", borderWidth:1.5, pointRadius:0, borderDash:[5,4] },
+    { label:"Carb cap 80", type:"line", data:days.map(()=>CFG.carbs), borderColor:"#6a4fa3", borderWidth:1.5, pointRadius:0, borderDash:[2,3] }]);
   mkChart("chSteps", labels, [
     { label:"Steps", data:days.map(d=>Math.round(agg[d].steps)), backgroundColor:"#9b8ec4", borderRadius:3 },
     { label:"Goal 12K", type:"line", data:days.map(()=>CFG.steps), borderColor:"#6a4fa3", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
