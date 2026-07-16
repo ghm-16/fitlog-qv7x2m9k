@@ -1,1 +1,507 @@
-{"generated":"2026-07-16T06:06:51+08:00","today":"2026-07-16","food":[{"Food":"Rokeby Dutch Chocolate Protein Smoothie","d":"2026-07-02","Meal":"Breakfast","Calories":287,"Protein":30,"Carbs":27,"Fat":6,"Source":"Web match"},{"Food":"3/4 cup white rice, 3 fried lamb chops (egg wash), okra stir-fry, turmeric yogurt curry, brinjal sambal","d":"2026-07-02","Meal":"Lunch","Calories":1035,"Protein":55,"Carbs":75,"Fat":59,"Source":"Claude estimate"},{"Food":"Chinese rojak (hawker)","d":"2026-07-02","Meal":"Dinner","Calories":500,"Protein":12,"Carbs":60,"Fat":24,"Source":"Web match"},{"Food":"Less-sugar tau huay","d":"2026-07-02","Meal":"Snack","Calories":130,"Protein":6,"Carbs":20,"Fat":3,"Source":"Web match"},{"Food":"Meriah by Seria (TRX KL) shared lunch x4 pax: Meriah Platter, Butter Prawns, Ayam Goreng Berempah, Satay, Nasi Goreng, Banana Fritters","d":"2026-07-03","Meal":"Lunch","Calories":1300,"Protein":55,"Carbs":125,"Fat":65,"Source":"Claude estimate"},{"Food":"Teh C siew dai (Toast Box)","d":"2026-07-03","Meal":"Breakfast","Calories":70,"Protein":2,"Carbs":10,"Fat":2,"Source":"Web match"},{"Food":"Sweetened kasturi lime cooler with sour plum","d":"2026-07-03","Meal":"Lunch","Calories":120,"Protein":0,"Carbs":30,"Fat":0,"Source":"Claude estimate"},{"Food":"Coke Zero","d":"2026-07-03","Meal":"Snack","Calories":0,"Protein":0,"Carbs":0,"Fat":0,"Source":"Web match"},{"Food":"Turkish black tea with sugar (1 pot)","d":"2026-07-03","Meal":"Snack","Calories":70,"Protein":0,"Carbs":18,"Fat":0,"Source":"Claude estimate"},{"Food":"Tuscany open-faced sandwich (Cotta, KL)","d":"2026-07-04","Meal":"Lunch","Calories":450,"Protein":20,"Carbs":40,"Fat":22,"Source":"Claude estimate"},{"Food":"7 Lok Lok skewers (Petaling Street, KL)","d":"2026-07-04","Meal":"Dinner","Calories":800,"Protein":45,"Carbs":35,"Fat":50,"Source":"Claude estimate"},{"Food":"Teh tarik","d":"2026-07-04","Meal":"Breakfast","Calories":170,"Protein":4,"Carbs":28,"Fat":5,"Source":"Web match"},{"Food":"3 cups Pu Erh tea (Din Tai Fung)","d":"2026-07-04","Meal":"Snack","Calories":0,"Protein":0,"Carbs":0,"Fat":0,"Source":"Web match"},{"Food":"1 plain prata + 2 soft-boiled eggs + gravy & sambal (Kedai Roti Canai Pak Ali, KL)","d":"2026-07-04","Meal":"Breakfast","Calories":440,"Protein":16,"Carbs":45,"Fat":20,"Source":"Web match"},{"Food":"2 gin cocktails","d":"2026-07-04","Meal":"Dinner","Calories":340,"Protein":0,"Carbs":20,"Fat":0,"Source":"Claude estimate"},{"Food":"Homemade: 100g white rice, 70g fried red snapper, 30g fried anchovies, okra stir-fry, dhal curry with ghee","d":"2026-07-08","Meal":"Lunch","Calories":610,"Protein":34,"Carbs":54,"Fat":29,"Source":"Claude estimate"},{"Food":"Mutton soup (Haji Kadir) + 50g mamak mee goreng","d":"2026-07-08","Meal":"Dinner","Calories":425,"Protein":32,"Carbs":18,"Fat":23,"Source":"Web match"},{"Food":"Teh C siew dai (hawker)","d":"2026-07-08","Meal":"Breakfast","Calories":70,"Protein":2,"Carbs":10,"Fat":2,"Source":"Web match"},{"Food":"Fitra (hawker): steamed chicken breast double meat no skin + half chicken rice","d":"2026-07-09","Meal":"Dinner","Calories":500,"Protein":65,"Carbs":32,"Fat":11,"Source":"Web match"},{"Food":"Rokeby Dutch Chocolate Protein Smoothie","d":"2026-07-09","Meal":"Snack","Calories":287,"Protein":30,"Carbs":27,"Fat":6,"Source":"Web match"},{"Food":"Teh C Kosong (hawker)","d":"2026-07-09","Meal":"Breakfast","Calories":80,"Protein":2,"Carbs":6,"Fat":4,"Source":"Web match"},{"Food":"Chublet salad bowl: prawns, steamed tofu, broccoli base, tamago","d":"2026-07-09","Meal":"Lunch","Calories":300,"Protein":25,"Carbs":12,"Fat":14,"Source":"Claude estimate"},{"Food":"Poke Theory small All or Nuttin acai bowl + almond drizzle, half can Coke","d":"2026-07-10","Meal":"Snack","Calories":352,"Protein":6,"Carbs":50,"Fat":14,"Source":"Web match"},{"Food":"Upsized sliced fish soup (Hoover Fish Porridge)","d":"2026-07-10","Meal":"Lunch","Calories":280,"Protein":32,"Carbs":12,"Fat":9,"Source":"Web match"},{"Food":"Teh C Siew Dai (hawker)","d":"2026-07-10","Meal":"Breakfast","Calories":70,"Protein":2,"Carbs":10,"Fat":2,"Source":"Web match"},{"Food":"HeNiu teppanyaki: chicken portion + half beef portion, grilled beansprouts & cabbage, half miso soup (no rice, no dipping sauce)","d":"2026-07-10","Meal":"Dinner","Calories":520,"Protein":48,"Carbs":13,"Fat":30,"Source":"Claude estimate"},{"Food":"Rokeby 30g protein smoothie dutch chocolate","d":"2026-07-14","Meal":"Breakfast","Calories":287,"Protein":30,"Carbs":27,"Fat":6,"Source":"Web match"},{"Food":"Beef Rendang and 1/2 serving japanese rice from New Station","d":"2026-07-14","Meal":"Lunch","Calories":600,"Protein":31,"Carbs":37,"Fat":36,"Source":"Web match"},{"Food":"Teh O siewdai from Yakun Kaya Toast","d":"2026-07-14","Meal":"Lunch","Calories":25,"Protein":0,"Carbs":5,"Fat":0,"Source":"Web match"},{"Food":"Slice Fish and Meatball soup from Hoover Fish Porridge","d":"2026-07-14","Meal":"Dinner","Calories":250,"Protein":28,"Carbs":10,"Fat":8,"Source":"Claude estimate"},{"Food":"60g of char kway teow from hawker centre","d":"2026-07-14","Meal":"Dinner","Calories":105,"Protein":3,"Carbs":17,"Fat":3,"Source":"Web match"},{"Food":"Teh O siewdai from Yakun Kaya Toast","d":"2026-07-14","Meal":"Dinner","Calories":25,"Protein":0,"Carbs":5,"Fat":0,"Source":"Web match"},{"Food":"Teh C Kosong (hawker)","d":"2026-07-15","Meal":"Breakfast","Calories":80,"Protein":2,"Carbs":6,"Fat":4,"Source":"Web match"},{"Food":"2 slices of chia seed sourdough bread with a 10g of prosciutto ham and drizzle of balsamic vinegar","d":"2026-07-15","Meal":"Breakfast","Calories":350,"Protein":15,"Carbs":62,"Fat":8,"Source":"Web match"},{"Food":"Arla chocolate protein pudding","d":"2026-07-15","Meal":"Snack","Calories":154,"Protein":20,"Carbs":13,"Fat":3,"Source":"Web match"},{"Food":"Betagro Tender Chicken Breast (Hot & Spicy","d":"2026-07-15","Meal":"Lunch","Calories":103,"Protein":19,"Carbs":3,"Fat":2,"Source":"Web match"},{"Food":"Sasa Hainanese Chicken Rice: steamed chicken breast double meat skinless, ~3 spoons chicken rice, chilli + sweet black sauce","d":"2026-07-15","Meal":"Dinner","Calories":505,"Protein":63,"Carbs":21,"Fat":17,"Source":"Web match"},{"Food":"4 Chicken McNuggets + 1/2 curry sauce (McDonald's)","d":"2026-07-15","Meal":"Snack","Calories":195,"Protein":10,"Carbs":14,"Fat":11,"Source":"Web match"}],"acts":[{"Activity":"Daily steps","d":"2026-07-03","Type":"Steps","mins":null,"burnt":295,"Steps":14500,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-04","Type":"Steps","mins":null,"burnt":311,"Steps":15300,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-06","Type":"Steps","mins":null,"burnt":270,"Steps":13300,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-07","Type":"Steps","mins":null,"burnt":331,"Steps":16300,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-08","Type":"Steps","mins":null,"burnt":224,"Steps":11000,"Source":"MET calc"},{"Activity":"Weightlifting 30min","d":"2026-07-09","Type":"Weightlifting","mins":30,"burnt":153,"Steps":null,"Source":"MET calc"},{"Activity":"Weightlifting 30min","d":"2026-07-10","Type":"Weightlifting","mins":30,"burnt":153,"Steps":null,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-10","Type":"Steps","mins":null,"burnt":311,"Steps":15300,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-11","Type":"Steps","mins":null,"burnt":203,"Steps":10000,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-12","Type":"Steps","mins":null,"burnt":203,"Steps":10000,"Source":"MET calc"},{"Activity":"Weightlifting 30min","d":"2026-07-12","Type":"Weightlifting","mins":30,"burnt":153,"Steps":null,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-13","Type":"Steps","mins":null,"burnt":309,"Steps":15200,"Source":"MET calc"},{"Activity":"Weightlifting 30min","d":"2026-07-13","Type":"Weightlifting","mins":30,"burnt":153,"Steps":null,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-14","Type":"Steps","mins":null,"burnt":295,"Steps":14500,"Source":"MET calc"},{"Activity":"Weightlifting","d":"2026-07-14","Type":"Weightlifting","mins":30,"burnt":153,"Steps":null,"Source":"MET calc"},{"Activity":"Weightlifting","d":"2026-07-15","Type":"Weightlifting","mins":30,"burnt":153,"Steps":null,"Source":"MET calc"},{"Activity":"Daily steps","d":"2026-07-15","Type":"Steps","mins":null,"burnt":244,"Steps":12000,"Source":"MET calc"}],"weight":[{"d":"2026-07-14","kg":61}]}
+{
+  "generated": "2026-07-16T08:22:20+08:00",
+  "today": "2026-07-16",
+  "food": [
+    {
+      "Food": "Teh C siew dai (Toast Box)",
+      "d": "2026-07-03",
+      "Meal": "Breakfast",
+      "Calories": 70,
+      "Protein": 2,
+      "Carbs": 10,
+      "Fat": 2,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Sweetened kasturi lime cooler with sour plum",
+      "d": "2026-07-03",
+      "Meal": "Lunch",
+      "Calories": 120,
+      "Protein": 0,
+      "Carbs": 30,
+      "Fat": 0,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Coke Zero",
+      "d": "2026-07-03",
+      "Meal": "Snack",
+      "Calories": 0,
+      "Protein": 0,
+      "Carbs": 0,
+      "Fat": 0,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Turkish black tea with sugar (1 pot)",
+      "d": "2026-07-03",
+      "Meal": "Snack",
+      "Calories": 70,
+      "Protein": 0,
+      "Carbs": 18,
+      "Fat": 0,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Meriah by Seria (TRX KL) shared lunch x4 pax: Meriah Platter, Butter Prawns, Ayam Goreng Berempah, Satay, Nasi Goreng, Banana Fritters",
+      "d": "2026-07-03",
+      "Meal": "Lunch",
+      "Calories": 1300,
+      "Protein": 55,
+      "Carbs": 125,
+      "Fat": 65,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Teh tarik",
+      "d": "2026-07-04",
+      "Meal": "Breakfast",
+      "Calories": 170,
+      "Protein": 4,
+      "Carbs": 28,
+      "Fat": 5,
+      "Source": "Web match"
+    },
+    {
+      "Food": "3 cups Pu Erh tea (Din Tai Fung)",
+      "d": "2026-07-04",
+      "Meal": "Snack",
+      "Calories": 0,
+      "Protein": 0,
+      "Carbs": 0,
+      "Fat": 0,
+      "Source": "Web match"
+    },
+    {
+      "Food": "1 plain prata + 2 soft-boiled eggs + gravy & sambal (Kedai Roti Canai Pak Ali, KL)",
+      "d": "2026-07-04",
+      "Meal": "Breakfast",
+      "Calories": 440,
+      "Protein": 16,
+      "Carbs": 45,
+      "Fat": 20,
+      "Source": "Web match"
+    },
+    {
+      "Food": "2 gin cocktails",
+      "d": "2026-07-04",
+      "Meal": "Dinner",
+      "Calories": 340,
+      "Protein": 0,
+      "Carbs": 20,
+      "Fat": 0,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Tuscany open-faced sandwich (Cotta, KL)",
+      "d": "2026-07-04",
+      "Meal": "Lunch",
+      "Calories": 450,
+      "Protein": 20,
+      "Carbs": 40,
+      "Fat": 22,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "7 Lok Lok skewers (Petaling Street, KL)",
+      "d": "2026-07-04",
+      "Meal": "Dinner",
+      "Calories": 800,
+      "Protein": 45,
+      "Carbs": 35,
+      "Fat": 50,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Homemade: 100g white rice, 70g fried red snapper, 30g fried anchovies, okra stir-fry, dhal curry with ghee",
+      "d": "2026-07-08",
+      "Meal": "Lunch",
+      "Calories": 610,
+      "Protein": 34,
+      "Carbs": 54,
+      "Fat": 29,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Mutton soup (Haji Kadir) + 50g mamak mee goreng",
+      "d": "2026-07-08",
+      "Meal": "Dinner",
+      "Calories": 425,
+      "Protein": 32,
+      "Carbs": 18,
+      "Fat": 23,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Teh C siew dai (hawker)",
+      "d": "2026-07-08",
+      "Meal": "Breakfast",
+      "Calories": 70,
+      "Protein": 2,
+      "Carbs": 10,
+      "Fat": 2,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Fitra (hawker): steamed chicken breast double meat no skin + half chicken rice",
+      "d": "2026-07-09",
+      "Meal": "Dinner",
+      "Calories": 500,
+      "Protein": 65,
+      "Carbs": 32,
+      "Fat": 11,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Rokeby Dutch Chocolate Protein Smoothie",
+      "d": "2026-07-09",
+      "Meal": "Snack",
+      "Calories": 287,
+      "Protein": 30,
+      "Carbs": 27,
+      "Fat": 6,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Teh C Kosong (hawker)",
+      "d": "2026-07-09",
+      "Meal": "Breakfast",
+      "Calories": 80,
+      "Protein": 2,
+      "Carbs": 6,
+      "Fat": 4,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Chublet salad bowl: prawns, steamed tofu, broccoli base, tamago",
+      "d": "2026-07-09",
+      "Meal": "Lunch",
+      "Calories": 300,
+      "Protein": 25,
+      "Carbs": 12,
+      "Fat": 14,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Upsized sliced fish soup (Hoover Fish Porridge)",
+      "d": "2026-07-10",
+      "Meal": "Lunch",
+      "Calories": 280,
+      "Protein": 32,
+      "Carbs": 12,
+      "Fat": 9,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Teh C Siew Dai (hawker)",
+      "d": "2026-07-10",
+      "Meal": "Breakfast",
+      "Calories": 70,
+      "Protein": 2,
+      "Carbs": 10,
+      "Fat": 2,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Poke Theory small All or Nuttin acai bowl + almond drizzle, half can Coke",
+      "d": "2026-07-10",
+      "Meal": "Snack",
+      "Calories": 352,
+      "Protein": 6,
+      "Carbs": 50,
+      "Fat": 14,
+      "Source": "Web match"
+    },
+    {
+      "Food": "HeNiu teppanyaki: chicken portion + half beef portion, grilled beansprouts & cabbage, half miso soup (no rice, no dipping sauce)",
+      "d": "2026-07-10",
+      "Meal": "Dinner",
+      "Calories": 520,
+      "Protein": 48,
+      "Carbs": 13,
+      "Fat": 30,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Rokeby 30g protein smoothie dutch chocolate",
+      "d": "2026-07-14",
+      "Meal": "Breakfast",
+      "Calories": 287,
+      "Protein": 30,
+      "Carbs": 27,
+      "Fat": 6,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Beef Rendang and 1/2 serving japanese rice from New Station",
+      "d": "2026-07-14",
+      "Meal": "Lunch",
+      "Calories": 600,
+      "Protein": 31,
+      "Carbs": 37,
+      "Fat": 36,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Teh O siewdai from Yakun Kaya Toast",
+      "d": "2026-07-14",
+      "Meal": "Lunch",
+      "Calories": 25,
+      "Protein": 0,
+      "Carbs": 5,
+      "Fat": 0,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Slice Fish and Meatball soup from Hoover Fish Porridge",
+      "d": "2026-07-14",
+      "Meal": "Dinner",
+      "Calories": 250,
+      "Protein": 28,
+      "Carbs": 10,
+      "Fat": 8,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "60g of char kway teow from hawker centre",
+      "d": "2026-07-14",
+      "Meal": "Dinner",
+      "Calories": 105,
+      "Protein": 3,
+      "Carbs": 17,
+      "Fat": 3,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Teh O siewdai from Yakun Kaya Toast",
+      "d": "2026-07-14",
+      "Meal": "Dinner",
+      "Calories": 25,
+      "Protein": 0,
+      "Carbs": 5,
+      "Fat": 0,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Teh C Kosong (hawker)",
+      "d": "2026-07-15",
+      "Meal": "Breakfast",
+      "Calories": 80,
+      "Protein": 2,
+      "Carbs": 6,
+      "Fat": 4,
+      "Source": "Web match"
+    },
+    {
+      "Food": "2 slices of chia seed sourdough bread with a 10g of prosciutto ham and drizzle of balsamic vinegar",
+      "d": "2026-07-15",
+      "Meal": "Breakfast",
+      "Calories": 350,
+      "Protein": 15,
+      "Carbs": 62,
+      "Fat": 8,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Arla chocolate protein pudding",
+      "d": "2026-07-15",
+      "Meal": "Snack",
+      "Calories": 154,
+      "Protein": 20,
+      "Carbs": 13,
+      "Fat": 3,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Betagro Tender Chicken Breast (Hot & Spicy",
+      "d": "2026-07-15",
+      "Meal": "Lunch",
+      "Calories": 103,
+      "Protein": 19,
+      "Carbs": 3,
+      "Fat": 2,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Hainanese Chicken Rice: steamed chicken breast double meat skinless, ~3 spoons chicken rice, chilli + sweet black sauce",
+      "d": "2026-07-15",
+      "Meal": "Dinner",
+      "Calories": 505,
+      "Protein": 63,
+      "Carbs": 21,
+      "Fat": 17,
+      "Source": "Web match"
+    },
+    {
+      "Food": "4 Chicken McNuggets + 1/2 curry sauce (McDonald's)",
+      "d": "2026-07-15",
+      "Meal": "Snack",
+      "Calories": 195,
+      "Protein": 10,
+      "Carbs": 14,
+      "Fat": 11,
+      "Source": "Web match"
+    }
+  ],
+  "acts": [
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-03",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 295,
+      "Steps": 14500,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-04",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 311,
+      "Steps": 15300,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-06",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 270,
+      "Steps": 13300,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-07",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 331,
+      "Steps": 16300,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-08",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 224,
+      "Steps": 11000,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Weightlifting 30min",
+      "d": "2026-07-09",
+      "Type": "Weightlifting",
+      "mins": 30,
+      "burnt": 153,
+      "Steps": null,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Weightlifting 30min",
+      "d": "2026-07-10",
+      "Type": "Weightlifting",
+      "mins": 30,
+      "burnt": 153,
+      "Steps": null,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-10",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 311,
+      "Steps": 15300,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-11",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 203,
+      "Steps": 10000,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-12",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 203,
+      "Steps": 10000,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Weightlifting 30min",
+      "d": "2026-07-12",
+      "Type": "Weightlifting",
+      "mins": 30,
+      "burnt": 153,
+      "Steps": null,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-13",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 309,
+      "Steps": 15200,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Weightlifting 30min",
+      "d": "2026-07-13",
+      "Type": "Weightlifting",
+      "mins": 30,
+      "burnt": 153,
+      "Steps": null,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-14",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 295,
+      "Steps": 14500,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Weightlifting",
+      "d": "2026-07-14",
+      "Type": "Weightlifting",
+      "mins": 30,
+      "burnt": 153,
+      "Steps": null,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Weightlifting",
+      "d": "2026-07-15",
+      "Type": "Weightlifting",
+      "mins": 30,
+      "burnt": 153,
+      "Steps": null,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-07-15",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 244,
+      "Steps": 12000,
+      "Source": "MET calc"
+    }
+  ],
+  "weight": [
+    {
+      "d": "2026-07-14",
+      "kg": 61
+    }
+  ]
+}
