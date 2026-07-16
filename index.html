@@ -15,6 +15,9 @@
   body { background:var(--bg); color:var(--ink); font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; padding:20px; max-width:1100px; margin:0 auto; }
   h1 { font-size:20px; font-weight:700; }
   .sub { color:var(--muted); font-size:13px; margin-top:2px; }
+  .pickrow { display:flex; align-items:center; gap:10px; margin-top:10px; flex-wrap:wrap; }
+  .pickrow label { font-size:13px; font-weight:600; color:var(--muted); }
+  #datePicker { font:inherit; padding:6px 10px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--ink); }
   .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-top:16px; }
   .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; }
   .card h3 { font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.4px; }
@@ -43,6 +46,11 @@
 <body>
   <h1>Training &amp; Calorie Dashboard</h1>
   <div class="sub" id="subtitle">Loading…</div>
+  <div class="pickrow" id="pickrow" style="display:none">
+    <label for="datePicker">View day:</label>
+    <input type="date" id="datePicker">
+    <span class="sub" id="dayMeta"></span>
+  </div>
   <div id="status">Loading data…</div>
 
   <div id="app" style="display:none">
@@ -64,12 +72,12 @@
       <div class="card">
         <h2 id="foodHdr">Food</h2>
         <table><thead><tr><th>Food</th><th>Meal</th><th class="num">kcal</th><th class="num">P</th><th class="num">C</th><th class="num">F</th></tr></thead><tbody id="foodRows"></tbody></table>
-        <div class="empty" id="foodEmpty" style="display:none">Nothing logged.</div>
+        <div class="empty" id="foodEmpty" style="display:none">Nothing logged this day.</div>
       </div>
       <div class="card">
         <h2 id="actHdr">Activity</h2>
         <table><thead><tr><th>Activity</th><th class="num">Mins</th><th class="num">kcal</th><th class="num">Steps</th></tr></thead><tbody id="actRows"></tbody></table>
-        <div class="empty" id="actEmpty" style="display:none">No activity logged.</div>
+        <div class="empty" id="actEmpty" style="display:none">No activity logged this day.</div>
       </div>
     </div>
   </div>
@@ -91,25 +99,16 @@ function mkChart(id, labels, datasets){
       scales:{ x:{ grid:{display:false}, ticks:{font:{size:10}} }, y:{ beginAtZero:true, ticks:{font:{size:10}} } } } });
 }
 
-async function load(){
-  const resp = await fetch("data.json?t="+Date.now());
-  if(!resp.ok) throw new Error("data.json not found");
-  const data = await resp.json();
-  const { generated, today, food, acts } = data;
-  const weight = data.weight || [];
+let G = null; // { days, agg, food, acts, weight, today, generated }
 
-  document.getElementById("subtitle").textContent =
-    `Snapshot for ${new Date(today+"T12:00:00").toLocaleDateString("en-SG",{weekday:"long", day:"numeric", month:"long", year:"numeric"})}` +
-    ` · target ${kcalTarget(today)} kcal (${isWeekend(today)?"weekend":"weekday"}) · updated ${new Date(generated).toLocaleString("en-SG")}`;
+function renderDay(sel){
+  const { agg, food, acts, weight, today } = G;
+  const t = agg[sel] || {kcal:0,p:0,c:0,f:0,steps:0,active:0};
+  const target = kcalTarget(sel), net = t.kcal - t.active;
+  const dayName = new Date(sel+"T12:00:00").toLocaleDateString("en-SG",{weekday:"long", day:"numeric", month:"long"});
+  document.getElementById("dayMeta").textContent =
+    `${dayName} · target ${target} kcal (${isWeekend(sel)?"weekend":"weekday"})${sel===today?" · today":""}`;
 
-  const days = [];
-  for (let i=13;i>=0;i--){ const d=new Date(new Date(today+"T12:00:00").getTime()-i*86400000);
-    days.push(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`); }
-  const agg = {}; days.forEach(d => agg[d]={kcal:0,p:0,c:0,f:0,steps:0,active:0});
-  food.forEach(r => { const a=agg[r.d]; if(!a) return; a.kcal+=r.Calories||0; a.p+=r.Protein||0; a.c+=r.Carbs||0; a.f+=r.Fat||0; });
-  acts.forEach(r => { const a=agg[r.d]; if(!a) return; a.active+=r.burnt||0; a.steps+=r.Steps||0; });
-
-  const t = agg[today], target = kcalTarget(today), net = t.kcal - t.active;
   document.getElementById("kpis").innerHTML = [
     kpi("Intake", `${Math.round(t.kcal)} <small>/ ${target} kcal</small>`, t.kcal/target*100,
         t.kcal>target?"var(--red)":"var(--blue)",
@@ -131,24 +130,53 @@ async function load(){
     (() => { if(!weight.length) return kpi("Weight", "– <small>kg</small>", null, null, "No weigh-ins yet", "warn");
       const latest = weight[weight.length-1], prev = weight.length>1 ? weight[weight.length-2] : null;
       const delta = prev ? (latest.kg - prev.kg) : null;
-      const dtxt = delta==null ? `First weigh-in` : `${delta>0?"+":""}${delta.toFixed(1)} kg since last`;
+      const dtxt = delta==null ? "First weigh-in" : `${delta>0?"+":""}${delta.toFixed(1)} kg since last`;
       return kpi("Weight", `${latest.kg} <small>kg · ${latest.d}</small>`, null, null,
         dtxt, delta==null?"ok":(delta<=0?"ok":"warn")); })()
   ].join("");
 
-  document.getElementById("foodHdr").textContent = `Food — ${today}`;
-  document.getElementById("actHdr").textContent = `Activity — ${today}`;
-  const todayFood = food.filter(r=>r.d===today);
-  document.getElementById("foodRows").innerHTML = todayFood.map(r =>
+  document.getElementById("foodHdr").textContent = `Food — ${sel}`;
+  document.getElementById("actHdr").textContent = `Activity — ${sel}`;
+  const dayFood = food.filter(r=>r.d===sel);
+  document.getElementById("foodRows").innerHTML = dayFood.map(r =>
     `<tr><td>${r.Food??""}</td><td>${r.Meal??""}</td><td class="num">${Math.round(r.Calories||0)}</td><td class="num">${Math.round(r.Protein||0)}</td><td class="num">${Math.round(r.Carbs||0)}</td><td class="num">${Math.round(r.Fat||0)}</td></tr>`).join("");
-  document.getElementById("foodEmpty").style.display = todayFood.length?"none":"block";
-  const todayActs = acts.filter(r=>r.d===today);
-  document.getElementById("actRows").innerHTML = todayActs.map(r =>
+  document.getElementById("foodEmpty").style.display = dayFood.length?"none":"block";
+  const dayActs = acts.filter(r=>r.d===sel);
+  document.getElementById("actRows").innerHTML = dayActs.map(r =>
     `<tr><td>${r.Activity??""}</td><td class="num">${r.mins?Math.round(r.mins):"–"}</td><td class="num">${r.burnt?Math.round(r.burnt):"–"}</td><td class="num">${r.Steps?Math.round(r.Steps).toLocaleString():"–"}</td></tr>`).join("");
-  document.getElementById("actEmpty").style.display = todayActs.length?"none":"block";
+  document.getElementById("actEmpty").style.display = dayActs.length?"none":"block";
+}
+
+async function load(){
+  const resp = await fetch("data.json?t="+Date.now());
+  if(!resp.ok) throw new Error("data.json not found");
+  const data = await resp.json();
+  const { generated, today, food, acts } = data;
+  const weight = data.weight || [];
+
+  document.getElementById("subtitle").textContent =
+    `Snapshot updated ${new Date(generated).toLocaleString("en-SG")} · trends cover the last 14 days`;
+
+  const days = [];
+  for (let i=13;i>=0;i--){ const d=new Date(new Date(today+"T12:00:00").getTime()-i*86400000);
+    days.push(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`); }
+  const agg = {}; days.forEach(d => agg[d]={kcal:0,p:0,c:0,f:0,steps:0,active:0});
+  food.forEach(r => { const a=agg[r.d]; if(!a) return; a.kcal+=r.Calories||0; a.p+=r.Protein||0; a.c+=r.Carbs||0; a.f+=r.Fat||0; });
+  acts.forEach(r => { const a=agg[r.d]; if(!a) return; a.active+=r.burnt||0; a.steps+=r.Steps||0; });
+
+  G = { days, agg, food, acts, weight, today, generated };
+
+  const picker = document.getElementById("datePicker");
+  picker.min = days[0]; picker.max = days[days.length-1]; picker.value = today;
+  picker.addEventListener("change", () => {
+    if(picker.value >= picker.min && picker.value <= picker.max) renderDay(picker.value);
+  });
+  document.getElementById("pickrow").style.display = "flex";
 
   document.getElementById("status").style.display="none";
   document.getElementById("app").style.display="block";
+  renderDay(today);
+
   const labels = days.map(d => d.slice(5).replace("-","/"));
   mkChart("chIntake", labels, [
     { label:"Intake kcal", data:days.map(d=>Math.round(agg[d].kcal)), backgroundColor:"#7da7d9", borderRadius:3 },
