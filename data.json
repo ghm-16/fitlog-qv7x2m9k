@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-01T09:20:00+08:00",
+  "generated": "2026-08-01T22:30:00+08:00",
   "today": "2026-08-01",
   "food": [
     {
@@ -640,6 +640,136 @@
       "Protein": 0,
       "Carbs": 5,
       "Fat": 0
+    },
+    {
+      "Food": "Teh O siew dai (Toast Box)",
+      "d": "2026-08-01",
+      "Meal": "Breakfast",
+      "Calories": 25,
+      "Protein": 0,
+      "Carbs": 5,
+      "Fat": 0,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Homemade kuih rose, 1 piece (~8g)",
+      "d": "2026-08-01",
+      "Meal": "Snack",
+      "Calories": 40,
+      "Protein": 0.5,
+      "Carbs": 5,
+      "Fat": 2,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Homemade murukku, 2 pieces",
+      "d": "2026-08-01",
+      "Meal": "Snack",
+      "Calories": 130,
+      "Protein": 3,
+      "Carbs": 17,
+      "Fat": 7,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Homemade tea, ~150ml, full-cream milk powder + 1 tsp sugar",
+      "d": "2026-08-01",
+      "Meal": "Snack",
+      "Calories": 45,
+      "Protein": 1,
+      "Carbs": 6,
+      "Fat": 1.5,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Homemade mutton chops, 103g, trimmed, cooked in Indian masala + butter",
+      "d": "2026-08-01",
+      "Meal": "Lunch",
+      "Calories": 258,
+      "Protein": 27,
+      "Carbs": 3,
+      "Fat": 15.5,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Cooked white rice, 50g",
+      "d": "2026-08-01",
+      "Meal": "Lunch",
+      "Calories": 65,
+      "Protein": 1.4,
+      "Carbs": 14,
+      "Fat": 0.1,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Stir-fried bak choy, 35g",
+      "d": "2026-08-01",
+      "Meal": "Lunch",
+      "Calories": 20,
+      "Protein": 1,
+      "Carbs": 2,
+      "Fat": 1,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Diced chicken in Szechuan spices (Ban Leong Wah Hoe), 71.2g eaten",
+      "d": "2026-08-01",
+      "Meal": "Dinner",
+      "Calories": 137,
+      "Protein": 15,
+      "Carbs": 5,
+      "Fat": 7,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Fried baby squid in Thai chilli dressing (Ban Leong Wah Hoe), 21.8g",
+      "d": "2026-08-01",
+      "Meal": "Dinner",
+      "Calories": 66,
+      "Protein": 4,
+      "Carbs": 4,
+      "Fat": 4,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Steamed fish meat, Hong Kong style (Ban Leong Wah Hoe), 75.2g",
+      "d": "2026-08-01",
+      "Meal": "Dinner",
+      "Calories": 110,
+      "Protein": 16,
+      "Carbs": 2,
+      "Fat": 5,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Steamed garlic prawns (Ban Leong Wah Hoe), 108.8g",
+      "d": "2026-08-01",
+      "Meal": "Dinner",
+      "Calories": 143,
+      "Protein": 24,
+      "Carbs": 2,
+      "Fat": 4,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Battered salt-and-pepper prawns (Ban Leong Wah Hoe), 99.1g",
+      "d": "2026-08-01",
+      "Meal": "Dinner",
+      "Calories": 267,
+      "Protein": 17,
+      "Carbs": 14,
+      "Fat": 15,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Eight Treasures Cheng Teng (Chow Zan Dessert), ingredients only",
+      "d": "2026-08-01",
+      "Meal": "Snack",
+      "Calories": 120,
+      "Protein": 2,
+      "Carbs": 26,
+      "Fat": 1,
+      "Source": "Claude estimate"
     }
   ],
   "acts": [
@@ -754,6 +884,13 @@
       "Type": "Steps",
       "burnt": 239,
       "Steps": 12000
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-08-01",
+      "Type": "Steps",
+      "burnt": 303,
+      "Steps": 15700
     }
   ],
   "weight": [
