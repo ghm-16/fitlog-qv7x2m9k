@@ -83,9 +83,14 @@
   </div>
 
 <script>
-const CFG = { weekdayKcal:1300, weekendKcal:1400, protein:110, carbs:80, fatCap:50, steps:12000, activeKcal:500 };
+const CFG = {
+  weekday: { kcal:1300, protein:110, proteinCap:false, carbs:80, fat:50 },
+  weekend: { kcal:1400, protein:130, proteinCap:true,  carbs:108, fat:50 },
+  steps:12000, activeKcal:500
+};
 const isWeekend = ds => { const dow = new Date(ds+"T12:00:00").getDay(); return dow===0||dow===6; };
-const kcalTarget = ds => isWeekend(ds) ? CFG.weekendKcal : CFG.weekdayKcal;
+const targetsFor = ds => isWeekend(ds) ? CFG.weekend : CFG.weekday;
+const kcalTarget = ds => targetsFor(ds).kcal;
 
 function kpi(title, valueHtml, pct, color, tagText, tagCls){
   return `<div class="card"><h3>${title}</h3><div class="big">${valueHtml}</div>
@@ -104,23 +109,30 @@ let G = null; // { days, agg, food, acts, weight, today, generated }
 function renderDay(sel){
   const { agg, food, acts, weight, today } = G;
   const t = agg[sel] || {kcal:0,p:0,c:0,f:0,steps:0,active:0};
-  const target = kcalTarget(sel), net = t.kcal - t.active;
+  const tg = targetsFor(sel);
+  const target = tg.kcal, net = t.kcal - t.active;
   const dayName = new Date(sel+"T12:00:00").toLocaleDateString("en-SG",{weekday:"long", day:"numeric", month:"long"});
   document.getElementById("dayMeta").textContent =
-    `${dayName} · target ${target} kcal (${isWeekend(sel)?"weekend":"weekday"})${sel===today?" · today":""}`;
+    `${dayName} · target ${target} kcal (${isWeekend(sel)?"weekend":"weekday"})${isWeekend(sel)?" · protein capped at "+tg.protein+"g, carbs ~"+tg.carbs+"g":""}${sel===today?" · today":""}`;
+
+  const proteinKpi = tg.proteinCap
+    ? kpi("Protein · cap", `${Math.round(t.p)} <small>/ ${tg.protein} g</small>`, t.p/tg.protein*100,
+        t.p>tg.protein?"var(--red)":"var(--green)",
+        t.p>tg.protein?"CAP BREACHED":`${Math.round(tg.protein-t.p)}g headroom`, t.p>tg.protein?"bad":"ok")
+    : kpi("Protein · must hit", `${Math.round(t.p)} <small>/ ${tg.protein} g</small>`, t.p/tg.protein*100,
+        "var(--green)", t.p>=tg.protein?"Goal met ✓":`${Math.round(tg.protein-t.p)}g to go`, t.p>=tg.protein?"ok":"warn");
 
   document.getElementById("kpis").innerHTML = [
     kpi("Intake", `${Math.round(t.kcal)} <small>/ ${target} kcal</small>`, t.kcal/target*100,
         t.kcal>target?"var(--red)":"var(--blue)",
         t.kcal>target?`${Math.round(t.kcal-target)} over`:`${Math.round(target-t.kcal)} left`, t.kcal>target?"bad":"ok"),
-    kpi("Protein · must hit", `${Math.round(t.p)} <small>/ ${CFG.protein} g</small>`, t.p/CFG.protein*100,
-        "var(--green)", t.p>=CFG.protein?"Goal met ✓":`${Math.round(CFG.protein-t.p)}g to go`, t.p>=CFG.protein?"ok":"warn"),
-    kpi("Fat · hard cap", `${Math.round(t.f)} <small>/ ${CFG.fatCap} g</small>`, t.f/CFG.fatCap*100,
-        t.f>CFG.fatCap?"var(--red)":"var(--amber)",
-        t.f>CFG.fatCap?"CAP BREACHED":`${Math.round(CFG.fatCap-t.f)}g headroom`, t.f>CFG.fatCap?"bad":"ok"),
-    kpi("Carbs · cap", `${Math.round(t.c)} <small>/ ${CFG.carbs} g</small>`, t.c/CFG.carbs*100,
-        t.c>CFG.carbs?"var(--red)":"var(--purple)",
-        t.c>CFG.carbs?"CAP BREACHED":`${Math.round(CFG.carbs-t.c)}g headroom`, t.c>CFG.carbs?"bad":"ok"),
+    proteinKpi,
+    kpi("Fat · hard cap", `${Math.round(t.f)} <small>/ ${tg.fat} g</small>`, t.f/tg.fat*100,
+        t.f>tg.fat?"var(--red)":"var(--amber)",
+        t.f>tg.fat?"CAP BREACHED":`${Math.round(tg.fat-t.f)}g headroom`, t.f>tg.fat?"bad":"ok"),
+    kpi(tg.proteinCap?"Carbs · target":"Carbs · cap", `${Math.round(t.c)} <small>/ ${tg.carbs} g</small>`, t.c/tg.carbs*100,
+        t.c>tg.carbs?"var(--red)":"var(--purple)",
+        t.c>tg.carbs?"CAP BREACHED":`${Math.round(tg.carbs-t.c)}g headroom`, t.c>tg.carbs?"bad":"ok"),
     kpi("Steps", `${Math.round(t.steps).toLocaleString()} <small>/ ${CFG.steps.toLocaleString()}</small>`, t.steps/CFG.steps*100,
         "var(--blue)", t.steps>=CFG.steps?"Goal met ✓":`${(CFG.steps-t.steps).toLocaleString()} to go`, t.steps>=CFG.steps?"ok":"warn"),
     kpi("Active kcal", `${Math.round(t.active)} <small>/ ${CFG.activeKcal}</small>`, t.active/CFG.activeKcal*100,
@@ -185,9 +197,9 @@ async function load(){
     { label:"Protein g", data:days.map(d=>Math.round(agg[d].p)), backgroundColor:"#7cb47e", borderRadius:3 },
     { label:"Carbs g", data:days.map(d=>Math.round(agg[d].c)), backgroundColor:"#9b8ec4", borderRadius:3 },
     { label:"Fat g", data:days.map(d=>Math.round(agg[d].f)), backgroundColor:"#e3a35c", borderRadius:3 },
-    { label:"Protein goal 110", type:"line", data:days.map(()=>CFG.protein), borderColor:"#2e7d32", borderWidth:1.5, pointRadius:0, borderDash:[5,4] },
-    { label:"Fat cap 50", type:"line", data:days.map(()=>CFG.fatCap), borderColor:"#c62828", borderWidth:1.5, pointRadius:0, borderDash:[5,4] },
-    { label:"Carb cap 80", type:"line", data:days.map(()=>CFG.carbs), borderColor:"#6a4fa3", borderWidth:1.5, pointRadius:0, borderDash:[2,3] }]);
+    { label:"Protein target (110 wkday / 130 cap wkend)", type:"line", data:days.map(d=>targetsFor(d).protein), borderColor:"#2e7d32", borderWidth:1.5, pointRadius:0, borderDash:[5,4] },
+    { label:"Fat cap 50", type:"line", data:days.map(d=>targetsFor(d).fat), borderColor:"#c62828", borderWidth:1.5, pointRadius:0, borderDash:[5,4] },
+    { label:"Carb target (80 wkday / 108 wkend)", type:"line", data:days.map(d=>targetsFor(d).carbs), borderColor:"#6a4fa3", borderWidth:1.5, pointRadius:0, borderDash:[2,3] }]);
   mkChart("chSteps", labels, [
     { label:"Steps", data:days.map(d=>Math.round(agg[d].steps)), backgroundColor:"#9b8ec4", borderRadius:3 },
     { label:"Goal 12K", type:"line", data:days.map(()=>CFG.steps), borderColor:"#6a4fa3", borderWidth:1.5, pointRadius:0, borderDash:[5,4] }]);
