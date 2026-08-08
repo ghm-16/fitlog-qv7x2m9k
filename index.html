@@ -84,8 +84,8 @@
 
 <script>
 const CFG = {
-  weekday: { kcal:1300, protein:110, proteinCap:false, carbs:80, fat:50 },
-  weekend: { kcal:1400, protein:130, proteinCap:true,  carbs:108, fat:50 },
+  weekday: { kcal:1300, protein:110, proteinCap:false, carbs:80,  fat:50 },
+  weekend: { kcal:1400, protein:130, proteinCap:false, carbs:108, fat:50 },
   steps:12000, activeKcal:500
 };
 const isWeekend = ds => { const dow = new Date(ds+"T12:00:00").getDay(); return dow===0||dow===6; };
@@ -113,7 +113,7 @@ function renderDay(sel){
   const target = tg.kcal, net = t.kcal - t.active;
   const dayName = new Date(sel+"T12:00:00").toLocaleDateString("en-SG",{weekday:"long", day:"numeric", month:"long"});
   document.getElementById("dayMeta").textContent =
-    `${dayName} · target ${target} kcal (${isWeekend(sel)?"weekend":"weekday"})${isWeekend(sel)?" · protein capped at "+tg.protein+"g, carbs ~"+tg.carbs+"g":""}${sel===today?" · today":""}`;
+    `${dayName} · target ${target} kcal (${isWeekend(sel)?"weekend":"weekday"})${isWeekend(sel)?" · protein goal "+tg.protein+"g, carbs cap "+tg.carbs+"g":""}${sel===today?" · today":""}`;
 
   const proteinKpi = tg.proteinCap
     ? kpi("Protein · cap", `${Math.round(t.p)} <small>/ ${tg.protein} g</small>`, t.p/tg.protein*100,
