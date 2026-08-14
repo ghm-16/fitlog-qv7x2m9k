@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-13T08:28:14+08:00",
-  "today": "2026-08-13",
+  "generated": "2026-08-14T08:18:49+08:00",
+  "today": "2026-08-14",
   "food": [
     {
       "Food": "Meiji High Protein Banana Milk, 350 ml",
@@ -1351,6 +1351,106 @@
       "Carbs": 10.5,
       "Fat": 0,
       "Source": "Claude estimate"
+    },
+    {
+      "Food": "Meiji High Protein Banana Milk",
+      "d": "2026-08-13",
+      "Meal": "Breakfast",
+      "Calories": 176,
+      "Protein": 31.2,
+      "Carbs": 8.1,
+      "Fat": 2.1,
+      "Source": "Web match"
+    },
+    {
+      "Food": "HeyBo Build Your Bo - Ingredients (bowl+chicken+egg+mushroom+tomato salad, minus 2/3 discarded cauliflower rice)",
+      "d": "2026-08-13",
+      "Meal": "Lunch",
+      "Calories": 311,
+      "Protein": 40.7,
+      "Carbs": 11.5,
+      "Fat": 11.9,
+      "Source": "Web match"
+    },
+    {
+      "Food": "Tzatziki, HeyBo Build Your Bo",
+      "d": "2026-08-13",
+      "Meal": "Lunch",
+      "Calories": 68,
+      "Protein": 3.3,
+      "Carbs": 5.7,
+      "Fat": 3.8,
+      "Source": "Web match"
+    },
+    {
+      "Food": "2 homemade kuih rose",
+      "d": "2026-08-13",
+      "Meal": "Snack",
+      "Calories": 80,
+      "Protein": 1,
+      "Carbs": 10,
+      "Fat": 4,
+      "Source": "Manual"
+    },
+    {
+      "Food": "1 cashew sugee cookie, Bengawan Solo",
+      "d": "2026-08-13",
+      "Meal": "Snack",
+      "Calories": 55,
+      "Protein": 0.8,
+      "Carbs": 5,
+      "Fat": 3.5,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Arla Chocolate Protein Pudding",
+      "d": "2026-08-13",
+      "Meal": "Snack",
+      "Calories": 152,
+      "Protein": 20,
+      "Carbs": 15.6,
+      "Fat": 3,
+      "Source": "Manual"
+    },
+    {
+      "Food": "Sliced fish soup (6 slices ~80g fish + broth/veg), hawker centre",
+      "d": "2026-08-13",
+      "Meal": "Dinner",
+      "Calories": 156,
+      "Protein": 20,
+      "Carbs": 6,
+      "Fat": 5.2,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "5 sticks chicken satay + 10g peanut sauce (visible fat trimmed)",
+      "d": "2026-08-13",
+      "Meal": "Dinner",
+      "Calories": 225,
+      "Protein": 31.8,
+      "Carbs": 10.8,
+      "Fat": 8.6,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "Skinless roasted chicken breast, 100g, Tiong Bahru Chicken Rice",
+      "d": "2026-08-13",
+      "Meal": "Dinner",
+      "Calories": 155,
+      "Protein": 30,
+      "Carbs": 1,
+      "Fat": 3.5,
+      "Source": "Claude estimate"
+    },
+    {
+      "Food": "1/2 cup teh kosong (with milk, no sugar), Toast Box",
+      "d": "2026-08-13",
+      "Meal": "Snack",
+      "Calories": 48,
+      "Protein": 2.25,
+      "Carbs": 3.5,
+      "Fat": 2.75,
+      "Source": "Manual"
     }
   ],
   "acts": [
@@ -1514,6 +1614,24 @@
       "mins": null,
       "burnt": 234,
       "Steps": 12000,
+      "Source": "MET calc"
+    },
+    {
+      "Activity": "Yoga",
+      "d": "2026-08-13",
+      "Type": "Yoga",
+      "mins": 63,
+      "burnt": 152,
+      "Steps": null,
+      "Source": "Device"
+    },
+    {
+      "Activity": "Daily steps",
+      "d": "2026-08-13",
+      "Type": "Steps",
+      "mins": null,
+      "burnt": 254,
+      "Steps": 13000,
       "Source": "MET calc"
     }
   ],
