@@ -1,16 +1,7 @@
 {
-  "generated": "2026-09-15T14:18:28+08:00",
-  "today": "2026-09-15",
+  "generated": "2026-09-16T09:59:14+08:00",
+  "today": "2026-09-16",
   "food": [
-    {"Food":"Steamed chicken breast, skin-on, double portion (~130g meat), hawker chicken rice stall","date":"2026-09-02","Meal":"Lunch","Calories":260,"Protein":39,"Carbs":0,"Fat":10.4,"Source":"Claude estimate"},
-    {"Food":"Tahu goreng (deep-fried firm tau kwa with peanut sambal, cucumber, beansprouts), 2/3 portion","date":"2026-09-02","Meal":"Lunch","Calories":555,"Protein":27,"Carbs":25,"Fat":41,"Source":"Claude estimate"},
-    {"Food":"Teh C kosong","date":"2026-09-02","Meal":"Breakfast","Calories":40,"Protein":1.5,"Carbs":3,"Fat":2.5,"Source":"Manual"},
-    {"Food":"Mutton mysore, 6 cubes (~60g), Apollo Banana Leaf","date":"2026-09-02","Meal":"Dinner","Calories":150,"Protein":12,"Carbs":3,"Fat":10.8,"Source":"Claude estimate"},
-    {"Food":"Stir-fried cabbage with dhal, ~60g, Apollo Banana Leaf","date":"2026-09-02","Meal":"Dinner","Calories":55.5,"Protein":2.4,"Carbs":6,"Fat":2.4,"Source":"Claude estimate"},
-    {"Food":"Chicken rice, ~37.5g consumed (ordered half portion, ate half of that)","date":"2026-09-02","Meal":"Lunch","Calories":68,"Protein":1,"Carbs":11.3,"Fat":2.1,"Source":"Claude estimate"},
-    {"Food":"Teh O siew dai","date":"2026-09-02","Meal":"Snack","Calories":25,"Protein":0,"Carbs":5,"Fat":0,"Source":"Web match"},
-    {"Food":"Masala chicken breast, ~100g, Apollo Banana Leaf","date":"2026-09-02","Meal":"Dinner","Calories":306,"Protein":28,"Carbs":8,"Fat":18,"Source":"Claude estimate"},
-    {"Food":"White rice, ~100g, Apollo Banana Leaf","date":"2026-09-02","Meal":"Dinner","Calories":130,"Protein":2.7,"Carbs":28,"Fat":0.3,"Source":"Web match"},
     {"Food":"Rokeby Choc Honeycomb Protein Smoothie, 1 bottle (425ml)","date":"2026-09-03","Meal":"Breakfast","Calories":253,"Protein":30,"Carbs":18,"Fat":6,"Source":"Manual"},
     {"Food":"Jasmine rice, ~80g, Bibik Violet","date":"2026-09-03","Meal":"Lunch","Calories":104,"Protein":2.16,"Carbs":22.4,"Fat":0.24,"Source":"Claude estimate"},
     {"Food":"Fried tau kwa + beansprouts only (sauce mostly not eaten), Bibik Violet","date":"2026-09-03","Meal":"Lunch","Calories":415,"Protein":23.5,"Carbs":16.5,"Fat":30.1,"Source":"Claude estimate"},
@@ -81,8 +72,6 @@
     {"Food":"Diced steak, 200g raw, ~25g fat trimmed and discarded, Pepper Lunch","date":"2026-09-09","Meal":"Dinner","Calories":312,"Protein":45.5,"Carbs":1,"Fat":14,"Source":"Claude estimate"}
   ],
   "acts": [
-    {"Activity":"Daily steps","date":"2026-09-02","Type":"Steps","mins":null,"burnt":312,"Steps":16000,"Source":"MET calc"},
-    {"Activity":"Traditional Strength Training","date":"2026-09-02","Type":"Weightlifting","mins":52,"burnt":216,"Steps":null,"Source":"Device"},
     {"Activity":"Daily steps","date":"2026-09-03","Type":"Steps","mins":null,"burnt":302,"Steps":15500,"Source":"MET calc"},
     {"Activity":"Stairs (outdoor stair climbing)","date":"2026-09-04","Type":"Weightlifting","mins":15,"burnt":81,"Steps":null,"Source":"Device"},
     {"Activity":"Daily steps","date":"2026-09-04","Type":"Steps","mins":null,"burnt":234,"Steps":12000,"Source":"MET calc"},
