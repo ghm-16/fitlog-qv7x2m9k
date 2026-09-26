@@ -1,97 +1,7 @@
 {
- "generated": "2026-09-26T13:04:09+08:00",
- "today": "2026-09-26",
+ "generated": "2026-09-27T07:09:44+08:00",
+ "today": "2026-09-27",
  "food": [
-  {
-   "Food": "2 soft boiled eggs",
-   "d": "2026-09-13",
-   "Meal": "Snack",
-   "Calories": 151,
-   "Protein": 12.6,
-   "Carbs": 1.2,
-   "Fat": 10.6,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Meiji High Protein Milk, Green Tea flavour, 350ml",
-   "d": "2026-09-13",
-   "Meal": "Breakfast",
-   "Calories": 165,
-   "Protein": 30,
-   "Carbs": 10,
-   "Fat": 1.4,
-   "Source": "Web match"
-  },
-  {
-   "Food": "White rice, cooked, 100g",
-   "d": "2026-09-13",
-   "Meal": "Lunch",
-   "Calories": 126,
-   "Protein": 2.7,
-   "Carbs": 28,
-   "Fat": 0.3,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Tutu kueh, 3 pieces, coconut filling (supper)",
-   "d": "2026-09-13",
-   "Meal": "Snack",
-   "Calories": 150,
-   "Protein": 1.8,
-   "Carbs": 30,
-   "Fat": 3,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Upsized sliced fish soup, no meatballs (Hoover Fish Porridge)",
-   "d": "2026-09-13",
-   "Meal": "Dinner",
-   "Calories": 319,
-   "Protein": 43.9,
-   "Carbs": 7.5,
-   "Fat": 12.6,
-   "Source": "Manual"
-  },
-  {
-   "Food": "Stir fried beans, ~100g",
-   "d": "2026-09-13",
-   "Meal": "Lunch",
-   "Calories": 85,
-   "Protein": 2,
-   "Carbs": 8,
-   "Fat": 5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Arla Protein Pudding, 1 pot (200g)",
-   "d": "2026-09-13",
-   "Meal": "Snack",
-   "Calories": 150,
-   "Protein": 20,
-   "Carbs": 9,
-   "Fat": 4,
-   "Source": "Web match"
-  },
-  {
-   "Food": "3 venamai prawns",
-   "d": "2026-09-13",
-   "Meal": "Lunch",
-   "Calories": 100,
-   "Protein": 12.3,
-   "Carbs": 2.5,
-   "Fat": 4.5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Homemade crab curry",
-   "d": "2026-09-13",
-   "Meal": "Lunch",
-   "Calories": 193,
-   "Protein": 15,
-   "Carbs": 4,
-   "Fat": 13,
-   "Source": "Claude estimate"
-  },
   {
    "Food": "Farmers Union Greek Style Protein Yogurt, Strawberry, 150g",
    "d": "2026-09-14",
@@ -1173,6 +1083,86 @@
    "Source": "Claude estimate"
   },
   {
+   "Food": "Cabbage stir fry (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 85,
+   "Protein": 1.6,
+   "Carbs": 4.8,
+   "Fat": 6.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fish cutlet (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 236,
+   "Protein": 8,
+   "Carbs": 16,
+   "Fat": 15.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Beetroot & long bean stir fry (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 62,
+   "Protein": 1.25,
+   "Carbs": 5,
+   "Fat": 4.125,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Tahu sambal (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 155,
+   "Protein": 6,
+   "Carbs": 4,
+   "Fat": 12.75,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "White rice (banana leaf, large scoop)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 251,
+   "Protein": 5.4,
+   "Carbs": 56,
+   "Fat": 0.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Prawn sambal (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 57,
+   "Protein": 2.2,
+   "Carbs": 1.8,
+   "Fat": 4.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Gobi manchurian (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 127,
+   "Protein": 1.5,
+   "Carbs": 10,
+   "Fat": 9,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chicken masala (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 189,
+   "Protein": 12.8,
+   "Carbs": 4.8,
+   "Fat": 13.2,
+   "Source": "Claude estimate"
+  },
+  {
    "Food": "Meiji High Protein Milk, Banana flavour, 350ml",
    "d": "2026-09-26",
    "Meal": "Breakfast",
@@ -1184,24 +1174,6 @@
   }
  ],
  "acts": [
-  {
-   "Activity": "Functional Strength Training",
-   "d": "2026-09-13",
-   "Type": "Weightlifting",
-   "mins": 33,
-   "burnt": 106,
-   "Steps": 0,
-   "Source": "Device"
-  },
-  {
-   "Activity": "Daily steps",
-   "d": "2026-09-13",
-   "Type": "Steps",
-   "mins": 0,
-   "burnt": 246,
-   "Steps": 13000,
-   "Source": "MET calc"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-09-14",
