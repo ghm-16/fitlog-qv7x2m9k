@@ -1,57 +1,7 @@
 {
- "generated": "2026-10-03T07:16:55+08:00",
- "today": "2026-10-03",
+ "generated": "2026-10-04T07:17:41+08:00",
+ "today": "2026-10-04",
  "food": [
-  {
-   "Food": "Black tea (400ml) with 150ml Rokeby Fitmilk (low fat, lactose free)",
-   "d": "2026-09-20",
-   "Meal": "Snack",
-   "Calories": 69,
-   "Protein": 7.5,
-   "Carbs": 4.75,
-   "Fat": 2.25,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Tutu kueh, 4 pieces, coconut filling",
-   "d": "2026-09-20",
-   "Meal": "Snack",
-   "Calories": 206,
-   "Protein": 2.4,
-   "Carbs": 40,
-   "Fat": 4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Dried prawn mee (hae mee, dry-style), 2 small prawns + 3 thin pork slices",
-   "d": "2026-09-20",
-   "Meal": "Lunch",
-   "Calories": 397,
-   "Protein": 12,
-   "Carbs": 58,
-   "Fat": 13,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Venchi Chocoviar Raspberry, 1 piece",
-   "d": "2026-09-20",
-   "Meal": "Snack",
-   "Calories": 54,
-   "Protein": 0.6,
-   "Carbs": 5,
-   "Fat": 3.5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Subway 6\" Chicken Breast sandwich, 2 pieces chicken + all cheese (fully eaten), half white bread, all veg, toasted",
-   "d": "2026-09-20",
-   "Meal": "Dinner",
-   "Calories": 429,
-   "Protein": 43.7,
-   "Carbs": 29.3,
-   "Fat": 15.25,
-   "Source": "Web match"
-  },
   {
    "Food": "Gambas al Ajillo, half portion (2.5 prawns consumed), La Tapería",
    "d": "2026-09-21",
@@ -1391,18 +1341,149 @@
    "Carbs": 14,
    "Fat": 6.7,
    "Source": "Claude estimate"
+  },
+  {
+   "Food": "Takeout pad thai noodles (~10% of bowl)",
+   "d": "2026-10-03",
+   "Meal": "Dinner",
+   "Calories": 55,
+   "Protein": 2.1,
+   "Carbs": 7.7,
+   "Fat": 1.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "King prawns, pad thai (5 pieces)",
+   "d": "2026-10-03",
+   "Meal": "Dinner",
+   "Calories": 99,
+   "Protein": 19.8,
+   "Carbs": 0.9,
+   "Fat": 1.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried firm tofu (5 cubes)",
+   "d": "2026-10-03",
+   "Meal": "Dinner",
+   "Calories": 266,
+   "Protein": 17.6,
+   "Carbs": 4.4,
+   "Fat": 19.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Tom kha kai chicken & mushroom soup (~150ml)",
+   "d": "2026-10-03",
+   "Meal": "Dinner",
+   "Calories": 150,
+   "Protein": 6,
+   "Carbs": 4.5,
+   "Fat": 12,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Baked peach slices (2) & pomegranate seeds",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 55,
+   "Protein": 0.9,
+   "Carbs": 10.4,
+   "Fat": 1.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Steamed rice (~1/3 portion)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 85,
+   "Protein": 2,
+   "Carbs": 18.8,
+   "Fat": 0.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried breaded calamari (10 pieces)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 272,
+   "Protein": 14.4,
+   "Carbs": 24,
+   "Fat": 13.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Katsu fish goujons (5 pieces)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 394,
+   "Protein": 21.6,
+   "Carbs": 32.4,
+   "Fat": 19.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Katsu curry sauce (~1/3 pot)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 24,
+   "Protein": 0.4,
+   "Carbs": 3.2,
+   "Fat": 1.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Mayo chilli dipping sauce (~20g)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 78,
+   "Protein": 0.2,
+   "Carbs": 1.2,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Elderflower soda fizz (1/2 glass)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 28,
+   "Protein": 0,
+   "Carbs": 7,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Burrata (~1/3 ball)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 117,
+   "Protein": 5.9,
+   "Carbs": 0.6,
+   "Fat": 10.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Arla Protein Chocolate Flavour Shake (250ml)",
+   "d": "2026-10-03",
+   "Meal": "Breakfast",
+   "Calories": 183,
+   "Protein": 20.3,
+   "Carbs": 15.8,
+   "Fat": 3,
+   "Source": "Manual"
+  },
+  {
+   "Food": "2 soft boiled eggs",
+   "d": "2026-10-03",
+   "Meal": "Breakfast",
+   "Calories": 144,
+   "Protein": 12.6,
+   "Carbs": 0.8,
+   "Fat": 10,
+   "Source": "Claude estimate"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-09-20",
-   "Type": "Steps",
-   "mins": 0,
-   "burnt": 297,
-   "Steps": 15700,
-   "Source": "MET calc"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-09-21",
@@ -1554,6 +1635,15 @@
    "mins": null,
    "burnt": 167,
    "Steps": 8800,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-03",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 212,
+   "Steps": 11200,
    "Source": "MET calc"
   }
  ],
