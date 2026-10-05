@@ -1,1 +1,1779 @@
-{"generated": "2026-10-05T07:15:44+08:00", "today": "2026-10-05", "food": [{"Food": "Ladies fingers (okra), 1 serving, Chong Pang Nasi Lemak", "d": "2026-09-22", "Meal": "Dinner", "Calories": 68, "Protein": 2, "Carbs": 6, "Fat": 4, "Source": "Claude estimate"}, {"Food": "Sambal, 1/2 tsp, Chong Pang Nasi Lemak", "d": "2026-09-22", "Meal": "Dinner", "Calories": 6, "Protein": 0.1, "Carbs": 0.5, "Fat": 0.4, "Source": "Web match"}, {"Food": "Coconut rice, half consumed, Chong Pang Nasi Lemak", "d": "2026-09-22", "Meal": "Dinner", "Calories": 159, "Protein": 2.7, "Carbs": 27, "Fat": 4.5, "Source": "Claude estimate"}, {"Food": "French toast, 2 slices, local bakery, with salted butter", "d": "2026-09-22", "Meal": "Snack", "Calories": 421, "Protein": 11.2, "Carbs": 40, "Fat": 24, "Source": "Claude estimate"}, {"Food": "Sunny side egg, 1, Chong Pang Nasi Lemak", "d": "2026-09-22", "Meal": "Dinner", "Calories": 71, "Protein": 6, "Carbs": 0.5, "Fat": 5, "Source": "Web match"}, {"Food": "French baguette, 1 piece (~70g) with salted butter spread (~10g)", "d": "2026-09-22", "Meal": "Snack", "Calories": 258, "Protein": 6.3, "Carbs": 38.5, "Fat": 8.8, "Source": "Claude estimate"}, {"Food": "Teh O kosong, 1 cup", "d": "2026-09-22", "Meal": "Snack", "Calories": 4, "Protein": 0, "Carbs": 1, "Fat": 0, "Source": "Manual"}, {"Food": "Rokeby Choc Honeycomb Protein Smoothie, 425ml", "d": "2026-09-22", "Meal": "Breakfast", "Calories": 253, "Protein": 30, "Carbs": 18.3, "Fat": 6.4, "Source": "Web match"}, {"Food": "Cooked white rice, 80g", "d": "2026-09-22", "Meal": "Lunch", "Calories": 101, "Protein": 2.2, "Carbs": 22.4, "Fat": 0.2, "Source": "Claude estimate"}, {"Food": "Squid in black sauce curry, 80g", "d": "2026-09-22", "Meal": "Lunch", "Calories": 148, "Protein": 14, "Carbs": 5, "Fat": 8, "Source": "Claude estimate"}, {"Food": "French beans stir-fried with dried shrimp/anchovy bits, ~4 tbsp (~60g)", "d": "2026-09-22", "Meal": "Lunch", "Calories": 65, "Protein": 4.2, "Carbs": 5, "Fat": 3.2, "Source": "Claude estimate"}, {"Food": "Air-fried shrimp, 120g, Trader Joe's 0-cal onion garlic salt + umami seasoning", "d": "2026-09-22", "Meal": "Snack", "Calories": 119, "Protein": 28.8, "Carbs": 0.24, "Fat": 0.36, "Source": "Claude estimate"}, {"Food": "Fried chicken wing, 1 piece, Chong Pang Nasi Lemak", "d": "2026-09-22", "Meal": "Dinner", "Calories": 99, "Protein": 8, "Carbs": 1, "Fat": 7, "Source": "Web match"}, {"Food": "Fried luncheon meat, 1 slice, Chong Pang Nasi Lemak", "d": "2026-09-22", "Meal": "Dinner", "Calories": 108, "Protein": 6, "Carbs": 3, "Fat": 8, "Source": "Web match"}, {"Food": "HomeSoy Sari Kedelai soya milk, 250ml (30% less sugar)", "d": "2026-09-23", "Meal": "Snack", "Calories": 110, "Protein": 5.8, "Carbs": 12.8, "Fat": 3.8, "Source": "Manual"}, {"Food": "Cooked yellow/butter rice, 50g, hawker chicken chop set", "d": "2026-09-23", "Meal": "Dinner", "Calories": 75, "Protein": 1.25, "Carbs": 14, "Fat": 1.5, "Source": "Claude estimate"}, {"Food": "French fries, 10 pieces (~55g), hawker", "d": "2026-09-23", "Meal": "Dinner", "Calories": 172, "Protein": 1.9, "Carbs": 22.6, "Fat": 8.25, "Source": "Claude estimate"}, {"Food": "Black pepper sauce, 15g, hawker chicken chop", "d": "2026-09-23", "Meal": "Dinner", "Calories": 18, "Protein": 0.2, "Carbs": 1.5, "Fat": 1.2, "Source": "Claude estimate"}, {"Food": "Air-fried shrimp, 120g, 0-cal seasoning, with 4g Lurpak salted butter", "d": "2026-09-23", "Meal": "Snack", "Calories": 150, "Protein": 28.8, "Carbs": 0.3, "Fat": 3.7, "Source": "Claude estimate"}, {"Food": "Teh C kosong, 1 cup, Toast Box", "d": "2026-09-23", "Meal": "Breakfast", "Calories": 40, "Protein": 1.5, "Carbs": 3, "Fat": 2.5, "Source": "Manual"}, {"Food": "2 soft boiled eggs, Toast Box", "d": "2026-09-23", "Meal": "Breakfast", "Calories": 151, "Protein": 12.6, "Carbs": 1.2, "Fat": 10.6, "Source": "Claude estimate"}, {"Food": "Air-fried tofu (tau kwa), 185g, NTUC FairPrice Reduced Sodium High Calcium", "d": "2026-09-23", "Meal": "Lunch", "Calories": 216, "Protein": 24.4, "Carbs": 3.7, "Fat": 12.4, "Source": "Manual"}, {"Food": "Cooked white rice, 55g", "d": "2026-09-23", "Meal": "Lunch", "Calories": 69, "Protein": 1.5, "Carbs": 15.4, "Fat": 0.2, "Source": "Claude estimate"}, {"Food": "Vegetable curry (tomato/drumstick), 60g", "d": "2026-09-23", "Meal": "Lunch", "Calories": 54, "Protein": 1.2, "Carbs": 4.8, "Fat": 3.3, "Source": "Claude estimate"}, {"Food": "Grilled chicken chop, no skin, 115g, hawker", "d": "2026-09-23", "Meal": "Dinner", "Calories": 190, "Protein": 35.7, "Carbs": 0, "Fat": 4.1, "Source": "Claude estimate"}, {"Food": "Grilled white fish steak, skin-on, 130g", "d": "2026-09-24", "Meal": "Dinner", "Calories": 194, "Protein": 27.3, "Carbs": 0.7, "Fat": 9.1, "Source": "Claude estimate"}, {"Food": "French fries, 8 pieces (~44g)", "d": "2026-09-24", "Meal": "Dinner", "Calories": 137, "Protein": 1.5, "Carbs": 18, "Fat": 6.6, "Source": "Claude estimate"}, {"Food": "Sweet chilli sauce, 20g", "d": "2026-09-24", "Meal": "Dinner", "Calories": 37, "Protein": 0.1, "Carbs": 9, "Fat": 0.05, "Source": "Claude estimate"}, {"Food": "Rokeby Farms Choc Honeycomb Protein Smoothie, 425ml", "d": "2026-09-24", "Meal": "Snack", "Calories": 251, "Protein": 30, "Carbs": 18, "Fat": 6, "Source": "Web match"}, {"Food": "Stir-fried tofu & prawn w/ egg, homemade, 87g", "d": "2026-09-24", "Meal": "Dinner", "Calories": 131, "Protein": 15, "Carbs": 2, "Fat": 7, "Source": "Claude estimate"}, {"Food": "2 soft boil eggs, Toast Box", "d": "2026-09-24", "Meal": "Breakfast", "Calories": 142, "Protein": 12.6, "Carbs": 1.5, "Fat": 9.5, "Source": "Claude estimate"}, {"Food": "Meiji High Protein Milk, Banana flavour, 350ml", "d": "2026-09-24", "Meal": "Breakfast", "Calories": 176, "Protein": 31.2, "Carbs": 8.1, "Fat": 2.1, "Source": "Web match"}, {"Food": "1 teh c kosong, Toast Box", "d": "2026-09-24", "Meal": "Breakfast", "Calories": 57, "Protein": 3, "Carbs": 4, "Fat": 3.2, "Source": "Claude estimate"}, {"Food": "Stir-fried bee hoon, homemade, 100g", "d": "2026-09-24", "Meal": "Dinner", "Calories": 150, "Protein": 2.5, "Carbs": 26, "Fat": 4, "Source": "Claude estimate"}, {"Food": "Fried tahu goreng, 2 pieces (~80g), with sweet peanut sauce, Godmama", "d": "2026-09-25", "Meal": "Dinner", "Calories": 208, "Protein": 11.6, "Carbs": 11.2, "Fat": 13, "Source": "Claude estimate"}, {"Food": "Herb rice, 2 tablespoons (~22g), Godmama", "d": "2026-09-25", "Meal": "Dinner", "Calories": 33, "Protein": 0.7, "Carbs": 6.2, "Fat": 0.7, "Source": "Claude estimate"}, {"Food": "Beef pho, double portion sliced beef (8 slices) + half portion noodles, SoPho", "d": "2026-09-25", "Meal": "Lunch", "Calories": 317, "Protein": 30, "Carbs": 26.5, "Fat": 10.1, "Source": "Claude estimate"}, {"Food": "Thumb brand (Thumbs Ngan Yin) roasted groundnuts, 2/3 pack (~80g of 120g pack)", "d": "2026-09-25", "Meal": "Snack", "Calories": 448, "Protein": 22.7, "Carbs": 23.3, "Fat": 29.3, "Source": "Web match"}, {"Food": "Fresh rice paper roll with sliced beef, half portion (1 roll) with dipping sauces", "d": "2026-09-25", "Meal": "Lunch", "Calories": 120, "Protein": 5.8, "Carbs": 18.4, "Fat": 2.5, "Source": "Claude estimate"}, {"Food": "Teh C kosong, 1 cup, Toast Box", "d": "2026-09-25", "Meal": "Lunch", "Calories": 40, "Protein": 1.5, "Carbs": 3, "Fat": 2.5, "Source": "Manual"}, {"Food": "1 slice white toast with butter and strawberry jam", "d": "2026-09-25", "Meal": "Snack", "Calories": 187, "Protein": 2.5, "Carbs": 24, "Fat": 9, "Source": "Claude estimate"}, {"Food": "Soya tea, regular, siew siew dai, Yakun", "d": "2026-09-25", "Meal": "Snack", "Calories": 90, "Protein": 4, "Carbs": 12, "Fat": 2.5, "Source": "Claude estimate"}, {"Food": "Fried chicken mid-joint wings, 3 pieces, Godmama", "d": "2026-09-25", "Meal": "Dinner", "Calories": 219, "Protein": 18, "Carbs": 3, "Fat": 15, "Source": "Claude estimate"}, {"Food": "Fried ngoh hiang, half serving (~3 pieces), with sweet dipping sauce, Godmama", "d": "2026-09-25", "Meal": "Dinner", "Calories": 263, "Protein": 15.1, "Carbs": 17, "Fat": 15, "Source": "Claude estimate"}, {"Food": "Cabbage stir fry (Gayathri banana leaf)", "d": "2026-09-26", "Meal": "Lunch", "Calories": 85, "Protein": 1.6, "Carbs": 4.8, "Fat": 6.6, "Source": "Claude estimate"}, {"Food": "Fish cutlet (Gayathri banana leaf)", "d": "2026-09-26", "Meal": "Lunch", "Calories": 236, "Protein": 8, "Carbs": 16, "Fat": 15.6, "Source": "Claude estimate"}, {"Food": "Beetroot & long bean stir fry (Gayathri banana leaf)", "d": "2026-09-26", "Meal": "Lunch", "Calories": 62, "Protein": 1.25, "Carbs": 5, "Fat": 4.125, "Source": "Claude estimate"}, {"Food": "Tahu sambal (Gayathri banana leaf)", "d": "2026-09-26", "Meal": "Lunch", "Calories": 155, "Protein": 6, "Carbs": 4, "Fat": 12.75, "Source": "Claude estimate"}, {"Food": "White rice (banana leaf, large scoop)", "d": "2026-09-26", "Meal": "Lunch", "Calories": 251, "Protein": 5.4, "Carbs": 56, "Fat": 0.6, "Source": "Claude estimate"}, {"Food": "Prawn sambal (Gayathri banana leaf)", "d": "2026-09-26", "Meal": "Lunch", "Calories": 57, "Protein": 2.2, "Carbs": 1.8, "Fat": 4.5, "Source": "Claude estimate"}, {"Food": "Gobi manchurian (Gayathri banana leaf)", "d": "2026-09-26", "Meal": "Lunch", "Calories": 127, "Protein": 1.5, "Carbs": 10, "Fat": 9, "Source": "Claude estimate"}, {"Food": "Chicken masala (Gayathri banana leaf)", "d": "2026-09-26", "Meal": "Lunch", "Calories": 189, "Protein": 12.8, "Carbs": 4.8, "Fat": 13.2, "Source": "Claude estimate"}, {"Food": "Meiji High Protein Milk, Banana flavour, 350ml", "d": "2026-09-26", "Meal": "Breakfast", "Calories": 176, "Protein": 31.2, "Carbs": 8.1, "Fat": 2.1, "Source": "Web match"}, {"Food": "Teh C Kosong (Yakun)", "d": "2026-09-27", "Meal": "Snack", "Calories": 66, "Protein": 3.2, "Carbs": 5.4, "Fat": 3.6, "Source": "Web match"}, {"Food": "Sliced fish soup w/ pork & fish meatballs (Hoover Fish Porridge)", "d": "2026-09-27", "Meal": "Dinner", "Calories": 303, "Protein": 37.8, "Carbs": 12.4, "Fat": 11.4, "Source": "Claude estimate"}, {"Food": "Black pepper chicken (stir-fry, no rice)", "d": "2026-09-27", "Meal": "Lunch", "Calories": 260, "Protein": 24.6, "Carbs": 10.9, "Fat": 13.1, "Source": "Claude estimate"}, {"Food": "Fried prawn omelette (1/3 portion)", "d": "2026-09-27", "Meal": "Lunch", "Calories": 241, "Protein": 20.1, "Carbs": 3.3, "Fat": 16.4, "Source": "Claude estimate"}, {"Food": "Stir-fried lala (clams), ~15 pieces", "d": "2026-09-27", "Meal": "Lunch", "Calories": 164, "Protein": 15.3, "Carbs": 5.1, "Fat": 9.2, "Source": "Claude estimate"}, {"Food": "White rice (half portion)", "d": "2026-09-27", "Meal": "Lunch", "Calories": 130, "Protein": 2.7, "Carbs": 28, "Fat": 0.3, "Source": "Claude estimate"}, {"Food": "Rokeby Choc Honeycomb Protein Smoothie", "d": "2026-09-27", "Meal": "Breakfast", "Calories": 253, "Protein": 30, "Carbs": 18.3, "Fat": 6.4, "Source": "Web match"}, {"Food": "Masala dosa x1, A2B", "d": "2026-09-28", "Meal": "Dinner", "Calories": 341, "Protein": 6.8, "Carbs": 49.1, "Fat": 13.1, "Source": "Claude estimate"}, {"Food": "Gong Bao chicken fillet, 1/2 serving (~110g chicken), Canton Paradise MBS", "d": "2026-09-28", "Meal": "Dinner", "Calories": 296, "Protein": 24, "Carbs": 14, "Fat": 16, "Source": "Claude estimate"}, {"Food": "Beancurd skin prawn fritter, 1/2 serving (3pcs), Canton Paradise MBS", "d": "2026-09-28", "Meal": "Dinner", "Calories": 199, "Protein": 16, "Carbs": 9, "Fat": 11, "Source": "Claude estimate"}, {"Food": "Ha kao (steamed prawn dumpling) x2, Canton Paradise MBS", "d": "2026-09-28", "Meal": "Dinner", "Calories": 107, "Protein": 7, "Carbs": 13, "Fat": 3, "Source": "Claude estimate"}, {"Food": "Meiji High Protein Milk, Banana flavour, 350ml", "d": "2026-09-28", "Meal": "Lunch", "Calories": 176, "Protein": 31.2, "Carbs": 8.1, "Fat": 2.1, "Source": "Web match"}, {"Food": "Teh C kosong, 1 cup, Toast Box", "d": "2026-09-28", "Meal": "Breakfast", "Calories": 40, "Protein": 1.5, "Carbs": 3, "Fat": 2.5, "Source": "Claude estimate"}, {"Food": "Otah, 120g (hawker)", "d": "2026-09-28", "Meal": "Snack", "Calories": 264, "Protein": 8, "Carbs": 16, "Fat": 18.7, "Source": "Claude estimate"}, {"Food": "Char kway teow, 1/2 plate, Kampung Admiralty hawker centre", "d": "2026-09-29", "Meal": "Dinner", "Calories": 371, "Protein": 11, "Carbs": 39, "Fat": 19, "Source": "Web match"}, {"Food": "Fried white carrot cake (chai tow kway), 3 tbsp (~60g), hawker", "d": "2026-09-29", "Meal": "Dinner", "Calories": 89, "Protein": 2.5, "Carbs": 8.5, "Fat": 5, "Source": "Claude estimate"}, {"Food": "Steamed chicken breast, skinless, ~60g (hawker)", "d": "2026-09-29", "Meal": "Dinner", "Calories": 99, "Protein": 18.6, "Carbs": 0.5, "Fat": 2.5, "Source": "Claude estimate"}, {"Food": "Snake gourd poriyal, ~60g (banana leaf)", "d": "2026-09-29", "Meal": "Lunch", "Calories": 44, "Protein": 1.2, "Carbs": 3, "Fat": 3, "Source": "Claude estimate"}, {"Food": "Kesari, 3 tbsp (~50g)", "d": "2026-09-29", "Meal": "Lunch", "Calories": 142, "Protein": 2, "Carbs": 20, "Fat": 6, "Source": "Claude estimate"}, {"Food": "Egg podimas (egg bhurji), ~80g (banana leaf)", "d": "2026-09-29", "Meal": "Lunch", "Calories": 142, "Protein": 9.6, "Carbs": 2.4, "Fat": 10.4, "Source": "Claude estimate"}, {"Food": "Breaded cauliflower (gobi 65/manchurian style), ~100g", "d": "2026-09-29", "Meal": "Lunch", "Calories": 200, "Protein": 3, "Carbs": 20, "Fat": 12, "Source": "Claude estimate"}, {"Food": "Pumpkin masala curry, ~60g (banana leaf)", "d": "2026-09-29", "Meal": "Lunch", "Calories": 50, "Protein": 0.9, "Carbs": 4.8, "Fat": 3, "Source": "Claude estimate"}, {"Food": "White rice, 150g eaten (banana leaf)", "d": "2026-09-29", "Meal": "Lunch", "Calories": 188, "Protein": 4.05, "Carbs": 42, "Fat": 0.45, "Source": "Claude estimate"}, {"Food": "Chicken 65, ~9 pieces (~200g), banana leaf", "d": "2026-09-29", "Meal": "Lunch", "Calories": 474, "Protein": 44, "Carbs": 16, "Fat": 26, "Source": "Claude estimate"}, {"Food": "Rokeby FitMilk low fat, 2 servings (450ml)", "d": "2026-09-29", "Meal": "Breakfast", "Calories": 194, "Protein": 23, "Carbs": 11.2, "Fat": 6.8, "Source": "Manual"}, {"Food": "Brinjal in sambal", "d": "2026-09-30", "Meal": "Dinner", "Calories": 95, "Protein": 1, "Carbs": 8, "Fat": 6.5, "Source": "Claude estimate"}, {"Food": "Red Rock Deli Sweet Chilli & Sour Cream chips (80% of 165g bag)", "d": "2026-09-30", "Meal": "Snack", "Calories": 634, "Protein": 10.4, "Carbs": 78.5, "Fat": 30.9, "Source": "Web match"}, {"Food": "White rice, cooked, 100g", "d": "2026-09-30", "Meal": "Dinner", "Calories": 126, "Protein": 2.7, "Carbs": 28.2, "Fat": 0.3, "Source": "Claude estimate"}, {"Food": "Orange juice x3 cups (airplane)", "d": "2026-09-30", "Meal": "Snack", "Calories": 208, "Protein": 3.2, "Carbs": 46.8, "Fat": 0.9, "Source": "Claude estimate"}, {"Food": "Supper: Vergeer Edam cheese, 20g", "d": "2026-09-30", "Meal": "Snack", "Calories": 71, "Protein": 5.2, "Carbs": 0, "Fat": 5.6, "Source": "Claude estimate"}, {"Food": "Prawns in sambal x6", "d": "2026-09-30", "Meal": "Dinner", "Calories": 185, "Protein": 20, "Carbs": 6, "Fat": 9, "Source": "Claude estimate"}, {"Food": "Tofu sothi curry", "d": "2026-09-30", "Meal": "Dinner", "Calories": 173, "Protein": 8, "Carbs": 6, "Fat": 13, "Source": "Claude estimate"}, {"Food": "Supper: airline sweet and sour fish", "d": "2026-09-30", "Meal": "Snack", "Calories": 222, "Protein": 16, "Carbs": 17, "Fat": 10, "Source": "Claude estimate"}, {"Food": "Supper: airline egg fried rice (~40% of tray)", "d": "2026-09-30", "Meal": "Snack", "Calories": 130, "Protein": 2.8, "Carbs": 22.4, "Fat": 3.2, "Source": "Claude estimate"}, {"Food": "Chicken wing in sambal x1", "d": "2026-09-30", "Meal": "Dinner", "Calories": 156, "Protein": 9, "Carbs": 3, "Fat": 12, "Source": "Claude estimate"}, {"Food": "Emmi Swiss Premium strawberry yogurt, 100g", "d": "2026-09-30", "Meal": "Lunch", "Calories": 94, "Protein": 4, "Carbs": 16, "Fat": 1.5, "Source": "Web match"}, {"Food": "Airline spinach with corn", "d": "2026-09-30", "Meal": "Lunch", "Calories": 0, "Protein": 0, "Carbs": 0, "Fat": 0, "Source": "Claude estimate"}, {"Food": "Airline scrambled eggs", "d": "2026-09-30", "Meal": "Lunch", "Calories": 116, "Protein": 7, "Carbs": 1.4, "Fat": 9.1, "Source": "Claude estimate"}, {"Food": "Airline hash brown patty", "d": "2026-09-30", "Meal": "Lunch", "Calories": 55, "Protein": 0.6, "Carbs": 6, "Fat": 3.2, "Source": "Claude estimate"}, {"Food": "Airline baked beans in tomato sauce", "d": "2026-09-30", "Meal": "Lunch", "Calories": 0, "Protein": 0, "Carbs": 0, "Fat": 0, "Source": "Claude estimate"}, {"Food": "Butter on airline eggs (~10g)", "d": "2026-09-30", "Meal": "Lunch", "Calories": 72, "Protein": 0.1, "Carbs": 0, "Fat": 8, "Source": "Claude estimate"}, {"Food": "Airline chicken sausage", "d": "2026-09-30", "Meal": "Lunch", "Calories": 112, "Protein": 8, "Carbs": 2, "Fat": 8, "Source": "Claude estimate"}, {"Food": "Soft boiled eggs x2", "d": "2026-09-30", "Meal": "Breakfast", "Calories": 144, "Protein": 12.6, "Carbs": 0.8, "Fat": 10, "Source": "Claude estimate"}, {"Food": "Teh C kosong, 200ml", "d": "2026-09-30", "Meal": "Breakfast", "Calories": 96, "Protein": 4.5, "Carbs": 7, "Fat": 5.5, "Source": "Claude estimate"}, {"Food": "Chicken curry gravy only, ~60ml, Heavenly Wang", "d": "2026-09-30", "Meal": "Breakfast", "Calories": 61, "Protein": 1, "Carbs": 3, "Fat": 5, "Source": "Claude estimate"}, {"Food": "Plain prata x1, Heavenly Wang", "d": "2026-09-30", "Meal": "Breakfast", "Calories": 194, "Protein": 4.5, "Carbs": 26, "Fat": 8, "Source": "Claude estimate"}, {"Food": "Love Dosa (Inverness): prawn curry, half portion", "d": "2026-10-01", "Meal": "Dinner", "Calories": 161, "Protein": 14, "Carbs": 6, "Fat": 9, "Source": "Claude estimate"}, {"Food": "Love Dosa (Inverness): parotta x1", "d": "2026-10-01", "Meal": "Dinner", "Calories": 292, "Protein": 6, "Carbs": 40, "Fat": 12, "Source": "Claude estimate"}, {"Food": "Love Dosa (Inverness): fried beef, half portion", "d": "2026-10-01", "Meal": "Dinner", "Calories": 225, "Protein": 22, "Carbs": 5, "Fat": 13, "Source": "Claude estimate"}, {"Food": "M&S chocolate éclair, 1 (75g)", "d": "2026-10-01", "Meal": "Snack", "Calories": 293, "Protein": 3.8, "Carbs": 21.7, "Fat": 20.9, "Source": "Manual"}, {"Food": "M&S chocolate protein milkshake, 235ml", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 143, "Protein": 20.7, "Carbs": 13.2, "Fat": 0.5, "Source": "Manual"}, {"Food": "Black tea with semi-skimmed milk, 200ml", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 14, "Protein": 1, "Carbs": 1.4, "Fat": 0.5, "Source": "Claude estimate"}, {"Food": "Sourdough toast, 1 slice", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 119, "Protein": 4.5, "Carbs": 24, "Fat": 0.6, "Source": "Claude estimate"}, {"Food": "Hotel scrambled eggs (~140g)", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 217, "Protein": 14, "Carbs": 2, "Fat": 17, "Source": "Claude estimate"}, {"Food": "Sunny side up egg (half eaten)", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 45, "Protein": 3.2, "Carbs": 0.2, "Fat": 3.5, "Source": "Claude estimate"}, {"Food": "Ketchup, ~1 tbsp", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 19, "Protein": 0.2, "Carbs": 4.5, "Fat": 0, "Source": "Claude estimate"}, {"Food": "Mini pork sausages x2 (hotel)", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 199, "Protein": 9.8, "Carbs": 2.1, "Fat": 16.8, "Source": "Claude estimate"}, {"Food": "Cherry tomatoes x2", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 7, "Protein": 0.3, "Carbs": 1.3, "Fat": 0.1, "Source": "Claude estimate"}, {"Food": "Bell pepper slices (~80g)", "d": "2026-10-01", "Meal": "Breakfast", "Calories": 23, "Protein": 0.8, "Carbs": 4.5, "Fat": 0.2, "Source": "Claude estimate"}, {"Food": "Snickers ice cream bar (1)", "d": "2026-10-02", "Meal": "Snack", "Calories": 172, "Protein": 3, "Carbs": 17, "Fat": 10, "Source": "Manual"}, {"Food": "Tesco Cajun chicken breast escalopes, oven roasted (300g)", "d": "2026-10-02", "Meal": "Dinner", "Calories": 432, "Protein": 72.6, "Carbs": 6.9, "Fat": 12.6, "Source": "Web match"}, {"Food": "Tomato ketchup (~20g)", "d": "2026-10-02", "Meal": "Dinner", "Calories": 19, "Protein": 0.1, "Carbs": 4.7, "Fat": 0, "Source": "Claude estimate"}, {"Food": "Black tea with whole milk, no sugar", "d": "2026-10-02", "Meal": "Snack", "Calories": 20, "Protein": 1, "Carbs": 1.4, "Fat": 1.1, "Source": "Claude estimate"}, {"Food": "M&S sugar ring doughnut (1)", "d": "2026-10-02", "Meal": "Snack", "Calories": 210, "Protein": 4.3, "Carbs": 27.5, "Fat": 8.9, "Source": "Web match"}, {"Food": "Rocpool main side: creamy puree/butter sauce", "d": "2026-10-02", "Meal": "Lunch", "Calories": 60, "Protein": 0.7, "Carbs": 3, "Fat": 5, "Source": "Claude estimate"}, {"Food": "Rocpool main side: pancetta lardons, peas, roasted hispi cabbage, crispy onion", "d": "2026-10-02", "Meal": "Lunch", "Calories": 128, "Protein": 6, "Carbs": 9, "Fat": 7.5, "Source": "Claude estimate"}, {"Food": "Rocpool main side: crispy fried polenta triangle (NOT EATEN)", "d": "2026-10-02", "Meal": "Lunch", "Calories": 0, "Protein": 0, "Carbs": 0, "Fat": 0, "Source": "Claude estimate"}, {"Food": "Rocpool main: pan seared pork cutlet", "d": "2026-10-02", "Meal": "Lunch", "Calories": 200, "Protein": 32, "Carbs": 0, "Fat": 8, "Source": "Claude estimate"}, {"Food": "Rocpool starter: king prawn, langoustine & clam tagliatelle in fennel bisque (small)", "d": "2026-10-02", "Meal": "Lunch", "Calories": 258, "Protein": 21.5, "Carbs": 26, "Fat": 7.5, "Source": "Claude estimate"}, {"Food": "Scrambled eggs (2) with milk, cooked in butter", "d": "2026-10-02", "Meal": "Breakfast", "Calories": 189, "Protein": 13, "Carbs": 1.5, "Fat": 14.5, "Source": "Claude estimate"}, {"Food": "Tesco hash brown (1 piece), pan fried in olive oil", "d": "2026-10-02", "Meal": "Breakfast", "Calories": 132, "Protein": 1.1, "Carbs": 9.5, "Fat": 10, "Source": "Web match"}, {"Food": "White toast (1 slice) with butter", "d": "2026-10-02", "Meal": "Breakfast", "Calories": 126, "Protein": 2.5, "Carbs": 14, "Fat": 6.7, "Source": "Claude estimate"}, {"Food": "Takeout pad thai noodles (~10% of bowl)", "d": "2026-10-03", "Meal": "Dinner", "Calories": 55, "Protein": 2.1, "Carbs": 7.7, "Fat": 1.8, "Source": "Claude estimate"}, {"Food": "King prawns, pad thai (5 pieces)", "d": "2026-10-03", "Meal": "Dinner", "Calories": 99, "Protein": 19.8, "Carbs": 0.9, "Fat": 1.8, "Source": "Claude estimate"}, {"Food": "Fried firm tofu (5 cubes)", "d": "2026-10-03", "Meal": "Dinner", "Calories": 266, "Protein": 17.6, "Carbs": 4.4, "Fat": 19.8, "Source": "Claude estimate"}, {"Food": "Tom kha kai chicken & mushroom soup (~150ml)", "d": "2026-10-03", "Meal": "Dinner", "Calories": 150, "Protein": 6, "Carbs": 4.5, "Fat": 12, "Source": "Claude estimate"}, {"Food": "Baked peach slices (2) & pomegranate seeds", "d": "2026-10-03", "Meal": "Lunch", "Calories": 55, "Protein": 0.9, "Carbs": 10.4, "Fat": 1.1, "Source": "Claude estimate"}, {"Food": "Steamed rice (~1/3 portion)", "d": "2026-10-03", "Meal": "Lunch", "Calories": 85, "Protein": 2, "Carbs": 18.8, "Fat": 0.2, "Source": "Claude estimate"}, {"Food": "Fried breaded calamari (10 pieces)", "d": "2026-10-03", "Meal": "Lunch", "Calories": 272, "Protein": 14.4, "Carbs": 24, "Fat": 13.2, "Source": "Claude estimate"}, {"Food": "Katsu fish goujons (5 pieces)", "d": "2026-10-03", "Meal": "Lunch", "Calories": 394, "Protein": 21.6, "Carbs": 32.4, "Fat": 19.8, "Source": "Claude estimate"}, {"Food": "Katsu curry sauce (~1/3 pot)", "d": "2026-10-03", "Meal": "Lunch", "Calories": 24, "Protein": 0.4, "Carbs": 3.2, "Fat": 1.1, "Source": "Claude estimate"}, {"Food": "Mayo chilli dipping sauce (~20g)", "d": "2026-10-03", "Meal": "Lunch", "Calories": 78, "Protein": 0.2, "Carbs": 1.2, "Fat": 8, "Source": "Claude estimate"}, {"Food": "Elderflower soda fizz (1/2 glass)", "d": "2026-10-03", "Meal": "Lunch", "Calories": 28, "Protein": 0, "Carbs": 7, "Fat": 0, "Source": "Claude estimate"}, {"Food": "Burrata (~1/3 ball)", "d": "2026-10-03", "Meal": "Lunch", "Calories": 117, "Protein": 5.9, "Carbs": 0.6, "Fat": 10.1, "Source": "Claude estimate"}, {"Food": "Arla Protein Chocolate Flavour Shake (250ml)", "d": "2026-10-03", "Meal": "Breakfast", "Calories": 183, "Protein": 20.3, "Carbs": 15.8, "Fat": 3, "Source": "Manual"}, {"Food": "2 soft boiled eggs", "d": "2026-10-03", "Meal": "Breakfast", "Calories": 144, "Protein": 12.6, "Carbs": 0.8, "Fat": 10, "Source": "Claude estimate"}, {"Food": "Nescafe 3in1 Original coffee (1 sachet)", "d": "2026-10-04", "Meal": "Snack", "Calories": 65, "Protein": 0.7, "Carbs": 11.8, "Fat": 1.8, "Source": "Web match"}, {"Food": "M&S chocolate chip brioche rolls (2)", "d": "2026-10-04", "Meal": "Snack", "Calories": 298, "Protein": 5.8, "Carbs": 31, "Fat": 12.2, "Source": "Manual"}, {"Food": "Birds Eye cod fish fingers (4), pan fried in olive oil", "d": "2026-10-04", "Meal": "Dinner", "Calories": 285, "Protein": 16, "Carbs": 21, "Fat": 15, "Source": "Manual"}, {"Food": "Tesco Beetroot & Feta Grain Bowl (minus discarded grains)", "d": "2026-10-04", "Meal": "Dinner", "Calories": 237, "Protein": 8.5, "Carbs": 34.7, "Fat": 6, "Source": "Manual"}, {"Food": "Grilled tomato (half)", "d": "2026-10-04", "Meal": "Lunch", "Calories": 16, "Protein": 0.5, "Carbs": 2.5, "Fat": 0.5, "Source": "Claude estimate"}, {"Food": "Battered onion rings (3)", "d": "2026-10-04", "Meal": "Lunch", "Calories": 264, "Protein": 3, "Carbs": 27, "Fat": 16, "Source": "Claude estimate"}, {"Food": "Sirloin steak, Fiddler's Highland (Loch Ness)", "d": "2026-10-04", "Meal": "Lunch", "Calories": 312, "Protein": 42, "Carbs": 0, "Fat": 16, "Source": "Claude estimate"}, {"Food": "Chunky chips (3)", "d": "2026-10-04", "Meal": "Lunch", "Calories": 274, "Protein": 3.5, "Carbs": 38, "Fat": 12, "Source": "Claude estimate"}, {"Food": "Grilled mushrooms (2)", "d": "2026-10-04", "Meal": "Lunch", "Calories": 33, "Protein": 1.5, "Carbs": 1, "Fat": 2.5, "Source": "Claude estimate"}, {"Food": "Illy latte with skimmed milk", "d": "2026-10-04", "Meal": "Snack", "Calories": 69, "Protein": 6.8, "Carbs": 10, "Fat": 0.2, "Source": "Claude estimate"}, {"Food": "White toast (1 slice) with butter", "d": "2026-10-04", "Meal": "Breakfast", "Calories": 126, "Protein": 2.5, "Carbs": 14, "Fat": 6.7, "Source": "Claude estimate"}, {"Food": "Arla Protein Peach & Raspberry Yogurt pouch (200g)", "d": "2026-10-04", "Meal": "Breakfast", "Calories": 140, "Protein": 20, "Carbs": 10.8, "Fat": 1.2, "Source": "Manual"}, {"Food": "2 soft boiled eggs", "d": "2026-10-04", "Meal": "Breakfast", "Calories": 144, "Protein": 12.6, "Carbs": 0.8, "Fat": 10, "Source": "Claude estimate"}], "acts": [{"Activity": "Daily steps", "d": "2026-09-22", "Type": "Steps", "mins": 0, "burnt": 220, "Steps": 11600, "Source": "MET calc"}, {"Activity": "Traditional Strength Training", "d": "2026-09-22", "Type": "Weightlifting", "mins": 20, "burnt": 89, "Steps": 0, "Source": "Device"}, {"Activity": "Daily steps", "d": "2026-09-23", "Type": "Steps", "mins": 0, "burnt": 246, "Steps": 13000, "Source": "MET calc"}, {"Activity": "Traditional Strength Training", "d": "2026-09-23", "Type": "Weightlifting", "mins": 33, "burnt": 145, "Steps": 0, "Source": "Device"}, {"Activity": "Yoga", "d": "2026-09-25", "Type": "Yoga", "mins": 62, "burnt": 155, "Steps": 0, "Source": "Device"}, {"Activity": "Daily steps", "d": "2026-09-25", "Type": "Steps", "mins": 0, "burnt": 237, "Steps": 12500, "Source": "MET calc"}, {"Activity": "Daily steps", "d": "2026-09-26", "Type": "Steps", "mins": 0, "burnt": 176, "Steps": 9300, "Source": "MET calc"}, {"Activity": "Yoga", "d": "2026-09-26", "Type": "Yoga", "mins": 61, "burnt": 180, "Steps": 0, "Source": "Device"}, {"Activity": "Daily steps", "d": "2026-09-27", "Type": "Steps", "mins": 0, "burnt": 271, "Steps": 14300, "Source": "MET calc"}, {"Activity": "Functional Strength Training", "d": "2026-09-27", "Type": "Weightlifting", "mins": 46, "burnt": 112, "Steps": 0, "Source": "Device"}, {"Activity": "Daily steps", "d": "2026-09-28", "Type": "Steps", "mins": 0, "burnt": 212, "Steps": 11200, "Source": "MET calc"}, {"Activity": "Daily steps", "d": "2026-09-29", "Type": "Steps", "mins": null, "burnt": 231, "Steps": 12200, "Source": "MET calc"}, {"Activity": "Daily steps", "d": "2026-09-30", "Type": "Steps", "mins": null, "burnt": 157, "Steps": 8300, "Source": "MET calc"}, {"Activity": "Daily steps", "d": "2026-10-01", "Type": "Steps", "mins": null, "burnt": 161, "Steps": 8500, "Source": "MET calc"}, {"Activity": "Functional strength training", "d": "2026-10-02", "Type": "Weightlifting", "mins": 24.6, "burnt": 66, "Steps": null, "Source": "Device"}, {"Activity": "Daily steps", "d": "2026-10-02", "Type": "Steps", "mins": null, "burnt": 167, "Steps": 8800, "Source": "MET calc"}, {"Activity": "Daily steps", "d": "2026-10-03", "Type": "Steps", "mins": null, "burnt": 212, "Steps": 11200, "Source": "MET calc"}, {"Activity": "Outdoor walk (Inverness)", "d": "2026-10-04", "Type": "Steps", "mins": 100, "burnt": 252, "Steps": null, "Source": "Device"}, {"Activity": "Daily steps", "d": "2026-10-04", "Type": "Steps", "mins": null, "burnt": 165, "Steps": 19000, "Source": "MET calc"}], "weight": [{"d": "2026-03-11", "kg": 67.5}, {"d": "2026-03-18", "kg": 66.7}, {"d": "2026-03-25", "kg": 65.4}, {"d": "2026-04-01", "kg": 65}, {"d": "2026-04-08", "kg": 64.3}, {"d": "2026-04-15", "kg": 64}, {"d": "2026-04-22", "kg": 64.2}, {"d": "2026-04-29", "kg": 63.6}, {"d": "2026-05-06", "kg": 63.1}, {"d": "2026-05-13", "kg": 62.4}, {"d": "2026-05-20", "kg": 62.4}, {"d": "2026-05-27", "kg": 62.2}, {"d": "2026-06-03", "kg": 61.7}, {"d": "2026-06-12", "kg": 61}, {"d": "2026-07-14", "kg": 61}, {"d": "2026-07-19", "kg": 59.8}, {"d": "2026-07-26", "kg": 59.8}, {"d": "2026-08-01", "kg": 57.8}, {"d": "2026-08-10", "kg": 58.5}, {"d": "2026-09-05", "kg": 56.8}, {"d": "2026-09-13", "kg": 56.8}, {"d": "2026-09-26", "kg": 56.9}]}
+{
+ "generated": "2026-10-06T07:17:23+08:00",
+ "today": "2026-10-06",
+ "food": [
+  {
+   "Food": "HomeSoy Sari Kedelai soya milk, 250ml (30% less sugar)",
+   "d": "2026-09-23",
+   "Meal": "Snack",
+   "Calories": 110,
+   "Protein": 5.8,
+   "Carbs": 12.8,
+   "Fat": 3.8,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Cooked yellow/butter rice, 50g, hawker chicken chop set",
+   "d": "2026-09-23",
+   "Meal": "Dinner",
+   "Calories": 75,
+   "Protein": 1.25,
+   "Carbs": 14,
+   "Fat": 1.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "French fries, 10 pieces (~55g), hawker",
+   "d": "2026-09-23",
+   "Meal": "Dinner",
+   "Calories": 172,
+   "Protein": 1.9,
+   "Carbs": 22.6,
+   "Fat": 8.25,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Black pepper sauce, 15g, hawker chicken chop",
+   "d": "2026-09-23",
+   "Meal": "Dinner",
+   "Calories": 18,
+   "Protein": 0.2,
+   "Carbs": 1.5,
+   "Fat": 1.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Air-fried shrimp, 120g, 0-cal seasoning, with 4g Lurpak salted butter",
+   "d": "2026-09-23",
+   "Meal": "Snack",
+   "Calories": 150,
+   "Protein": 28.8,
+   "Carbs": 0.3,
+   "Fat": 3.7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Teh C kosong, 1 cup, Toast Box",
+   "d": "2026-09-23",
+   "Meal": "Breakfast",
+   "Calories": 40,
+   "Protein": 1.5,
+   "Carbs": 3,
+   "Fat": 2.5,
+   "Source": "Manual"
+  },
+  {
+   "Food": "2 soft boiled eggs, Toast Box",
+   "d": "2026-09-23",
+   "Meal": "Breakfast",
+   "Calories": 151,
+   "Protein": 12.6,
+   "Carbs": 1.2,
+   "Fat": 10.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Air-fried tofu (tau kwa), 185g, NTUC FairPrice Reduced Sodium High Calcium",
+   "d": "2026-09-23",
+   "Meal": "Lunch",
+   "Calories": 216,
+   "Protein": 24.4,
+   "Carbs": 3.7,
+   "Fat": 12.4,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Cooked white rice, 55g",
+   "d": "2026-09-23",
+   "Meal": "Lunch",
+   "Calories": 69,
+   "Protein": 1.5,
+   "Carbs": 15.4,
+   "Fat": 0.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Vegetable curry (tomato/drumstick), 60g",
+   "d": "2026-09-23",
+   "Meal": "Lunch",
+   "Calories": 54,
+   "Protein": 1.2,
+   "Carbs": 4.8,
+   "Fat": 3.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Grilled chicken chop, no skin, 115g, hawker",
+   "d": "2026-09-23",
+   "Meal": "Dinner",
+   "Calories": 190,
+   "Protein": 35.7,
+   "Carbs": 0,
+   "Fat": 4.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Grilled white fish steak, skin-on, 130g",
+   "d": "2026-09-24",
+   "Meal": "Dinner",
+   "Calories": 194,
+   "Protein": 27.3,
+   "Carbs": 0.7,
+   "Fat": 9.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "French fries, 8 pieces (~44g)",
+   "d": "2026-09-24",
+   "Meal": "Dinner",
+   "Calories": 137,
+   "Protein": 1.5,
+   "Carbs": 18,
+   "Fat": 6.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Sweet chilli sauce, 20g",
+   "d": "2026-09-24",
+   "Meal": "Dinner",
+   "Calories": 37,
+   "Protein": 0.1,
+   "Carbs": 9,
+   "Fat": 0.05,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rokeby Farms Choc Honeycomb Protein Smoothie, 425ml",
+   "d": "2026-09-24",
+   "Meal": "Snack",
+   "Calories": 251,
+   "Protein": 30,
+   "Carbs": 18,
+   "Fat": 6,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Stir-fried tofu & prawn w/ egg, homemade, 87g",
+   "d": "2026-09-24",
+   "Meal": "Dinner",
+   "Calories": 131,
+   "Protein": 15,
+   "Carbs": 2,
+   "Fat": 7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "2 soft boil eggs, Toast Box",
+   "d": "2026-09-24",
+   "Meal": "Breakfast",
+   "Calories": 142,
+   "Protein": 12.6,
+   "Carbs": 1.5,
+   "Fat": 9.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Meiji High Protein Milk, Banana flavour, 350ml",
+   "d": "2026-09-24",
+   "Meal": "Breakfast",
+   "Calories": 176,
+   "Protein": 31.2,
+   "Carbs": 8.1,
+   "Fat": 2.1,
+   "Source": "Web match"
+  },
+  {
+   "Food": "1 teh c kosong, Toast Box",
+   "d": "2026-09-24",
+   "Meal": "Breakfast",
+   "Calories": 57,
+   "Protein": 3,
+   "Carbs": 4,
+   "Fat": 3.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Stir-fried bee hoon, homemade, 100g",
+   "d": "2026-09-24",
+   "Meal": "Dinner",
+   "Calories": 150,
+   "Protein": 2.5,
+   "Carbs": 26,
+   "Fat": 4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried tahu goreng, 2 pieces (~80g), with sweet peanut sauce, Godmama",
+   "d": "2026-09-25",
+   "Meal": "Dinner",
+   "Calories": 208,
+   "Protein": 11.6,
+   "Carbs": 11.2,
+   "Fat": 13,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Herb rice, 2 tablespoons (~22g), Godmama",
+   "d": "2026-09-25",
+   "Meal": "Dinner",
+   "Calories": 33,
+   "Protein": 0.7,
+   "Carbs": 6.2,
+   "Fat": 0.7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Beef pho, double portion sliced beef (8 slices) + half portion noodles, SoPho",
+   "d": "2026-09-25",
+   "Meal": "Lunch",
+   "Calories": 317,
+   "Protein": 30,
+   "Carbs": 26.5,
+   "Fat": 10.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Thumb brand (Thumbs Ngan Yin) roasted groundnuts, 2/3 pack (~80g of 120g pack)",
+   "d": "2026-09-25",
+   "Meal": "Snack",
+   "Calories": 448,
+   "Protein": 22.7,
+   "Carbs": 23.3,
+   "Fat": 29.3,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Fresh rice paper roll with sliced beef, half portion (1 roll) with dipping sauces",
+   "d": "2026-09-25",
+   "Meal": "Lunch",
+   "Calories": 120,
+   "Protein": 5.8,
+   "Carbs": 18.4,
+   "Fat": 2.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Teh C kosong, 1 cup, Toast Box",
+   "d": "2026-09-25",
+   "Meal": "Lunch",
+   "Calories": 40,
+   "Protein": 1.5,
+   "Carbs": 3,
+   "Fat": 2.5,
+   "Source": "Manual"
+  },
+  {
+   "Food": "1 slice white toast with butter and strawberry jam",
+   "d": "2026-09-25",
+   "Meal": "Snack",
+   "Calories": 187,
+   "Protein": 2.5,
+   "Carbs": 24,
+   "Fat": 9,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Soya tea, regular, siew siew dai, Yakun",
+   "d": "2026-09-25",
+   "Meal": "Snack",
+   "Calories": 90,
+   "Protein": 4,
+   "Carbs": 12,
+   "Fat": 2.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried chicken mid-joint wings, 3 pieces, Godmama",
+   "d": "2026-09-25",
+   "Meal": "Dinner",
+   "Calories": 219,
+   "Protein": 18,
+   "Carbs": 3,
+   "Fat": 15,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried ngoh hiang, half serving (~3 pieces), with sweet dipping sauce, Godmama",
+   "d": "2026-09-25",
+   "Meal": "Dinner",
+   "Calories": 263,
+   "Protein": 15.1,
+   "Carbs": 17,
+   "Fat": 15,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Cabbage stir fry (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 85,
+   "Protein": 1.6,
+   "Carbs": 4.8,
+   "Fat": 6.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fish cutlet (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 236,
+   "Protein": 8,
+   "Carbs": 16,
+   "Fat": 15.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Beetroot & long bean stir fry (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 62,
+   "Protein": 1.25,
+   "Carbs": 5,
+   "Fat": 4.125,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Tahu sambal (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 155,
+   "Protein": 6,
+   "Carbs": 4,
+   "Fat": 12.75,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "White rice (banana leaf, large scoop)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 251,
+   "Protein": 5.4,
+   "Carbs": 56,
+   "Fat": 0.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Prawn sambal (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 57,
+   "Protein": 2.2,
+   "Carbs": 1.8,
+   "Fat": 4.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Gobi manchurian (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 127,
+   "Protein": 1.5,
+   "Carbs": 10,
+   "Fat": 9,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chicken masala (Gayathri banana leaf)",
+   "d": "2026-09-26",
+   "Meal": "Lunch",
+   "Calories": 189,
+   "Protein": 12.8,
+   "Carbs": 4.8,
+   "Fat": 13.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Meiji High Protein Milk, Banana flavour, 350ml",
+   "d": "2026-09-26",
+   "Meal": "Breakfast",
+   "Calories": 176,
+   "Protein": 31.2,
+   "Carbs": 8.1,
+   "Fat": 2.1,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Teh C Kosong (Yakun)",
+   "d": "2026-09-27",
+   "Meal": "Snack",
+   "Calories": 66,
+   "Protein": 3.2,
+   "Carbs": 5.4,
+   "Fat": 3.6,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Sliced fish soup w/ pork & fish meatballs (Hoover Fish Porridge)",
+   "d": "2026-09-27",
+   "Meal": "Dinner",
+   "Calories": 303,
+   "Protein": 37.8,
+   "Carbs": 12.4,
+   "Fat": 11.4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Black pepper chicken (stir-fry, no rice)",
+   "d": "2026-09-27",
+   "Meal": "Lunch",
+   "Calories": 260,
+   "Protein": 24.6,
+   "Carbs": 10.9,
+   "Fat": 13.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried prawn omelette (1/3 portion)",
+   "d": "2026-09-27",
+   "Meal": "Lunch",
+   "Calories": 241,
+   "Protein": 20.1,
+   "Carbs": 3.3,
+   "Fat": 16.4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Stir-fried lala (clams), ~15 pieces",
+   "d": "2026-09-27",
+   "Meal": "Lunch",
+   "Calories": 164,
+   "Protein": 15.3,
+   "Carbs": 5.1,
+   "Fat": 9.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "White rice (half portion)",
+   "d": "2026-09-27",
+   "Meal": "Lunch",
+   "Calories": 130,
+   "Protein": 2.7,
+   "Carbs": 28,
+   "Fat": 0.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rokeby Choc Honeycomb Protein Smoothie",
+   "d": "2026-09-27",
+   "Meal": "Breakfast",
+   "Calories": 253,
+   "Protein": 30,
+   "Carbs": 18.3,
+   "Fat": 6.4,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Masala dosa x1, A2B",
+   "d": "2026-09-28",
+   "Meal": "Dinner",
+   "Calories": 341,
+   "Protein": 6.8,
+   "Carbs": 49.1,
+   "Fat": 13.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Gong Bao chicken fillet, 1/2 serving (~110g chicken), Canton Paradise MBS",
+   "d": "2026-09-28",
+   "Meal": "Dinner",
+   "Calories": 296,
+   "Protein": 24,
+   "Carbs": 14,
+   "Fat": 16,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Beancurd skin prawn fritter, 1/2 serving (3pcs), Canton Paradise MBS",
+   "d": "2026-09-28",
+   "Meal": "Dinner",
+   "Calories": 199,
+   "Protein": 16,
+   "Carbs": 9,
+   "Fat": 11,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Ha kao (steamed prawn dumpling) x2, Canton Paradise MBS",
+   "d": "2026-09-28",
+   "Meal": "Dinner",
+   "Calories": 107,
+   "Protein": 7,
+   "Carbs": 13,
+   "Fat": 3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Meiji High Protein Milk, Banana flavour, 350ml",
+   "d": "2026-09-28",
+   "Meal": "Lunch",
+   "Calories": 176,
+   "Protein": 31.2,
+   "Carbs": 8.1,
+   "Fat": 2.1,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Teh C kosong, 1 cup, Toast Box",
+   "d": "2026-09-28",
+   "Meal": "Breakfast",
+   "Calories": 40,
+   "Protein": 1.5,
+   "Carbs": 3,
+   "Fat": 2.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Otah, 120g (hawker)",
+   "d": "2026-09-28",
+   "Meal": "Snack",
+   "Calories": 264,
+   "Protein": 8,
+   "Carbs": 16,
+   "Fat": 18.7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Char kway teow, 1/2 plate, Kampung Admiralty hawker centre",
+   "d": "2026-09-29",
+   "Meal": "Dinner",
+   "Calories": 371,
+   "Protein": 11,
+   "Carbs": 39,
+   "Fat": 19,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Fried white carrot cake (chai tow kway), 3 tbsp (~60g), hawker",
+   "d": "2026-09-29",
+   "Meal": "Dinner",
+   "Calories": 89,
+   "Protein": 2.5,
+   "Carbs": 8.5,
+   "Fat": 5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Steamed chicken breast, skinless, ~60g (hawker)",
+   "d": "2026-09-29",
+   "Meal": "Dinner",
+   "Calories": 99,
+   "Protein": 18.6,
+   "Carbs": 0.5,
+   "Fat": 2.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Snake gourd poriyal, ~60g (banana leaf)",
+   "d": "2026-09-29",
+   "Meal": "Lunch",
+   "Calories": 44,
+   "Protein": 1.2,
+   "Carbs": 3,
+   "Fat": 3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Kesari, 3 tbsp (~50g)",
+   "d": "2026-09-29",
+   "Meal": "Lunch",
+   "Calories": 142,
+   "Protein": 2,
+   "Carbs": 20,
+   "Fat": 6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Egg podimas (egg bhurji), ~80g (banana leaf)",
+   "d": "2026-09-29",
+   "Meal": "Lunch",
+   "Calories": 142,
+   "Protein": 9.6,
+   "Carbs": 2.4,
+   "Fat": 10.4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Breaded cauliflower (gobi 65/manchurian style), ~100g",
+   "d": "2026-09-29",
+   "Meal": "Lunch",
+   "Calories": 200,
+   "Protein": 3,
+   "Carbs": 20,
+   "Fat": 12,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Pumpkin masala curry, ~60g (banana leaf)",
+   "d": "2026-09-29",
+   "Meal": "Lunch",
+   "Calories": 50,
+   "Protein": 0.9,
+   "Carbs": 4.8,
+   "Fat": 3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "White rice, 150g eaten (banana leaf)",
+   "d": "2026-09-29",
+   "Meal": "Lunch",
+   "Calories": 188,
+   "Protein": 4.05,
+   "Carbs": 42,
+   "Fat": 0.45,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chicken 65, ~9 pieces (~200g), banana leaf",
+   "d": "2026-09-29",
+   "Meal": "Lunch",
+   "Calories": 474,
+   "Protein": 44,
+   "Carbs": 16,
+   "Fat": 26,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rokeby FitMilk low fat, 2 servings (450ml)",
+   "d": "2026-09-29",
+   "Meal": "Breakfast",
+   "Calories": 194,
+   "Protein": 23,
+   "Carbs": 11.2,
+   "Fat": 6.8,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Brinjal in sambal",
+   "d": "2026-09-30",
+   "Meal": "Dinner",
+   "Calories": 95,
+   "Protein": 1,
+   "Carbs": 8,
+   "Fat": 6.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Red Rock Deli Sweet Chilli & Sour Cream chips (80% of 165g bag)",
+   "d": "2026-09-30",
+   "Meal": "Snack",
+   "Calories": 634,
+   "Protein": 10.4,
+   "Carbs": 78.5,
+   "Fat": 30.9,
+   "Source": "Web match"
+  },
+  {
+   "Food": "White rice, cooked, 100g",
+   "d": "2026-09-30",
+   "Meal": "Dinner",
+   "Calories": 126,
+   "Protein": 2.7,
+   "Carbs": 28.2,
+   "Fat": 0.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Orange juice x3 cups (airplane)",
+   "d": "2026-09-30",
+   "Meal": "Snack",
+   "Calories": 208,
+   "Protein": 3.2,
+   "Carbs": 46.8,
+   "Fat": 0.9,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Supper: Vergeer Edam cheese, 20g",
+   "d": "2026-09-30",
+   "Meal": "Snack",
+   "Calories": 71,
+   "Protein": 5.2,
+   "Carbs": 0,
+   "Fat": 5.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Prawns in sambal x6",
+   "d": "2026-09-30",
+   "Meal": "Dinner",
+   "Calories": 185,
+   "Protein": 20,
+   "Carbs": 6,
+   "Fat": 9,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Tofu sothi curry",
+   "d": "2026-09-30",
+   "Meal": "Dinner",
+   "Calories": 173,
+   "Protein": 8,
+   "Carbs": 6,
+   "Fat": 13,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Supper: airline sweet and sour fish",
+   "d": "2026-09-30",
+   "Meal": "Snack",
+   "Calories": 222,
+   "Protein": 16,
+   "Carbs": 17,
+   "Fat": 10,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Supper: airline egg fried rice (~40% of tray)",
+   "d": "2026-09-30",
+   "Meal": "Snack",
+   "Calories": 130,
+   "Protein": 2.8,
+   "Carbs": 22.4,
+   "Fat": 3.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chicken wing in sambal x1",
+   "d": "2026-09-30",
+   "Meal": "Dinner",
+   "Calories": 156,
+   "Protein": 9,
+   "Carbs": 3,
+   "Fat": 12,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Emmi Swiss Premium strawberry yogurt, 100g",
+   "d": "2026-09-30",
+   "Meal": "Lunch",
+   "Calories": 94,
+   "Protein": 4,
+   "Carbs": 16,
+   "Fat": 1.5,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Airline spinach with corn",
+   "d": "2026-09-30",
+   "Meal": "Lunch",
+   "Calories": 0,
+   "Protein": 0,
+   "Carbs": 0,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Airline scrambled eggs",
+   "d": "2026-09-30",
+   "Meal": "Lunch",
+   "Calories": 116,
+   "Protein": 7,
+   "Carbs": 1.4,
+   "Fat": 9.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Airline hash brown patty",
+   "d": "2026-09-30",
+   "Meal": "Lunch",
+   "Calories": 55,
+   "Protein": 0.6,
+   "Carbs": 6,
+   "Fat": 3.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Airline baked beans in tomato sauce",
+   "d": "2026-09-30",
+   "Meal": "Lunch",
+   "Calories": 0,
+   "Protein": 0,
+   "Carbs": 0,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Butter on airline eggs (~10g)",
+   "d": "2026-09-30",
+   "Meal": "Lunch",
+   "Calories": 72,
+   "Protein": 0.1,
+   "Carbs": 0,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Airline chicken sausage",
+   "d": "2026-09-30",
+   "Meal": "Lunch",
+   "Calories": 112,
+   "Protein": 8,
+   "Carbs": 2,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Soft boiled eggs x2",
+   "d": "2026-09-30",
+   "Meal": "Breakfast",
+   "Calories": 144,
+   "Protein": 12.6,
+   "Carbs": 0.8,
+   "Fat": 10,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Teh C kosong, 200ml",
+   "d": "2026-09-30",
+   "Meal": "Breakfast",
+   "Calories": 96,
+   "Protein": 4.5,
+   "Carbs": 7,
+   "Fat": 5.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chicken curry gravy only, ~60ml, Heavenly Wang",
+   "d": "2026-09-30",
+   "Meal": "Breakfast",
+   "Calories": 61,
+   "Protein": 1,
+   "Carbs": 3,
+   "Fat": 5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Plain prata x1, Heavenly Wang",
+   "d": "2026-09-30",
+   "Meal": "Breakfast",
+   "Calories": 194,
+   "Protein": 4.5,
+   "Carbs": 26,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Love Dosa (Inverness): prawn curry, half portion",
+   "d": "2026-10-01",
+   "Meal": "Dinner",
+   "Calories": 161,
+   "Protein": 14,
+   "Carbs": 6,
+   "Fat": 9,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Love Dosa (Inverness): parotta x1",
+   "d": "2026-10-01",
+   "Meal": "Dinner",
+   "Calories": 292,
+   "Protein": 6,
+   "Carbs": 40,
+   "Fat": 12,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Love Dosa (Inverness): fried beef, half portion",
+   "d": "2026-10-01",
+   "Meal": "Dinner",
+   "Calories": 225,
+   "Protein": 22,
+   "Carbs": 5,
+   "Fat": 13,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "M&S chocolate éclair, 1 (75g)",
+   "d": "2026-10-01",
+   "Meal": "Snack",
+   "Calories": 293,
+   "Protein": 3.8,
+   "Carbs": 21.7,
+   "Fat": 20.9,
+   "Source": "Manual"
+  },
+  {
+   "Food": "M&S chocolate protein milkshake, 235ml",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 143,
+   "Protein": 20.7,
+   "Carbs": 13.2,
+   "Fat": 0.5,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Black tea with semi-skimmed milk, 200ml",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 14,
+   "Protein": 1,
+   "Carbs": 1.4,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Sourdough toast, 1 slice",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 119,
+   "Protein": 4.5,
+   "Carbs": 24,
+   "Fat": 0.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Hotel scrambled eggs (~140g)",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 217,
+   "Protein": 14,
+   "Carbs": 2,
+   "Fat": 17,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Sunny side up egg (half eaten)",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 45,
+   "Protein": 3.2,
+   "Carbs": 0.2,
+   "Fat": 3.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Ketchup, ~1 tbsp",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 19,
+   "Protein": 0.2,
+   "Carbs": 4.5,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Mini pork sausages x2 (hotel)",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 199,
+   "Protein": 9.8,
+   "Carbs": 2.1,
+   "Fat": 16.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Cherry tomatoes x2",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 7,
+   "Protein": 0.3,
+   "Carbs": 1.3,
+   "Fat": 0.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Bell pepper slices (~80g)",
+   "d": "2026-10-01",
+   "Meal": "Breakfast",
+   "Calories": 23,
+   "Protein": 0.8,
+   "Carbs": 4.5,
+   "Fat": 0.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Snickers ice cream bar (1)",
+   "d": "2026-10-02",
+   "Meal": "Snack",
+   "Calories": 172,
+   "Protein": 3,
+   "Carbs": 17,
+   "Fat": 10,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Tesco Cajun chicken breast escalopes, oven roasted (300g)",
+   "d": "2026-10-02",
+   "Meal": "Dinner",
+   "Calories": 432,
+   "Protein": 72.6,
+   "Carbs": 6.9,
+   "Fat": 12.6,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Tomato ketchup (~20g)",
+   "d": "2026-10-02",
+   "Meal": "Dinner",
+   "Calories": 19,
+   "Protein": 0.1,
+   "Carbs": 4.7,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Black tea with whole milk, no sugar",
+   "d": "2026-10-02",
+   "Meal": "Snack",
+   "Calories": 20,
+   "Protein": 1,
+   "Carbs": 1.4,
+   "Fat": 1.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "M&S sugar ring doughnut (1)",
+   "d": "2026-10-02",
+   "Meal": "Snack",
+   "Calories": 210,
+   "Protein": 4.3,
+   "Carbs": 27.5,
+   "Fat": 8.9,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Rocpool main side: creamy puree/butter sauce",
+   "d": "2026-10-02",
+   "Meal": "Lunch",
+   "Calories": 60,
+   "Protein": 0.7,
+   "Carbs": 3,
+   "Fat": 5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rocpool main side: pancetta lardons, peas, roasted hispi cabbage, crispy onion",
+   "d": "2026-10-02",
+   "Meal": "Lunch",
+   "Calories": 128,
+   "Protein": 6,
+   "Carbs": 9,
+   "Fat": 7.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rocpool main side: crispy fried polenta triangle (NOT EATEN)",
+   "d": "2026-10-02",
+   "Meal": "Lunch",
+   "Calories": 0,
+   "Protein": 0,
+   "Carbs": 0,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rocpool main: pan seared pork cutlet",
+   "d": "2026-10-02",
+   "Meal": "Lunch",
+   "Calories": 200,
+   "Protein": 32,
+   "Carbs": 0,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rocpool starter: king prawn, langoustine & clam tagliatelle in fennel bisque (small)",
+   "d": "2026-10-02",
+   "Meal": "Lunch",
+   "Calories": 258,
+   "Protein": 21.5,
+   "Carbs": 26,
+   "Fat": 7.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Scrambled eggs (2) with milk, cooked in butter",
+   "d": "2026-10-02",
+   "Meal": "Breakfast",
+   "Calories": 189,
+   "Protein": 13,
+   "Carbs": 1.5,
+   "Fat": 14.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Tesco hash brown (1 piece), pan fried in olive oil",
+   "d": "2026-10-02",
+   "Meal": "Breakfast",
+   "Calories": 132,
+   "Protein": 1.1,
+   "Carbs": 9.5,
+   "Fat": 10,
+   "Source": "Web match"
+  },
+  {
+   "Food": "White toast (1 slice) with butter",
+   "d": "2026-10-02",
+   "Meal": "Breakfast",
+   "Calories": 126,
+   "Protein": 2.5,
+   "Carbs": 14,
+   "Fat": 6.7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Takeout pad thai noodles (~10% of bowl)",
+   "d": "2026-10-03",
+   "Meal": "Dinner",
+   "Calories": 55,
+   "Protein": 2.1,
+   "Carbs": 7.7,
+   "Fat": 1.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "King prawns, pad thai (5 pieces)",
+   "d": "2026-10-03",
+   "Meal": "Dinner",
+   "Calories": 99,
+   "Protein": 19.8,
+   "Carbs": 0.9,
+   "Fat": 1.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried firm tofu (5 cubes)",
+   "d": "2026-10-03",
+   "Meal": "Dinner",
+   "Calories": 266,
+   "Protein": 17.6,
+   "Carbs": 4.4,
+   "Fat": 19.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Tom kha kai chicken & mushroom soup (~150ml)",
+   "d": "2026-10-03",
+   "Meal": "Dinner",
+   "Calories": 150,
+   "Protein": 6,
+   "Carbs": 4.5,
+   "Fat": 12,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Baked peach slices (2) & pomegranate seeds",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 55,
+   "Protein": 0.9,
+   "Carbs": 10.4,
+   "Fat": 1.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Steamed rice (~1/3 portion)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 85,
+   "Protein": 2,
+   "Carbs": 18.8,
+   "Fat": 0.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried breaded calamari (10 pieces)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 272,
+   "Protein": 14.4,
+   "Carbs": 24,
+   "Fat": 13.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Katsu fish goujons (5 pieces)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 394,
+   "Protein": 21.6,
+   "Carbs": 32.4,
+   "Fat": 19.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Katsu curry sauce (~1/3 pot)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 24,
+   "Protein": 0.4,
+   "Carbs": 3.2,
+   "Fat": 1.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Mayo chilli dipping sauce (~20g)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 78,
+   "Protein": 0.2,
+   "Carbs": 1.2,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Elderflower soda fizz (1/2 glass)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 28,
+   "Protein": 0,
+   "Carbs": 7,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Burrata (~1/3 ball)",
+   "d": "2026-10-03",
+   "Meal": "Lunch",
+   "Calories": 117,
+   "Protein": 5.9,
+   "Carbs": 0.6,
+   "Fat": 10.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Arla Protein Chocolate Flavour Shake (250ml)",
+   "d": "2026-10-03",
+   "Meal": "Breakfast",
+   "Calories": 183,
+   "Protein": 20.3,
+   "Carbs": 15.8,
+   "Fat": 3,
+   "Source": "Manual"
+  },
+  {
+   "Food": "2 soft boiled eggs",
+   "d": "2026-10-03",
+   "Meal": "Breakfast",
+   "Calories": 144,
+   "Protein": 12.6,
+   "Carbs": 0.8,
+   "Fat": 10,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Nescafe 3in1 Original coffee (1 sachet)",
+   "d": "2026-10-04",
+   "Meal": "Snack",
+   "Calories": 65,
+   "Protein": 0.7,
+   "Carbs": 11.8,
+   "Fat": 1.8,
+   "Source": "Web match"
+  },
+  {
+   "Food": "M&S chocolate chip brioche rolls (2)",
+   "d": "2026-10-04",
+   "Meal": "Snack",
+   "Calories": 298,
+   "Protein": 5.8,
+   "Carbs": 31,
+   "Fat": 12.2,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Birds Eye cod fish fingers (4), pan fried in olive oil",
+   "d": "2026-10-04",
+   "Meal": "Dinner",
+   "Calories": 285,
+   "Protein": 16,
+   "Carbs": 21,
+   "Fat": 15,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Tesco Beetroot & Feta Grain Bowl (minus discarded grains)",
+   "d": "2026-10-04",
+   "Meal": "Dinner",
+   "Calories": 237,
+   "Protein": 8.5,
+   "Carbs": 34.7,
+   "Fat": 6,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Grilled tomato (half)",
+   "d": "2026-10-04",
+   "Meal": "Lunch",
+   "Calories": 16,
+   "Protein": 0.5,
+   "Carbs": 2.5,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Battered onion rings (3)",
+   "d": "2026-10-04",
+   "Meal": "Lunch",
+   "Calories": 264,
+   "Protein": 3,
+   "Carbs": 27,
+   "Fat": 16,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Sirloin steak, Fiddler's Highland (Loch Ness)",
+   "d": "2026-10-04",
+   "Meal": "Lunch",
+   "Calories": 312,
+   "Protein": 42,
+   "Carbs": 0,
+   "Fat": 16,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chunky chips (3)",
+   "d": "2026-10-04",
+   "Meal": "Lunch",
+   "Calories": 274,
+   "Protein": 3.5,
+   "Carbs": 38,
+   "Fat": 12,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Grilled mushrooms (2)",
+   "d": "2026-10-04",
+   "Meal": "Lunch",
+   "Calories": 33,
+   "Protein": 1.5,
+   "Carbs": 1,
+   "Fat": 2.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Illy latte with skimmed milk",
+   "d": "2026-10-04",
+   "Meal": "Snack",
+   "Calories": 69,
+   "Protein": 6.8,
+   "Carbs": 10,
+   "Fat": 0.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "White toast (1 slice) with butter",
+   "d": "2026-10-04",
+   "Meal": "Breakfast",
+   "Calories": 126,
+   "Protein": 2.5,
+   "Carbs": 14,
+   "Fat": 6.7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Arla Protein Peach & Raspberry Yogurt pouch (200g)",
+   "d": "2026-10-04",
+   "Meal": "Breakfast",
+   "Calories": 140,
+   "Protein": 20,
+   "Carbs": 10.8,
+   "Fat": 1.2,
+   "Source": "Manual"
+  },
+  {
+   "Food": "2 soft boiled eggs",
+   "d": "2026-10-04",
+   "Meal": "Breakfast",
+   "Calories": 144,
+   "Protein": 12.6,
+   "Carbs": 0.8,
+   "Fat": 10,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Innocent Smooth Orange Juice (200ml)",
+   "d": "2026-10-05",
+   "Meal": "Snack",
+   "Calories": 72,
+   "Protein": 1.4,
+   "Carbs": 15.6,
+   "Fat": 0,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Tomato ketchup (~25g) with chicken",
+   "d": "2026-10-05",
+   "Meal": "Dinner",
+   "Calories": 25.3,
+   "Protein": 0.3,
+   "Carbs": 5.8,
+   "Fat": 0.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Tesco Cajun Chicken Escalopes, cooked (~150g)",
+   "d": "2026-10-05",
+   "Meal": "Dinner",
+   "Calories": 214.5,
+   "Protein": 36.8,
+   "Carbs": 2.9,
+   "Fat": 6,
+   "Source": "Manual"
+  },
+  {
+   "Food": "M&S Chilli & Coriander King Prawns (130g pot)",
+   "d": "2026-10-05",
+   "Meal": "Snack",
+   "Calories": 112,
+   "Protein": 14.2,
+   "Carbs": 4.8,
+   "Fat": 3.3,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Vanilla gelato, about half scoop (~43g), Miele's Gelateria",
+   "d": "2026-10-05",
+   "Meal": "Snack",
+   "Calories": 78,
+   "Protein": 1.5,
+   "Carbs": 9,
+   "Fat": 4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Butter waffle, about half (~35g), Miele's Gelateria",
+   "d": "2026-10-05",
+   "Meal": "Snack",
+   "Calories": 125.5,
+   "Protein": 2.5,
+   "Carbs": 16.5,
+   "Fat": 5.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Beef curry: 12 beef pieces with clinging sauce",
+   "d": "2026-10-05",
+   "Meal": "Lunch",
+   "Calories": 295,
+   "Protein": 39.6,
+   "Carbs": 1.8,
+   "Fat": 14.4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Naan, 1 piece (~40g) with curry sauce",
+   "d": "2026-10-05",
+   "Meal": "Lunch",
+   "Calories": 133,
+   "Protein": 4,
+   "Carbs": 21.2,
+   "Fat": 3.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Arla Protein yogurt, peach & raspberry (200g pouch)",
+   "d": "2026-10-05",
+   "Meal": "Snack",
+   "Calories": 140,
+   "Protein": 20,
+   "Carbs": 10.8,
+   "Fat": 1.2,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Black tea with splash of milk",
+   "d": "2026-10-05",
+   "Meal": "Breakfast",
+   "Calories": 9.3,
+   "Protein": 0.5,
+   "Carbs": 0.7,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Butter spread on toast",
+   "d": "2026-10-05",
+   "Meal": "Breakfast",
+   "Calories": 36,
+   "Protein": 0,
+   "Carbs": 0,
+   "Fat": 4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "White bread, roasted (1 slice)",
+   "d": "2026-10-05",
+   "Meal": "Breakfast",
+   "Calories": 77,
+   "Protein": 2.5,
+   "Carbs": 14.5,
+   "Fat": 1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "2 soft boiled eggs",
+   "d": "2026-10-05",
+   "Meal": "Breakfast",
+   "Calories": 140,
+   "Protein": 12.6,
+   "Carbs": 0.8,
+   "Fat": 9.6,
+   "Source": "Claude estimate"
+  }
+ ],
+ "acts": [
+  {
+   "Activity": "Daily steps",
+   "d": "2026-09-23",
+   "Type": "Steps",
+   "mins": 0,
+   "burnt": 246,
+   "Steps": 13000,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Traditional Strength Training",
+   "d": "2026-09-23",
+   "Type": "Weightlifting",
+   "mins": 33,
+   "burnt": 145,
+   "Steps": 0,
+   "Source": "Device"
+  },
+  {
+   "Activity": "Yoga",
+   "d": "2026-09-25",
+   "Type": "Yoga",
+   "mins": 62,
+   "burnt": 155,
+   "Steps": 0,
+   "Source": "Device"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-09-25",
+   "Type": "Steps",
+   "mins": 0,
+   "burnt": 237,
+   "Steps": 12500,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-09-26",
+   "Type": "Steps",
+   "mins": 0,
+   "burnt": 176,
+   "Steps": 9300,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Yoga",
+   "d": "2026-09-26",
+   "Type": "Yoga",
+   "mins": 61,
+   "burnt": 180,
+   "Steps": 0,
+   "Source": "Device"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-09-27",
+   "Type": "Steps",
+   "mins": 0,
+   "burnt": 271,
+   "Steps": 14300,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Functional Strength Training",
+   "d": "2026-09-27",
+   "Type": "Weightlifting",
+   "mins": 46,
+   "burnt": 112,
+   "Steps": 0,
+   "Source": "Device"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-09-28",
+   "Type": "Steps",
+   "mins": 0,
+   "burnt": 212,
+   "Steps": 11200,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-09-29",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 231,
+   "Steps": 12200,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-09-30",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 157,
+   "Steps": 8300,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-01",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 161,
+   "Steps": 8500,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Functional strength training",
+   "d": "2026-10-02",
+   "Type": "Weightlifting",
+   "mins": 24.6,
+   "burnt": 66,
+   "Steps": null,
+   "Source": "Device"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-02",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 167,
+   "Steps": 8800,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-03",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 212,
+   "Steps": 11200,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Outdoor walk (Inverness)",
+   "d": "2026-10-04",
+   "Type": "Steps",
+   "mins": 100,
+   "burnt": 252,
+   "Steps": null,
+   "Source": "Device"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-04",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 165,
+   "Steps": 19000,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-05",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 137,
+   "Steps": 15000,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Outdoor walk (Inverness)",
+   "d": "2026-10-05",
+   "Type": "Steps",
+   "mins": 85.7,
+   "burnt": 206,
+   "Steps": null,
+   "Source": "Device"
+  }
+ ],
+ "weight": [
+  {
+   "d": "2026-03-11",
+   "kg": 67.5
+  },
+  {
+   "d": "2026-03-18",
+   "kg": 66.7
+  },
+  {
+   "d": "2026-03-25",
+   "kg": 65.4
+  },
+  {
+   "d": "2026-04-01",
+   "kg": 65
+  },
+  {
+   "d": "2026-04-08",
+   "kg": 64.3
+  },
+  {
+   "d": "2026-04-15",
+   "kg": 64
+  },
+  {
+   "d": "2026-04-22",
+   "kg": 64.2
+  },
+  {
+   "d": "2026-04-29",
+   "kg": 63.6
+  },
+  {
+   "d": "2026-05-06",
+   "kg": 63.1
+  },
+  {
+   "d": "2026-05-13",
+   "kg": 62.4
+  },
+  {
+   "d": "2026-05-20",
+   "kg": 62.4
+  },
+  {
+   "d": "2026-05-27",
+   "kg": 62.2
+  },
+  {
+   "d": "2026-06-03",
+   "kg": 61.7
+  },
+  {
+   "d": "2026-06-12",
+   "kg": 61
+  },
+  {
+   "d": "2026-07-14",
+   "kg": 61
+  },
+  {
+   "d": "2026-07-19",
+   "kg": 59.8
+  },
+  {
+   "d": "2026-07-26",
+   "kg": 59.8
+  },
+  {
+   "d": "2026-08-01",
+   "kg": 57.8
+  },
+  {
+   "d": "2026-08-10",
+   "kg": 58.5
+  },
+  {
+   "d": "2026-09-05",
+   "kg": 56.8
+  },
+  {
+   "d": "2026-09-13",
+   "kg": 56.8
+  },
+  {
+   "d": "2026-09-26",
+   "kg": 56.9
+  }
+ ]
+}
