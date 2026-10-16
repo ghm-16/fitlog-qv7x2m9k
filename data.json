@@ -1,147 +1,7 @@
 {
- "generated": "2026-10-16T07:17:22+08:00",
- "today": "2026-10-16",
+ "generated": "2026-10-17T07:16:50+08:00",
+ "today": "2026-10-17",
  "food": [
-  {
-   "Food": "Takeout pad thai noodles (~10% of bowl)",
-   "d": "2026-10-03",
-   "Meal": "Dinner",
-   "Calories": 55,
-   "Protein": 2.1,
-   "Carbs": 7.7,
-   "Fat": 1.8,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "King prawns, pad thai (5 pieces)",
-   "d": "2026-10-03",
-   "Meal": "Dinner",
-   "Calories": 99,
-   "Protein": 19.8,
-   "Carbs": 0.9,
-   "Fat": 1.8,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Fried firm tofu (5 cubes)",
-   "d": "2026-10-03",
-   "Meal": "Dinner",
-   "Calories": 266,
-   "Protein": 17.6,
-   "Carbs": 4.4,
-   "Fat": 19.8,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Tom kha kai chicken & mushroom soup (~150ml)",
-   "d": "2026-10-03",
-   "Meal": "Dinner",
-   "Calories": 150,
-   "Protein": 6,
-   "Carbs": 4.5,
-   "Fat": 12,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Baked peach slices (2) & pomegranate seeds",
-   "d": "2026-10-03",
-   "Meal": "Lunch",
-   "Calories": 55,
-   "Protein": 0.9,
-   "Carbs": 10.4,
-   "Fat": 1.1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Steamed rice (~1/3 portion)",
-   "d": "2026-10-03",
-   "Meal": "Lunch",
-   "Calories": 85,
-   "Protein": 2,
-   "Carbs": 18.8,
-   "Fat": 0.2,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Fried breaded calamari (10 pieces)",
-   "d": "2026-10-03",
-   "Meal": "Lunch",
-   "Calories": 272,
-   "Protein": 14.4,
-   "Carbs": 24,
-   "Fat": 13.2,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Katsu fish goujons (5 pieces)",
-   "d": "2026-10-03",
-   "Meal": "Lunch",
-   "Calories": 394,
-   "Protein": 21.6,
-   "Carbs": 32.4,
-   "Fat": 19.8,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Katsu curry sauce (~1/3 pot)",
-   "d": "2026-10-03",
-   "Meal": "Lunch",
-   "Calories": 24,
-   "Protein": 0.4,
-   "Carbs": 3.2,
-   "Fat": 1.1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Mayo chilli dipping sauce (~20g)",
-   "d": "2026-10-03",
-   "Meal": "Lunch",
-   "Calories": 78,
-   "Protein": 0.2,
-   "Carbs": 1.2,
-   "Fat": 8,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Elderflower soda fizz (1/2 glass)",
-   "d": "2026-10-03",
-   "Meal": "Lunch",
-   "Calories": 28,
-   "Protein": 0,
-   "Carbs": 7,
-   "Fat": 0,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Burrata (~1/3 ball)",
-   "d": "2026-10-03",
-   "Meal": "Lunch",
-   "Calories": 117,
-   "Protein": 5.9,
-   "Carbs": 0.6,
-   "Fat": 10.1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Arla Protein Chocolate Flavour Shake (250ml)",
-   "d": "2026-10-03",
-   "Meal": "Breakfast",
-   "Calories": 183,
-   "Protein": 20.3,
-   "Carbs": 15.8,
-   "Fat": 3,
-   "Source": "Manual"
-  },
-  {
-   "Food": "2 soft boiled eggs",
-   "d": "2026-10-03",
-   "Meal": "Breakfast",
-   "Calories": 144,
-   "Protein": 12.6,
-   "Carbs": 0.8,
-   "Fat": 10,
-   "Source": "Claude estimate"
-  },
   {
    "Food": "Nescafe 3in1 Original coffee (1 sachet)",
    "d": "2026-10-04",
@@ -1421,18 +1281,89 @@
    "Carbs": 18.3,
    "Fat": 6.4,
    "Source": "Manual"
+  },
+  {
+   "Food": "Ginkgo nut from cheng teng (1)",
+   "d": "2026-10-16",
+   "Meal": "Snack",
+   "Calories": 5,
+   "Protein": 0.1,
+   "Carbs": 1.1,
+   "Fat": 0.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Clear soup with veg (250g), sliced fish soup",
+   "d": "2026-10-16",
+   "Meal": "Dinner",
+   "Calories": 23,
+   "Protein": 1.5,
+   "Carbs": 2,
+   "Fat": 1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Pork and fish meatballs (180g), sliced fish soup",
+   "d": "2026-10-16",
+   "Meal": "Dinner",
+   "Calories": 209,
+   "Protein": 21.6,
+   "Carbs": 14.4,
+   "Fat": 7.2,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Batang fish, cooked (190g), sliced fish soup",
+   "d": "2026-10-16",
+   "Meal": "Dinner",
+   "Calories": 298,
+   "Protein": 40.9,
+   "Carbs": 7,
+   "Fat": 11.8,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Yong tau foo soup, Hawkers' Street Novena",
+   "d": "2026-10-16",
+   "Meal": "Lunch",
+   "Calories": 396,
+   "Protein": 36,
+   "Carbs": 18,
+   "Fat": 20,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Sweet sauce (1 serving), yong tau foo",
+   "d": "2026-10-16",
+   "Meal": "Lunch",
+   "Calories": 42,
+   "Protein": 0.9,
+   "Carbs": 8.5,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "M&S milk chocolate digestive (1 biscuit)",
+   "d": "2026-10-16",
+   "Meal": "Breakfast",
+   "Calories": 87,
+   "Protein": 1.1,
+   "Carbs": 11.3,
+   "Fat": 4.1,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Rokeby Farms Choc Honeycomb protein smoothie (425ml)",
+   "d": "2026-10-16",
+   "Meal": "Breakfast",
+   "Calories": 251,
+   "Protein": 30,
+   "Carbs": 18.3,
+   "Fat": 6.4,
+   "Source": "Web match"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-10-03",
-   "Type": "Steps",
-   "mins": null,
-   "burnt": 212,
-   "Steps": 11200,
-   "Source": "MET calc"
-  },
   {
    "Activity": "Outdoor walk (Inverness)",
    "d": "2026-10-04",
@@ -1593,6 +1524,15 @@
    "mins": null,
    "burnt": 236,
    "Steps": 12400,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-16",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 128,
+   "Steps": 6700,
    "Source": "MET calc"
   }
  ],
