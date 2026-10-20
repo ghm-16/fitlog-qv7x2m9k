@@ -1,147 +1,7 @@
 {
- "generated": "2026-10-20T07:03:47+08:00",
- "today": "2026-10-20",
+ "generated": "2026-10-21T07:03:34+08:00",
+ "today": "2026-10-21",
  "food": [
-  {
-   "Food": "Hou Hou Mei fried wontons (2)",
-   "d": "2026-10-07",
-   "Meal": "Dinner",
-   "Calories": 132,
-   "Protein": 5,
-   "Carbs": 11,
-   "Fat": 7.5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Hou Hou Mei Thai red curry king prawns (8 pieces)",
-   "d": "2026-10-07",
-   "Meal": "Dinner",
-   "Calories": 140,
-   "Protein": 32,
-   "Carbs": 0,
-   "Fat": 1.3,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Hou Hou Mei sesame prawn toast (1/6 serving)",
-   "d": "2026-10-07",
-   "Meal": "Dinner",
-   "Calories": 87,
-   "Protein": 3.3,
-   "Carbs": 6.3,
-   "Fat": 5.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Hou Hou Mei chicken bao bun (1)",
-   "d": "2026-10-07",
-   "Meal": "Dinner",
-   "Calories": 259,
-   "Protein": 11,
-   "Carbs": 29,
-   "Fat": 11,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Steamed jasmine rice, ~2 tbsp",
-   "d": "2026-10-07",
-   "Meal": "Dinner",
-   "Calories": 38,
-   "Protein": 0.8,
-   "Carbs": 8.4,
-   "Fat": 0.1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Thai red curry coconut sauce and veg eaten",
-   "d": "2026-10-07",
-   "Meal": "Dinner",
-   "Calories": 106,
-   "Protein": 1.7,
-   "Carbs": 6.5,
-   "Fat": 8.1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Mint choc chip ice cream, single scoop",
-   "d": "2026-10-07",
-   "Meal": "Snack",
-   "Calories": 130,
-   "Protein": 2.3,
-   "Carbs": 15.6,
-   "Fat": 6.5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Pot of Earl Grey tea",
-   "d": "2026-10-07",
-   "Meal": "Snack",
-   "Calories": 2,
-   "Protein": 0,
-   "Carbs": 0.5,
-   "Fat": 0,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Sauteed mushrooms (side)",
-   "d": "2026-10-07",
-   "Meal": "Lunch",
-   "Calories": 26,
-   "Protein": 1,
-   "Carbs": 1,
-   "Fat": 2,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Garlic butter on steak",
-   "d": "2026-10-07",
-   "Meal": "Lunch",
-   "Calories": 110,
-   "Protein": 0.2,
-   "Carbs": 0.3,
-   "Fat": 12,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Rump steak (eaten portion of 200g)",
-   "d": "2026-10-07",
-   "Meal": "Lunch",
-   "Calories": 203,
-   "Protein": 35,
-   "Carbs": 0,
-   "Fat": 7,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "One chunky chip",
-   "d": "2026-10-07",
-   "Meal": "Lunch",
-   "Calories": 50,
-   "Protein": 0.6,
-   "Carbs": 6.6,
-   "Fat": 2.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Black tea with 45ml Tesco Organic semi-skimmed milk",
-   "d": "2026-10-07",
-   "Meal": "Breakfast",
-   "Calories": 22,
-   "Protein": 1.6,
-   "Carbs": 2.2,
-   "Fat": 0.8,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Graham's Protein 25 peach quark pouch (200g)",
-   "d": "2026-10-07",
-   "Meal": "Breakfast",
-   "Calories": 168,
-   "Protein": 24.6,
-   "Carbs": 15.6,
-   "Fat": 0.8,
-   "Source": "Manual"
-  },
   {
    "Food": "Cucumber slices (~60g)",
    "d": "2026-10-08",
@@ -1241,27 +1101,159 @@
    "Carbs": 18.3,
    "Fat": 6.4,
    "Source": "Web match"
+  },
+  {
+   "Food": "Coke Zero (100ml)",
+   "d": "2026-10-20",
+   "Meal": "Snack",
+   "Calories": 0,
+   "Protein": 0,
+   "Carbs": 0,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Cinema salted popcorn (3 handfuls, ~30g)",
+   "d": "2026-10-20",
+   "Meal": "Snack",
+   "Calories": 153.6,
+   "Protein": 3,
+   "Carbs": 16.5,
+   "Fat": 8.4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Pepper Lunch – French beans (2 pieces)",
+   "d": "2026-10-20",
+   "Meal": "Dinner",
+   "Calories": 8.3,
+   "Protein": 0.3,
+   "Carbs": 1.1,
+   "Fat": 0.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Pepper Lunch – Sirloin steak, 4 lean pieces, fat trimmed",
+   "d": "2026-10-20",
+   "Meal": "Dinner",
+   "Calories": 86.2,
+   "Protein": 12.1,
+   "Carbs": 0,
+   "Fat": 4.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Toast Box – Teh C kosong (regular)",
+   "d": "2026-10-20",
+   "Meal": "Snack",
+   "Calories": 28.4,
+   "Protein": 1.4,
+   "Carbs": 2.1,
+   "Fat": 1.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Toast Box – Curry puff (1)",
+   "d": "2026-10-20",
+   "Meal": "Snack",
+   "Calories": 265,
+   "Protein": 5.5,
+   "Carbs": 27,
+   "Fat": 15,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Daily Cut – Charred broccoli (~60g eaten)",
+   "d": "2026-10-20",
+   "Meal": "Lunch",
+   "Calories": 51.6,
+   "Protein": 1.7,
+   "Carbs": 4,
+   "Fat": 3.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Daily Cut – Romaine (~30g eaten)",
+   "d": "2026-10-20",
+   "Meal": "Lunch",
+   "Calories": 6.5,
+   "Protein": 0.4,
+   "Carbs": 1,
+   "Fat": 0.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Daily Cut – Brown rice (3 tbsp, ~30g)",
+   "d": "2026-10-20",
+   "Meal": "Lunch",
+   "Calories": 38,
+   "Protein": 0.7,
+   "Carbs": 7,
+   "Fat": 0.8,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Daily Cut – Furikake topping (~2g)",
+   "d": "2026-10-20",
+   "Meal": "Lunch",
+   "Calories": 8.4,
+   "Protein": 0.6,
+   "Carbs": 0.6,
+   "Fat": 0.4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Daily Cut – Thai basil tofu (~80g)",
+   "d": "2026-10-20",
+   "Meal": "Lunch",
+   "Calories": 128,
+   "Protein": 10,
+   "Carbs": 4,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Daily Cut – Onsen egg (1)",
+   "d": "2026-10-20",
+   "Meal": "Lunch",
+   "Calories": 71.8,
+   "Protein": 6.3,
+   "Carbs": 0.4,
+   "Fat": 5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Daily Cut – Ginger ponzu dressing",
+   "d": "2026-10-20",
+   "Meal": "Lunch",
+   "Calories": 36,
+   "Protein": 0.5,
+   "Carbs": 4,
+   "Fat": 2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Daily Cut – Moshio chicken leg, skin removed",
+   "d": "2026-10-20",
+   "Meal": "Lunch",
+   "Calories": 197,
+   "Protein": 32.1,
+   "Carbs": 3.2,
+   "Fat": 6.2,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Isopure Low Carb Dutch Chocolate protein shake (2 scoops, water)",
+   "d": "2026-10-20",
+   "Meal": "Breakfast",
+   "Calories": 220,
+   "Protein": 50,
+   "Carbs": 2,
+   "Fat": 2,
+   "Source": "Web match"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-10-07",
-   "Type": "Steps",
-   "mins": null,
-   "burnt": 135,
-   "Steps": 13300,
-   "Source": "MET calc"
-  },
-  {
-   "Activity": "Outdoor walk",
-   "d": "2026-10-07",
-   "Type": null,
-   "mins": 49,
-   "burnt": 161,
-   "Steps": null,
-   "Source": "Device"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-10-08",
@@ -1396,6 +1388,15 @@
    "burnt": 109,
    "Steps": null,
    "Source": "Device"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-20",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 196,
+   "Steps": 10500,
+   "Source": "MET calc"
   }
  ],
  "weight": [
