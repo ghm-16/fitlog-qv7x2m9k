@@ -1,117 +1,7 @@
 {
- "generated": "2026-10-23T07:03:39+08:00",
- "today": "2026-10-23",
+ "generated": "2026-10-24T07:03:26+08:00",
+ "today": "2026-10-24",
  "food": [
-  {
-   "Food": "Stir-fried bee hoon with egg, homemade, 100g",
-   "d": "2026-10-10",
-   "Meal": "Snack",
-   "Calories": 160,
-   "Protein": 4.5,
-   "Carbs": 22,
-   "Fat": 6,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Sticks'n'Sushi Covent Garden: Tsukune (chicken meatballs, teriyaki), 1 stick",
-   "d": "2026-10-10",
-   "Meal": "Dinner",
-   "Calories": 139,
-   "Protein": 11.5,
-   "Carbs": 7.5,
-   "Fat": 7,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Sticks'n'Sushi Covent Garden: Aka Ebi Yaki (shrimp, gochujang & garlic butter), 2 sticks",
-   "d": "2026-10-10",
-   "Meal": "Dinner",
-   "Calories": 140,
-   "Protein": 14,
-   "Carbs": 5,
-   "Fat": 7.1,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Sticks'n'Sushi Covent Garden: Maguro sashimi (yellowfin tuna)",
-   "d": "2026-10-10",
-   "Meal": "Dinner",
-   "Calories": 115,
-   "Protein": 25,
-   "Carbs": 0,
-   "Fat": 1.7,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Sticks'n'Sushi Covent Garden: Eringi Yaki (king oyster mushroom, miso herb sauce)",
-   "d": "2026-10-10",
-   "Meal": "Dinner",
-   "Calories": 176,
-   "Protein": 4,
-   "Carbs": 12,
-   "Fat": 12.5,
-   "Source": "Web match"
-  },
-  {
-   "Food": "White rice, cooked, 100g",
-   "d": "2026-10-10",
-   "Meal": "Lunch",
-   "Calories": 126,
-   "Protein": 2.7,
-   "Carbs": 28.2,
-   "Fat": 0.3,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Gingelly oil, 1 tsp (5g), on dosa",
-   "d": "2026-10-10",
-   "Meal": "Breakfast",
-   "Calories": 45,
-   "Protein": 0,
-   "Carbs": 0,
-   "Fat": 5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Mutton mysore, 50g, homemade",
-   "d": "2026-10-10",
-   "Meal": "Lunch",
-   "Calories": 131,
-   "Protein": 10,
-   "Carbs": 2.5,
-   "Fat": 9,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Stir-fried beans, 50g (homecooked)",
-   "d": "2026-10-10",
-   "Meal": "Lunch",
-   "Calories": 34,
-   "Protein": 1,
-   "Carbs": 3,
-   "Fat": 2,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Homemade egg dosa (thin dosa panfried with 2 eggs)",
-   "d": "2026-10-10",
-   "Meal": "Breakfast",
-   "Calories": 261,
-   "Protein": 15,
-   "Carbs": 21,
-   "Fat": 13,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Dosa podi, ~1 tbsp (~10g)",
-   "d": "2026-10-10",
-   "Meal": "Breakfast",
-   "Calories": 47,
-   "Protein": 2,
-   "Carbs": 4,
-   "Fat": 2.5,
-   "Source": "Claude estimate"
-  },
   {
    "Food": "Stir fried mutton with onions (180g)",
    "d": "2026-10-11",
@@ -1311,18 +1201,139 @@
    "Carbs": 15.6,
    "Fat": 3,
    "Source": "Manual"
+  },
+  {
+   "Food": "Herb salad (mizuna, shiso, fennel, red onion)",
+   "d": "2026-10-23",
+   "Meal": "Dinner",
+   "Calories": 56.5,
+   "Protein": 1,
+   "Carbs": 3,
+   "Fat": 4.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Quinoa rice (2 spoons)",
+   "d": "2026-10-23",
+   "Meal": "Dinner",
+   "Calories": 49.3,
+   "Protein": 1.3,
+   "Carbs": 6.3,
+   "Fat": 2.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Coconut broth (eaten with fish)",
+   "d": "2026-10-23",
+   "Meal": "Dinner",
+   "Calories": 48.5,
+   "Protein": 0.5,
+   "Carbs": 1.5,
+   "Fat": 4.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Surrey Hills Grocer pan-seared barramundi (flesh only, skin left)",
+   "d": "2026-10-23",
+   "Meal": "Dinner",
+   "Calories": 205.2,
+   "Protein": 36,
+   "Carbs": 0,
+   "Fat": 6.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Wee Nam Kee chicken rice (~70g eaten)",
+   "d": "2026-10-23",
+   "Meal": "Lunch",
+   "Calories": 118,
+   "Protein": 2.1,
+   "Carbs": 21,
+   "Fat": 2.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chicken rice soy-sesame sauce (absorbed)",
+   "d": "2026-10-23",
+   "Meal": "Lunch",
+   "Calories": 30,
+   "Protein": 1,
+   "Carbs": 2,
+   "Fat": 2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Hot plate tofu gravy (coating)",
+   "d": "2026-10-23",
+   "Meal": "Lunch",
+   "Calories": 37.5,
+   "Protein": 1,
+   "Carbs": 5,
+   "Fat": 1.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Braised egg (1)",
+   "d": "2026-10-23",
+   "Meal": "Lunch",
+   "Calories": 76,
+   "Protein": 6.3,
+   "Carbs": 1.4,
+   "Fat": 5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Hot plate egg tofu (3 pcs)",
+   "d": "2026-10-23",
+   "Meal": "Lunch",
+   "Calories": 109,
+   "Protein": 6.3,
+   "Carbs": 2.7,
+   "Fat": 8.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Wee Nam Kee steamed chicken breast, skinless (upsized)",
+   "d": "2026-10-23",
+   "Meal": "Lunch",
+   "Calories": 234.6,
+   "Protein": 46.5,
+   "Carbs": 0,
+   "Fat": 5.4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Hot plate prawns (2 small)",
+   "d": "2026-10-23",
+   "Meal": "Lunch",
+   "Calories": 25.5,
+   "Protein": 5.5,
+   "Carbs": 0.2,
+   "Fat": 0.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Iced yuzu oolong pear blossom tea (unsweetened)",
+   "d": "2026-10-23",
+   "Meal": "Breakfast",
+   "Calories": 2,
+   "Protein": 0,
+   "Carbs": 0.5,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Ya Kun teh C siew dai (large)",
+   "d": "2026-10-23",
+   "Meal": "Breakfast",
+   "Calories": 164,
+   "Protein": 4.9,
+   "Carbs": 23.9,
+   "Fat": 5.4,
+   "Source": "Claude estimate"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-10-10",
-   "Type": "Steps",
-   "mins": null,
-   "burnt": 286,
-   "Steps": 15000,
-   "Source": "MET calc"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-10-11",
@@ -1447,6 +1458,15 @@
    "mins": null,
    "burnt": 228,
    "Steps": 12200,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-23",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 242.7,
+   "Steps": 13000,
    "Source": "MET calc"
   }
  ],
