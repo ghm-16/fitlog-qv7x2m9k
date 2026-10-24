@@ -1,97 +1,7 @@
 {
- "generated": "2026-10-24T07:03:26+08:00",
- "today": "2026-10-24",
+ "generated": "2026-10-25T07:03:40+08:00",
+ "today": "2026-10-25",
  "food": [
-  {
-   "Food": "Stir fried mutton with onions (180g)",
-   "d": "2026-10-11",
-   "Meal": "Dinner",
-   "Calories": 423,
-   "Protein": 39,
-   "Carbs": 6,
-   "Fat": 27,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Stir fried bee hoon with egg (100g)",
-   "d": "2026-10-11",
-   "Meal": "Dinner",
-   "Calories": 161,
-   "Protein": 4,
-   "Carbs": 25,
-   "Fat": 5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Chocolate covered strawberries (5)",
-   "d": "2026-10-11",
-   "Meal": "Lunch",
-   "Calories": 248,
-   "Protein": 3.5,
-   "Carbs": 30.5,
-   "Fat": 12.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Matcha latte, unsweetened (~240ml)",
-   "d": "2026-10-11",
-   "Meal": "Lunch",
-   "Calories": 160,
-   "Protein": 8.8,
-   "Carbs": 11.7,
-   "Fat": 8.7,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Borough Market lobster, prawn & chicken paella (half portion)",
-   "d": "2026-10-11",
-   "Meal": "Lunch",
-   "Calories": 359,
-   "Protein": 20,
-   "Carbs": 45,
-   "Fat": 11,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Bread Ahead sugar jam doughnut (1, ~110g)",
-   "d": "2026-10-11",
-   "Meal": "Snack",
-   "Calories": 383,
-   "Protein": 6.5,
-   "Carbs": 43,
-   "Fat": 20.5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Old Town White Coffee 3-in-1 Classic (1 sachet, 38g)",
-   "d": "2026-10-11",
-   "Meal": "Breakfast",
-   "Calories": 172,
-   "Protein": 1.2,
-   "Carbs": 25.7,
-   "Fat": 6.5,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Butter spread on brioche (10g)",
-   "d": "2026-10-11",
-   "Meal": "Breakfast",
-   "Calories": 73,
-   "Protein": 0.1,
-   "Carbs": 0,
-   "Fat": 8.1,
-   "Source": "Manual"
-  },
-  {
-   "Food": "Brioche, 1 slice (~34g)",
-   "d": "2026-10-11",
-   "Meal": "Breakfast",
-   "Calories": 111,
-   "Protein": 2.7,
-   "Carbs": 17,
-   "Fat": 3.4,
-   "Source": "Manual"
-  },
   {
    "Food": "Hummingbird Bakery vanilla cupcake, 1",
    "d": "2026-10-12",
@@ -1331,18 +1241,99 @@
    "Carbs": 23.9,
    "Fat": 5.4,
    "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chic-A-Boo side salad (tomato, cucumber; onion left)",
+   "d": "2026-10-24",
+   "Meal": "Dinner",
+   "Calories": 26,
+   "Protein": 0.5,
+   "Carbs": 1.5,
+   "Fat": 2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chic-A-Boo fried fish, 2 pieces",
+   "d": "2026-10-24",
+   "Meal": "Dinner",
+   "Calories": 459,
+   "Protein": 32.9,
+   "Carbs": 23.8,
+   "Fat": 25.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Isopure Low Carb Dutch Chocolate, 2 scoops, with water",
+   "d": "2026-10-24",
+   "Meal": "Snack",
+   "Calories": 220,
+   "Protein": 50,
+   "Carbs": 2,
+   "Fat": 2,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Teh O siew dai, regular (Ya Kun)",
+   "d": "2026-10-24",
+   "Meal": "Snack",
+   "Calories": 42,
+   "Protein": 0,
+   "Carbs": 10.5,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "White rice, cooked, 100g",
+   "d": "2026-10-24",
+   "Meal": "Lunch",
+   "Calories": 126,
+   "Protein": 2.7,
+   "Carbs": 28,
+   "Fat": 0.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Pappadum, fried, 2 pieces",
+   "d": "2026-10-24",
+   "Meal": "Lunch",
+   "Calories": 144,
+   "Protein": 6.2,
+   "Carbs": 14.4,
+   "Fat": 6.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Flower crab, 4 halves (meat only)",
+   "d": "2026-10-24",
+   "Meal": "Lunch",
+   "Calories": 94,
+   "Protein": 20,
+   "Carbs": 0,
+   "Fat": 1.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Crab curry gravy, 3 tbsp",
+   "d": "2026-10-24",
+   "Meal": "Lunch",
+   "Calories": 61,
+   "Protein": 1,
+   "Carbs": 3,
+   "Fat": 5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rokeby Farms Choc Honeycomb Protein Smoothie (425ml)",
+   "d": "2026-10-24",
+   "Meal": "Breakfast",
+   "Calories": 253,
+   "Protein": 30,
+   "Carbs": 18.3,
+   "Fat": 6.4,
+   "Source": "Web match"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-10-11",
-   "Type": "Steps",
-   "mins": null,
-   "burnt": 311,
-   "Steps": 16300,
-   "Source": "MET calc"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-10-12",
@@ -1467,6 +1458,15 @@
    "mins": null,
    "burnt": 242.7,
    "Steps": 13000,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-24",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 217,
+   "Steps": 11600,
    "Source": "MET calc"
   }
  ],
