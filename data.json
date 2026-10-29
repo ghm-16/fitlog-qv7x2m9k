@@ -1,87 +1,7 @@
 {
- "generated": "2026-10-29T07:03:54+08:00",
- "today": "2026-10-29",
+ "generated": "2026-10-30T07:03:41+08:00",
+ "today": "2026-10-30",
  "food": [
-  {
-   "Food": "Ginkgo nut from cheng teng (1)",
-   "d": "2026-10-16",
-   "Meal": "Snack",
-   "Calories": 5,
-   "Protein": 0.1,
-   "Carbs": 1.1,
-   "Fat": 0.1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Clear soup with veg (250g), sliced fish soup",
-   "d": "2026-10-16",
-   "Meal": "Dinner",
-   "Calories": 23,
-   "Protein": 1.5,
-   "Carbs": 2,
-   "Fat": 1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Pork and fish meatballs (180g), sliced fish soup",
-   "d": "2026-10-16",
-   "Meal": "Dinner",
-   "Calories": 209,
-   "Protein": 21.6,
-   "Carbs": 14.4,
-   "Fat": 7.2,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Batang fish, cooked (190g), sliced fish soup",
-   "d": "2026-10-16",
-   "Meal": "Dinner",
-   "Calories": 298,
-   "Protein": 40.9,
-   "Carbs": 7,
-   "Fat": 11.8,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Yong tau foo soup, Hawkers' Street Novena",
-   "d": "2026-10-16",
-   "Meal": "Lunch",
-   "Calories": 396,
-   "Protein": 36,
-   "Carbs": 18,
-   "Fat": 20,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Sweet sauce (1 serving), yong tau foo",
-   "d": "2026-10-16",
-   "Meal": "Lunch",
-   "Calories": 42,
-   "Protein": 0.9,
-   "Carbs": 8.5,
-   "Fat": 0.5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "M&S milk chocolate digestive (1 biscuit)",
-   "d": "2026-10-16",
-   "Meal": "Breakfast",
-   "Calories": 87,
-   "Protein": 1.1,
-   "Carbs": 11.3,
-   "Fat": 4.1,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Rokeby Farms Choc Honeycomb protein smoothie (425ml)",
-   "d": "2026-10-16",
-   "Meal": "Breakfast",
-   "Calories": 251,
-   "Protein": 30,
-   "Carbs": 18.3,
-   "Fat": 6.4,
-   "Source": "Web match"
-  },
   {
    "Food": "Isopure Low Carb whey isolate, Dutch Chocolate, 2 scoops (66g) with water",
    "d": "2026-10-17",
@@ -1331,18 +1251,139 @@
    "Carbs": 33,
    "Fat": 20.7,
    "Source": "Manual"
+  },
+  {
+   "Food": "Plain Vanilla vanilla cupcake, 1/2",
+   "d": "2026-10-28",
+   "Meal": "Snack",
+   "Calories": 188,
+   "Protein": 1.5,
+   "Carbs": 24,
+   "Fat": 9.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "A-roy Thai larb chicken, 3 tbsp (~45g)",
+   "d": "2026-10-28",
+   "Meal": "Dinner",
+   "Calories": 64,
+   "Protein": 8.1,
+   "Carbs": 1.8,
+   "Fat": 2.7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "A-roy Thai steamed seabass with lime-chilli sauce, 1 small bowl",
+   "d": "2026-10-28",
+   "Meal": "Dinner",
+   "Calories": 140,
+   "Protein": 25.6,
+   "Carbs": 3,
+   "Fat": 2.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Teh C kosong",
+   "d": "2026-10-28",
+   "Meal": "Breakfast",
+   "Calories": 40,
+   "Protein": 1.5,
+   "Carbs": 3,
+   "Fat": 2.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "A-roy Thai fried prawn cake, 1/2 piece",
+   "d": "2026-10-28",
+   "Meal": "Dinner",
+   "Calories": 86,
+   "Protein": 3.6,
+   "Carbs": 8.4,
+   "Fat": 4.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Victor's Kitchen king prawn har gao, 3",
+   "d": "2026-10-28",
+   "Meal": "Lunch",
+   "Calories": 173,
+   "Protein": 15,
+   "Carbs": 18,
+   "Fat": 4.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Victor's Kitchen golden egg yolk lava bun, 1",
+   "d": "2026-10-28",
+   "Meal": "Lunch",
+   "Calories": 184,
+   "Protein": 4,
+   "Carbs": 24,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "A-roy Thai green curry: eggplant + sauce",
+   "d": "2026-10-28",
+   "Meal": "Dinner",
+   "Calories": 64,
+   "Protein": 1.2,
+   "Carbs": 5.5,
+   "Fat": 4.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "White rice, cooked, ~1/4 bowl (~40g)",
+   "d": "2026-10-28",
+   "Meal": "Dinner",
+   "Calories": 50,
+   "Protein": 1.1,
+   "Carbs": 11.2,
+   "Fat": 0.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Victor's Kitchen 'Spring is in the Air' prawn cheong fun, 2 of 5 pcs",
+   "d": "2026-10-28",
+   "Meal": "Lunch",
+   "Calories": 186,
+   "Protein": 7.5,
+   "Carbs": 21,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "A-roy Thai stir-fried kailan, ~50g",
+   "d": "2026-10-28",
+   "Meal": "Dinner",
+   "Calories": 34,
+   "Protein": 1.5,
+   "Carbs": 2.5,
+   "Fat": 2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "A-roy Thai green mango salad",
+   "d": "2026-10-28",
+   "Meal": "Dinner",
+   "Calories": 99,
+   "Protein": 2,
+   "Carbs": 16,
+   "Fat": 3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "A-roy Thai green curry: long prawns, 2",
+   "d": "2026-10-28",
+   "Meal": "Dinner",
+   "Calories": 45,
+   "Protein": 10,
+   "Carbs": 0.1,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-10-16",
-   "Type": "Steps",
-   "mins": null,
-   "burnt": 128,
-   "Steps": 6700,
-   "Source": "MET calc"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-10-17",
@@ -1458,6 +1499,15 @@
    "mins": null,
    "burnt": 243,
    "Steps": 13000,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-28",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 280,
+   "Steps": 15000,
    "Source": "MET calc"
   }
  ],
