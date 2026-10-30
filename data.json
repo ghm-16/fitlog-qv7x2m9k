@@ -1,147 +1,7 @@
 {
- "generated": "2026-10-30T07:03:41+08:00",
- "today": "2026-10-30",
+ "generated": "2026-10-31T07:03:31+08:00",
+ "today": "2026-10-31",
  "food": [
-  {
-   "Food": "Isopure Low Carb whey isolate, Dutch Chocolate, 2 scoops (66g) with water",
-   "d": "2026-10-17",
-   "Meal": "Snack",
-   "Calories": 220,
-   "Protein": 50,
-   "Carbs": 2,
-   "Fat": 2,
-   "Source": "Manual"
-  },
-  {
-   "Food": "Seasonal veg: broccoli and carrot, glazed (sirloin plate)",
-   "d": "2026-10-17",
-   "Meal": "Dinner",
-   "Calories": 80,
-   "Protein": 2,
-   "Carbs": 8.1,
-   "Fat": 4.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Brown pepper-style sauce, ~40g (sirloin plate)",
-   "d": "2026-10-17",
-   "Meal": "Dinner",
-   "Calories": 30,
-   "Protein": 0.8,
-   "Carbs": 3.2,
-   "Fat": 1.6,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Sirloin steak, 113g cooked, fat trimmed",
-   "d": "2026-10-17",
-   "Meal": "Dinner",
-   "Calories": 203,
-   "Protein": 30.5,
-   "Carbs": 0,
-   "Fat": 9,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Kesari, 45g (Gandhi)",
-   "d": "2026-10-17",
-   "Meal": "Snack",
-   "Calories": 128,
-   "Protein": 1.8,
-   "Carbs": 18,
-   "Fat": 5.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Chilli tomato sambal, ~35g (banana leaf meal)",
-   "d": "2026-10-17",
-   "Meal": "Lunch",
-   "Calories": 55,
-   "Protein": 0.7,
-   "Carbs": 3.5,
-   "Fat": 4.2,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Dhal/curry gravy on rice, ~60g (banana leaf meal)",
-   "d": "2026-10-17",
-   "Meal": "Lunch",
-   "Calories": 35,
-   "Protein": 1.2,
-   "Carbs": 3.6,
-   "Fat": 1.8,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Onion fry with curry leaves, ~30g (banana leaf meal)",
-   "d": "2026-10-17",
-   "Meal": "Lunch",
-   "Calories": 69,
-   "Protein": 0.6,
-   "Carbs": 4.5,
-   "Fat": 5.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Ginger chicken, half portion (banana leaf meal)",
-   "d": "2026-10-17",
-   "Meal": "Lunch",
-   "Calories": 98,
-   "Protein": 11,
-   "Carbs": 2.2,
-   "Fat": 5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "White rice, ~100g eaten (banana leaf meal)",
-   "d": "2026-10-17",
-   "Meal": "Lunch",
-   "Calories": 126,
-   "Protein": 2.7,
-   "Carbs": 28.2,
-   "Fat": 0.3,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Battered fried okra, 3/4 portion (banana leaf meal)",
-   "d": "2026-10-17",
-   "Meal": "Lunch",
-   "Calories": 132,
-   "Protein": 2.1,
-   "Carbs": 9.5,
-   "Fat": 9.5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Fried masala chicken leg, half eaten (banana leaf meal)",
-   "d": "2026-10-17",
-   "Meal": "Lunch",
-   "Calories": 155,
-   "Protein": 16.3,
-   "Carbs": 2,
-   "Fat": 9.1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Soft boiled eggs (3)",
-   "d": "2026-10-17",
-   "Meal": "Breakfast",
-   "Calories": 210,
-   "Protein": 18.9,
-   "Carbs": 1.2,
-   "Fat": 14.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Fresh sugar cane juice, 100ml",
-   "d": "2026-10-17",
-   "Meal": "Breakfast",
-   "Calories": 67,
-   "Protein": 0.2,
-   "Carbs": 16,
-   "Fat": 0.2,
-   "Source": "Claude estimate"
-  },
   {
    "Food": "Sambal stingray, ~135g, Newton Food Centre",
    "d": "2026-10-18",
@@ -1381,27 +1241,269 @@
    "Carbs": 0.1,
    "Fat": 0.5,
    "Source": "Claude estimate"
+  },
+  {
+   "Food": "Farmers Union Greek Style Protein Mango Yogurt (150g pouch)",
+   "d": "2026-10-29",
+   "Meal": "Snack",
+   "Calories": 113,
+   "Protein": 15.2,
+   "Carbs": 4.4,
+   "Fat": 3.8,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Xin Yuan Ji sliced fish soup: broth + fried shallots, 4 tbsp",
+   "d": "2026-10-29",
+   "Meal": "Lunch",
+   "Calories": 10,
+   "Protein": 0.5,
+   "Carbs": 0.5,
+   "Fat": 0.7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Xin Yuan Ji sliced fish soup (upsized): fish slices, 10",
+   "d": "2026-10-29",
+   "Meal": "Lunch",
+   "Calories": 184,
+   "Protein": 37.8,
+   "Carbs": 0,
+   "Fat": 3.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Indian rojak: fried taw kwa, 1",
+   "d": "2026-10-29",
+   "Meal": "Snack",
+   "Calories": 103,
+   "Protein": 9,
+   "Carbs": 1.8,
+   "Fat": 6.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chilli sauce with fish steak, ~20g",
+   "d": "2026-10-29",
+   "Meal": "Dinner",
+   "Calories": 22,
+   "Protein": 0.2,
+   "Carbs": 5,
+   "Fat": 0.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Xin Yuan Ji sliced fish soup: tofu cubes, 7",
+   "d": "2026-10-29",
+   "Meal": "Lunch",
+   "Calories": 77,
+   "Protein": 7,
+   "Carbs": 2.8,
+   "Fat": 4.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Indian rojak: prawn fritter, 1",
+   "d": "2026-10-29",
+   "Meal": "Snack",
+   "Calories": 141,
+   "Protein": 4.5,
+   "Carbs": 15,
+   "Fat": 7,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Pan-fried fish steak (dory), ~160g",
+   "d": "2026-10-29",
+   "Meal": "Dinner",
+   "Calories": 206,
+   "Protein": 27.2,
+   "Carbs": 6.4,
+   "Fat": 8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Indian rojak gravy, ~80g",
+   "d": "2026-10-29",
+   "Meal": "Snack",
+   "Calories": 116,
+   "Protein": 2.4,
+   "Carbs": 17.6,
+   "Fat": 4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Xin Yuan Ji sliced fish soup: tomato + greens",
+   "d": "2026-10-29",
+   "Meal": "Lunch",
+   "Calories": 18,
+   "Protein": 1,
+   "Carbs": 3,
+   "Fat": 0.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Indian rojak: sausage, 1",
+   "d": "2026-10-29",
+   "Meal": "Snack",
+   "Calories": 90,
+   "Protein": 4.4,
+   "Carbs": 2,
+   "Fat": 7.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rokeby Farms Choc Honeycomb Protein Smoothie (425ml)",
+   "d": "2026-10-29",
+   "Meal": "Breakfast",
+   "Calories": 253,
+   "Protein": 30,
+   "Carbs": 18.3,
+   "Fat": 6.4,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Fried Hokkien prawn mee (hawker), 1/3 plate",
+   "d": "2026-10-30",
+   "Meal": "Dinner",
+   "Calories": 174,
+   "Protein": 6,
+   "Carbs": 23.3,
+   "Fat": 6.3,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Chinese rojak (hawker), 1/3 plate",
+   "d": "2026-10-30",
+   "Meal": "Dinner",
+   "Calories": 188,
+   "Protein": 6.7,
+   "Carbs": 21.7,
+   "Fat": 8.3,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Magnum Mini Almond, 1 stick (49g)",
+   "d": "2026-10-30",
+   "Meal": "Snack",
+   "Calories": 165,
+   "Protein": 2.4,
+   "Carbs": 13.4,
+   "Fat": 11.2,
+   "Source": "Web match"
+  },
+  {
+   "Food": "KOI Thé iced chrysanthemum tea, medium, 0% sugar, little coconut jelly",
+   "d": "2026-10-30",
+   "Meal": "Snack",
+   "Calories": 16,
+   "Protein": 0,
+   "Carbs": 4,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Air-fried tiger prawns, spice-seasoned, no oil (150g raw)",
+   "d": "2026-10-30",
+   "Meal": "Dinner",
+   "Calories": 128,
+   "Protein": 30,
+   "Carbs": 0.3,
+   "Fat": 0.8,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Cauliflower stir fry",
+   "d": "2026-10-30",
+   "Meal": "Lunch",
+   "Calories": 67,
+   "Protein": 1.8,
+   "Carbs": 5,
+   "Fat": 4.4,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Jeera rice, 1 tbsp",
+   "d": "2026-10-30",
+   "Meal": "Lunch",
+   "Calories": 21,
+   "Protein": 0.4,
+   "Carbs": 4.3,
+   "Fat": 0.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Mango chutney, 2 tsp",
+   "d": "2026-10-30",
+   "Meal": "Lunch",
+   "Calories": 28,
+   "Protein": 0.1,
+   "Carbs": 6.8,
+   "Fat": 0.1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Paneer butter masala",
+   "d": "2026-10-30",
+   "Meal": "Lunch",
+   "Calories": 320,
+   "Protein": 16.5,
+   "Carbs": 8.3,
+   "Fat": 24.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Cucumber raita",
+   "d": "2026-10-30",
+   "Meal": "Lunch",
+   "Calories": 44,
+   "Protein": 2.2,
+   "Carbs": 4.2,
+   "Fat": 2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Green beans stir fry",
+   "d": "2026-10-30",
+   "Meal": "Lunch",
+   "Calories": 79,
+   "Protein": 2,
+   "Carbs": 7.5,
+   "Fat": 4.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Arla Protein chocolate flavour pudding, 200g pot",
+   "d": "2026-10-30",
+   "Meal": "Snack",
+   "Calories": 152,
+   "Protein": 20,
+   "Carbs": 15.6,
+   "Fat": 3,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Indian hawker potato curry puff, 1",
+   "d": "2026-10-30",
+   "Meal": "Snack",
+   "Calories": 230,
+   "Protein": 3.5,
+   "Carbs": 27,
+   "Fat": 12,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Isopure Low Carb Dutch Chocolate protein powder, 1 scoop (33g) with water",
+   "d": "2026-10-30",
+   "Meal": "Breakfast",
+   "Calories": 110,
+   "Protein": 25,
+   "Carbs": 1,
+   "Fat": 1,
+   "Source": "Web match"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-10-17",
-   "Type": "Steps",
-   "mins": null,
-   "burnt": 152,
-   "Steps": 8000,
-   "Source": "MET calc"
-  },
-  {
-   "Activity": "Weightlifting",
-   "d": "2026-10-17",
-   "Type": "Weightlifting",
-   "mins": 69,
-   "burnt": 275,
-   "Steps": null,
-   "Source": "Device"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-10-18",
@@ -1509,6 +1611,33 @@
    "burnt": 280,
    "Steps": 15000,
    "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-29",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 205,
+   "Steps": 11000,
+   "Source": "MET calc"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-30",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 230,
+   "Steps": 12300,
+   "Source": "Device"
+  },
+  {
+   "Activity": "Traditional strength training",
+   "d": "2026-10-30",
+   "Type": "Weightlifting",
+   "mins": 58,
+   "burnt": 285,
+   "Steps": null,
+   "Source": "Device"
   }
  ],
  "weight": [
