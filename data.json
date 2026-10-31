@@ -1,137 +1,7 @@
 {
- "generated": "2026-10-31T07:03:31+08:00",
- "today": "2026-10-31",
+ "generated": "2026-11-01T07:03:30+08:00",
+ "today": "2026-11-01",
  "food": [
-  {
-   "Food": "Sambal stingray, ~135g, Newton Food Centre",
-   "d": "2026-10-18",
-   "Meal": "Dinner",
-   "Calories": 137,
-   "Protein": 20,
-   "Carbs": 2.2,
-   "Fat": 5.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "White rice, cooked, 3 tbsp (~45g), Newton Food Centre",
-   "d": "2026-10-18",
-   "Meal": "Dinner",
-   "Calories": 57,
-   "Protein": 1.2,
-   "Carbs": 12.7,
-   "Fat": 0.1,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Omelette, 3 eggs (~150g), Newton Food Centre",
-   "d": "2026-10-18",
-   "Meal": "Dinner",
-   "Calories": 288,
-   "Protein": 19.1,
-   "Carbs": 2.6,
-   "Fat": 22.4,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Coca-Cola Zero Sugar, 1 can (330ml)",
-   "d": "2026-10-18",
-   "Meal": "Dinner",
-   "Calories": 0,
-   "Protein": 0,
-   "Carbs": 0,
-   "Fat": 0,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Isopure Low Carb whey isolate, Dutch Chocolate, 2 scoops (66g) with water",
-   "d": "2026-10-18",
-   "Meal": "Snack",
-   "Calories": 220,
-   "Protein": 50,
-   "Carbs": 2,
-   "Fat": 2,
-   "Source": "Manual"
-  },
-  {
-   "Food": "Teh C kosong, 6oz, Ya Kun",
-   "d": "2026-10-18",
-   "Meal": "Snack",
-   "Calories": 85,
-   "Protein": 4,
-   "Carbs": 6.2,
-   "Fat": 4.9,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "1 piece Bingka Ubi, Bengawan Solo",
-   "d": "2026-10-18",
-   "Meal": "Snack",
-   "Calories": 97,
-   "Protein": 1,
-   "Carbs": 16.5,
-   "Fat": 3,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Teh C kosong, small (6oz), Ya Kun",
-   "d": "2026-10-18",
-   "Meal": "Snack",
-   "Calories": 85,
-   "Protein": 4,
-   "Carbs": 6.2,
-   "Fat": 4.9,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Crispy prawn & pork wontons, filling only (5 pieces), Din Tai Fung",
-   "d": "2026-10-18",
-   "Meal": "Lunch",
-   "Calories": 141,
-   "Protein": 12,
-   "Carbs": 3,
-   "Fat": 9,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Spicy sauce noodles, 2 spoonfuls (~40g), Din Tai Fung",
-   "d": "2026-10-18",
-   "Meal": "Lunch",
-   "Calories": 72,
-   "Protein": 2.4,
-   "Carbs": 9,
-   "Fat": 2.9,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Prawn & pork wontons in chilli vinaigrette sauce, 2 pieces, Din Tai Fung",
-   "d": "2026-10-18",
-   "Meal": "Lunch",
-   "Calories": 48,
-   "Protein": 2.8,
-   "Carbs": 3.5,
-   "Fat": 2.5,
-   "Source": "Web match"
-  },
-  {
-   "Food": "Crispy golden prawn pancake, 1/3 portion, Din Tai Fung",
-   "d": "2026-10-18",
-   "Meal": "Lunch",
-   "Calories": 119,
-   "Protein": 10,
-   "Carbs": 4.7,
-   "Fat": 6.7,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Oriental Salad, 1/3 portion, Din Tai Fung",
-   "d": "2026-10-18",
-   "Meal": "Lunch",
-   "Calories": 53,
-   "Protein": 2,
-   "Carbs": 6.7,
-   "Fat": 2,
-   "Source": "Web match"
-  },
   {
    "Food": "Achar (pickled mango & carrot), side",
    "d": "2026-10-19",
@@ -1501,18 +1371,179 @@
    "Carbs": 1,
    "Fat": 1,
    "Source": "Web match"
+  },
+  {
+   "Food": "Gardenia Enriched White Bread x2 slices",
+   "d": "2026-10-31",
+   "Meal": "Snack",
+   "Calories": 150,
+   "Protein": 5.6,
+   "Carbs": 31.2,
+   "Fat": 1.1,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Lurpak salted butter, 8g",
+   "d": "2026-10-31",
+   "Meal": "Snack",
+   "Calories": 59,
+   "Protein": 0,
+   "Carbs": 0,
+   "Fat": 6.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Mandarin orange x1",
+   "d": "2026-10-31",
+   "Meal": "Snack",
+   "Calories": 52,
+   "Protein": 0.7,
+   "Carbs": 11.7,
+   "Fat": 0.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Alaska pollock fish fingers x1.5, air-fried (58g)",
+   "d": "2026-10-31",
+   "Meal": "Snack",
+   "Calories": 111,
+   "Protein": 6,
+   "Carbs": 7.7,
+   "Fat": 5.9,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Tau huay (beancurd), ~156g",
+   "d": "2026-10-31",
+   "Meal": "Snack",
+   "Calories": 56,
+   "Protein": 5.5,
+   "Carbs": 2.3,
+   "Fat": 2.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Sugar syrup, 3g",
+   "d": "2026-10-31",
+   "Meal": "Snack",
+   "Calories": 8,
+   "Protein": 0,
+   "Carbs": 2,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fries x3 (~15g)",
+   "d": "2026-10-31",
+   "Meal": "Dinner",
+   "Calories": 48,
+   "Protein": 0.5,
+   "Carbs": 6.2,
+   "Fat": 2.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Brown/black pepper sauce (absorbed)",
+   "d": "2026-10-31",
+   "Meal": "Dinner",
+   "Calories": 32,
+   "Protein": 0.5,
+   "Carbs": 4,
+   "Fat": 1.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Grilled chicken chop, skin removed (~140g meat)",
+   "d": "2026-10-31",
+   "Meal": "Dinner",
+   "Calories": 249,
+   "Protein": 36.4,
+   "Carbs": 0,
+   "Fat": 11.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Coleslaw (~35g, half portion)",
+   "d": "2026-10-31",
+   "Meal": "Dinner",
+   "Calories": 53,
+   "Protein": 0.4,
+   "Carbs": 3.5,
+   "Fat": 4.2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "2 soft boiled eggs (Ya Kun)",
+   "d": "2026-10-31",
+   "Meal": "Breakfast",
+   "Calories": 140,
+   "Protein": 12.6,
+   "Carbs": 0.8,
+   "Fat": 9.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "M&S ginger snaps x4",
+   "d": "2026-10-31",
+   "Meal": "Snack",
+   "Calories": 232,
+   "Protein": 2.4,
+   "Carbs": 34,
+   "Fat": 9.6,
+   "Source": "Manual"
+  },
+  {
+   "Food": "Teh C kosong, 6oz, Ya Kun",
+   "d": "2026-10-31",
+   "Meal": "Breakfast",
+   "Calories": 85,
+   "Protein": 4,
+   "Carbs": 6.2,
+   "Fat": 4.9,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Steamed chicken breast, skinless (~120g)",
+   "d": "2026-10-31",
+   "Meal": "Lunch",
+   "Calories": 188,
+   "Protein": 37.2,
+   "Carbs": 0,
+   "Fat": 4.3,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Farmhouse Fresh Milk, 150ml",
+   "d": "2026-10-31",
+   "Meal": "Snack",
+   "Calories": 97,
+   "Protein": 4.8,
+   "Carbs": 6.6,
+   "Fat": 5.7,
+   "Source": "Web match"
+  },
+  {
+   "Food": "Chicken rice soy-sesame sauce (absorbed)",
+   "d": "2026-10-31",
+   "Meal": "Lunch",
+   "Calories": 30,
+   "Protein": 1,
+   "Carbs": 2,
+   "Fat": 2,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chicken rice (~90g eaten)",
+   "d": "2026-10-31",
+   "Meal": "Lunch",
+   "Calories": 151,
+   "Protein": 2.7,
+   "Carbs": 27,
+   "Fat": 3.6,
+   "Source": "Claude estimate"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-10-18",
-   "Type": "Steps",
-   "mins": null,
-   "burnt": 261,
-   "Steps": 14000,
-   "Source": "MET calc"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-10-19",
@@ -1637,6 +1668,15 @@
    "mins": 58,
    "burnt": 285,
    "Steps": null,
+   "Source": "Device"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-10-31",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 245,
+   "Steps": 13100,
    "Source": "Device"
   }
  ],
