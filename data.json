@@ -1,87 +1,7 @@
 {
- "generated": "2026-11-01T07:03:30+08:00",
- "today": "2026-11-01",
+ "generated": "2026-11-02T07:03:57+08:00",
+ "today": "2026-11-02",
  "food": [
-  {
-   "Food": "Achar (pickled mango & carrot), side",
-   "d": "2026-10-19",
-   "Meal": "Dinner",
-   "Calories": 52,
-   "Protein": 0.3,
-   "Carbs": 6,
-   "Fat": 3,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Boneless fried chicken (briyani topping), ~120g",
-   "d": "2026-10-19",
-   "Meal": "Dinner",
-   "Calories": 282,
-   "Protein": 29,
-   "Carbs": 10,
-   "Fat": 14,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Egg cheese prata (centre portion only), no gravy",
-   "d": "2026-10-19",
-   "Meal": "Dinner",
-   "Calories": 191,
-   "Protein": 9,
-   "Carbs": 14,
-   "Fat": 11,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Briyani rice (small portion, ~40g)",
-   "d": "2026-10-19",
-   "Meal": "Dinner",
-   "Calories": 66,
-   "Protein": 1,
-   "Carbs": 11,
-   "Fat": 2,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Fried breaded fish fillet (1 piece), hawker",
-   "d": "2026-10-19",
-   "Meal": "Lunch",
-   "Calories": 161,
-   "Protein": 9,
-   "Carbs": 12,
-   "Fat": 8.5,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Ayam panggang (grilled chicken leg quarter), hawker",
-   "d": "2026-10-19",
-   "Meal": "Lunch",
-   "Calories": 335,
-   "Protein": 33,
-   "Carbs": 8,
-   "Fat": 19,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Nasi (1 tbsp, with gravy)",
-   "d": "2026-10-19",
-   "Meal": "Lunch",
-   "Calories": 25,
-   "Protein": 0.5,
-   "Carbs": 4.5,
-   "Fat": 0.6,
-   "Source": "Claude estimate"
-  },
-  {
-   "Food": "Rokeby Farms Protein Smoothie – Choc Honeycomb (425ml)",
-   "d": "2026-10-19",
-   "Meal": "Breakfast",
-   "Calories": 251,
-   "Protein": 30,
-   "Carbs": 18.3,
-   "Fat": 6.4,
-   "Source": "Web match"
-  },
   {
    "Food": "Coke Zero (100ml)",
    "d": "2026-10-20",
@@ -1541,27 +1461,179 @@
    "Carbs": 27,
    "Fat": 3.6,
    "Source": "Claude estimate"
+  },
+  {
+   "Food": "Chicken curry (bone-in)",
+   "d": "2026-11-01",
+   "Meal": "Dinner",
+   "Calories": 142,
+   "Protein": 20,
+   "Carbs": 2,
+   "Fat": 6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Mixed rice (2 tbsp)",
+   "d": "2026-11-01",
+   "Meal": "Dinner",
+   "Calories": 50,
+   "Protein": 2,
+   "Carbs": 7,
+   "Fat": 1.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Fried fish steaks (2, partly eaten)",
+   "d": "2026-11-01",
+   "Meal": "Dinner",
+   "Calories": 185,
+   "Protein": 24,
+   "Carbs": 2,
+   "Fat": 9,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Mutton curry (home-style)",
+   "d": "2026-11-01",
+   "Meal": "Dinner",
+   "Calories": 266,
+   "Protein": 27.5,
+   "Carbs": 3,
+   "Fat": 16,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "2 soft boiled eggs (Toast Box)",
+   "d": "2026-11-01",
+   "Meal": "Snack",
+   "Calories": 140,
+   "Protein": 12.6,
+   "Carbs": 0.8,
+   "Fat": 9.6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Toast Box teh C kosong (small)",
+   "d": "2026-11-01",
+   "Meal": "Snack",
+   "Calories": 40,
+   "Protein": 1.5,
+   "Carbs": 3,
+   "Fat": 2.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "YTF sweet sauce (1 tbsp)",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 37,
+   "Protein": 0.5,
+   "Carbs": 7.5,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "YTF: fried taukwa with meat filling (half)",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 98,
+   "Protein": 8.5,
+   "Carbs": 2.6,
+   "Fat": 6,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "YTF: fried fish ball (large)",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 91,
+   "Protein": 5.5,
+   "Carbs": 6,
+   "Fat": 5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Sweetened soya milk, hawker (100ml)",
+   "d": "2026-11-01",
+   "Meal": "Breakfast",
+   "Calories": 60,
+   "Protein": 3,
+   "Carbs": 8,
+   "Fat": 1.8,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "YTF: fish paste wrapped in lettuce/cabbage",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 33,
+   "Protein": 4,
+   "Carbs": 3,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "YTF: fish balls x2",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 35,
+   "Protein": 4,
+   "Carbs": 3.5,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "YTF: fish-paste stick",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 33,
+   "Protein": 4,
+   "Carbs": 3,
+   "Fat": 0.5,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "Rokeby Farms Choc Honeycomb Protein Smoothie (half bottle, ~212ml)",
+   "d": "2026-11-01",
+   "Meal": "Breakfast",
+   "Calories": 127,
+   "Protein": 15,
+   "Carbs": 9.2,
+   "Fat": 3.2,
+   "Source": "Web match"
+  },
+  {
+   "Food": "YTF: clear soup broth",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 21,
+   "Protein": 1,
+   "Carbs": 2,
+   "Fat": 1,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "YTF: radish (plain)",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 8,
+   "Protein": 0.3,
+   "Carbs": 1.6,
+   "Fat": 0,
+   "Source": "Claude estimate"
+  },
+  {
+   "Food": "YTF: fried fish-paste beancurd sheet (large)",
+   "d": "2026-11-01",
+   "Meal": "Lunch",
+   "Calories": 98,
+   "Protein": 7,
+   "Carbs": 4,
+   "Fat": 6,
+   "Source": "Claude estimate"
   }
  ],
  "acts": [
-  {
-   "Activity": "Daily steps",
-   "d": "2026-10-19",
-   "Type": "Steps",
-   "mins": null,
-   "burnt": 224,
-   "Steps": 12000,
-   "Source": "MET calc"
-  },
-  {
-   "Activity": "Indoor cycle",
-   "d": "2026-10-19",
-   "Type": "Cycling",
-   "mins": 30.4,
-   "burnt": 109,
-   "Steps": null,
-   "Source": "Device"
-  },
   {
    "Activity": "Daily steps",
    "d": "2026-10-20",
@@ -1678,6 +1750,15 @@
    "burnt": 245,
    "Steps": 13100,
    "Source": "Device"
+  },
+  {
+   "Activity": "Daily steps",
+   "d": "2026-11-01",
+   "Type": "Steps",
+   "mins": null,
+   "burnt": 271,
+   "Steps": 14500,
+   "Source": "MET calc"
   }
  ],
  "weight": [
